@@ -12,7 +12,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2023.1.0.8367/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../global-game-jam-2024/global-game-jam-2024_WwiseProject/global-game-jam-2024_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../global-game-jam-2024_WwiseProject/global-game-jam-2024_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

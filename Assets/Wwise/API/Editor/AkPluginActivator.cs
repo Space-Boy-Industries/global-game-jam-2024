@@ -544,12 +544,6 @@ public class AkPluginActivator
 					if (!BuildTargetToPlatformConfiguration.TryGetValue(UnityEditor.BuildTarget.StandaloneWindows64, out platformConfiguration))
 						platformConfiguration = null;
 					break;
-
-				case "Linux":
-					editorCPU = splitPath[1];
-					pluginConfig = splitPath[2];
-					editorOS = "Linux";
-					break;
 			}
 
 			var AssetChanged = false;
