@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: eca4f2518cdd7f4f87882b5e815c3dd5
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: eca4f2518cdd7f4f87882b5e815c3dd5
     GuidInternal: 
-    m_lastTime: -8584952880458929161
+    m_lastTime: -8584952335690331943
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 8719af7aafe0f541907b4fa30fd8aed6
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8719af7aafe0f541907b4fa30fd8aed6
     GuidInternal: 
-    m_lastTime: -8584952880459324247
+    m_lastTime: -8584952335690401972
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,13 +63,27 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 2d7b86e66458f94682bab429b110c0ba
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: 2d7b86e66458f94682bab429b110c0ba
     GuidInternal: 
-    m_lastTime: -8584952880459224629
-    List: []
+    m_lastTime: -8584952335690361964
+    List:
+    - name: General
+      guid: 7ddba7e08a98464785be5eaa96fc6b28
+      id: 133642231
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2d7b86e66458f94682bab429b110c0ba
+      - ElementName: General
+        ObjectType: 7
+        guid: 7ddba7e08a98464785be5eaa96fc6b28
+      Path: SoundBanks\Default Work Unit\General
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -77,13 +91,30 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ac85f02f85cb614c91586943d7a0700a
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: ac85f02f85cb614c91586943d7a0700a
     GuidInternal: 
-    m_lastTime: -8584952880459282682
-    List: []
+    m_lastTime: -8584952335690411962
+    List:
+    - name: CharacterSpeech
+      guid: 76ec1309e2aaa7478f44a14959c27ed2
+      id: 3610183652
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac85f02f85cb614c91586943d7a0700a
+      - ElementName: CharacterSpeech
+        ObjectType: 3
+        guid: 76ec1309e2aaa7478f44a14959c27ed2
+      Path: Events\Default Work Unit\CharacterSpeech
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -91,13 +122,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d476c7b311a25448b6fa4ea5a1bc511e
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: d476c7b311a25448b6fa4ea5a1bc511e
     GuidInternal: 
-    m_lastTime: -8584952880459204443
+    m_lastTime: -8584952335690411962
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -105,13 +136,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a9ba4019c9b3ed49a693226a411fb604
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: a9ba4019c9b3ed49a693226a411fb604
     GuidInternal: 
-    m_lastTime: -8584952880459244573
+    m_lastTime: -8584952335690351960
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -119,13 +150,193 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7e764a7376deb747805702f852ef436d
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: 7e764a7376deb747805702f852ef436d
     GuidInternal: 
-    m_lastTime: -8584952880459264590
-    List: []
+    m_lastTime: -8584952335690351960
+    List:
+    - name: CharacterVoice
+      guid: 34a7b6bd25126947a6126b28b2c5e267
+      id: 3747948696
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e764a7376deb747805702f852ef436d
+      - ElementName: CharacterVoice
+        ObjectType: 11
+        guid: 34a7b6bd25126947a6126b28b2c5e267
+      Path: Switches\Default Work Unit\CharacterVoice
+      values:
+      - name: AlMiller
+        guid: a4d2656b7ca66b4ba70d7c08c4b35c0f
+        id: 2732701073
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: AlMiller
+          ObjectType: 10
+          guid: a4d2656b7ca66b4ba70d7c08c4b35c0f
+      - name: Billy
+        guid: 2b0dac3c5cd25b4ebe6d239bf4f0e2a2
+        id: 818946243
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: Billy
+          ObjectType: 10
+          guid: 2b0dac3c5cd25b4ebe6d239bf4f0e2a2
+      - name: Dale
+        guid: bd3647183e06064bb610f61998067e9c
+        id: 1825249057
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: Dale
+          ObjectType: 10
+          guid: bd3647183e06064bb610f61998067e9c
+      - name: HatGuy
+        guid: 82edcda4d818ee45bb8b120fce8b7338
+        id: 1619719889
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: HatGuy
+          ObjectType: 10
+          guid: 82edcda4d818ee45bb8b120fce8b7338
+      - name: Margaret
+        guid: 0d1202af3c401a4d831472fd85426522
+        id: 3460511428
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: Margaret
+          ObjectType: 10
+          guid: 0d1202af3c401a4d831472fd85426522
+      - name: Watcher
+        guid: 964c359db941f64ab4d89d78a5acc964
+        id: 746475195
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoice
+          ObjectType: 11
+          guid: 34a7b6bd25126947a6126b28b2c5e267
+        - ElementName: Watcher
+          ObjectType: 10
+          guid: 964c359db941f64ab4d89d78a5acc964
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: CharacterVoiceTone
+      guid: 0969210e18388342abe1d375450cfbfa
+      id: 2032718168
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e764a7376deb747805702f852ef436d
+      - ElementName: CharacterVoiceTone
+        ObjectType: 11
+        guid: 0969210e18388342abe1d375450cfbfa
+      Path: Switches\Default Work Unit\CharacterVoiceTone
+      values:
+      - name: Approve
+        guid: d3547fe89f4a5b4d83068c8f64ec60fa
+        id: 1323806540
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoiceTone
+          ObjectType: 11
+          guid: 0969210e18388342abe1d375450cfbfa
+        - ElementName: Approve
+          ObjectType: 10
+          guid: d3547fe89f4a5b4d83068c8f64ec60fa
+      - name: Disapprove
+        guid: 47360b9ac758b44b859964d00b6e2e0a
+        id: 1297835106
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoiceTone
+          ObjectType: 11
+          guid: 0969210e18388342abe1d375450cfbfa
+        - ElementName: Disapprove
+          ObjectType: 10
+          guid: 47360b9ac758b44b859964d00b6e2e0a
+      - name: Neutral
+        guid: 53e0d2347b469d46985027b815183d04
+        id: 670611050
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: CharacterVoiceTone
+          ObjectType: 11
+          guid: 0969210e18388342abe1d375450cfbfa
+        - ElementName: Neutral
+          ObjectType: 10
+          guid: 53e0d2347b469d46985027b815183d04
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -133,10 +344,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 475e1e253d964249846f784fc07bdbaa
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: 475e1e253d964249846f784fc07bdbaa
     GuidInternal: 
-    m_lastTime: -8584952880459081620
+    m_lastTime: -8584952335690341953
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
