@@ -1,3 +1,13 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2420739616	LaughTrackState			\Default Work Unit\LaughTrackState	
+
+Switch	ID	Name	Switch Group			Notes
+	685410452	Gone	LaughTrackState			
+	751093624	NearFull	LaughTrackState			
+	2510516222	Full	LaughTrackState			
+	2759656302	NearGone	LaughTrackState			
+	3633416822	Half	LaughTrackState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
