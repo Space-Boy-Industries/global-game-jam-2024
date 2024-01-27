@@ -42,6 +42,12 @@ public class DialogueSystem : MonoBehaviour
     {
         // hide the canvas if open
         canvas.SetActive(false);
+        
+        GlobalStateSystem.Instance.OnGlobalStateUpdate.AddListener((context) =>
+        {
+            if (story == null) return;
+            story.variablesState[context.VariableName] = context.Value;   
+        });
     }
 
     public void ClearDialogue()
@@ -73,6 +79,12 @@ public class DialogueSystem : MonoBehaviour
         if (clear)
         {
             ClearDialogue();
+        }
+        
+        // set current properties when opening
+        foreach (var variable in GlobalStateSystem.Instance.GlobalState)
+        {
+            story.variablesState[variable.Key] = variable.Value;
         }
         
         canvas.SetActive(true);
