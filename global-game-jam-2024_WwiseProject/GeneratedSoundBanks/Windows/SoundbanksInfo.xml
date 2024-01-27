@@ -9,13 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{82216AF3-0F83-EDBF-F705-83DC03F06613}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{B115EC97-5010-978F-954B-E956E4E80261}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
 				<File Id="43949581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_margaret.wav</ShortName>
 					<CachePath>SFX/ui_mx_margaret_239921B3.wem</CachePath>
+				</File>
+				<File Id="79962583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_sympathetic.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_sympathetic_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="194633189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_billy.wav</ShortName>
@@ -33,9 +37,29 @@
 					<ShortName>ui_mx_themeb.wav</ShortName>
 					<CachePath>SFX/ui_mx_themeb_239921B3.wem</CachePath>
 				</File>
+				<File Id="490293320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_neargone.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_neargone_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="514291367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_gone.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_gone_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="592104885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_full.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_full_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="813810497" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_gamecomplete.wav</ShortName>
 					<CachePath>SFX/ui_mx_gamecomplete_239921B3.wem</CachePath>
+				</File>
+				<File Id="872818341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_nearfull.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_nearfull_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1072948247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_laughtrack_half.wav</ShortName>
+					<CachePath>SFX/ui_laughtrack_half_380E8DD5.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -92,7 +116,70 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="907177173" Name="LaughTrack" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="907177173" Name="LaughTrack" DurationType="OneShot" DurationMin="2.7164166" DurationMax="4.6282706">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="3633416822"/>
+							<MediaRefs>
+								<MediaRef Id="1072948247"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="685410452"/>
+							<MediaRefs>
+								<MediaRef Id="514291367"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="2759656302"/>
+							<MediaRefs>
+								<MediaRef Id="490293320"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="2510516222" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="592104885"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="751093624"/>
+							<MediaRefs>
+								<MediaRef Id="872818341"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="3633416822"/>
+							<MediaRefs>
+								<MediaRef Id="1072948247"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="685410452"/>
+							<MediaRefs>
+								<MediaRef Id="514291367"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="2759656302"/>
+							<MediaRefs>
+								<MediaRef Id="490293320"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="2510516222" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="592104885"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="751093624"/>
+							<MediaRefs>
+								<MediaRef Id="872818341"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2331873856" Name="Play_AlMillerStinger" DurationType="OneShot" DurationMin="7.3463945" DurationMax="7.3463945">
 					<MediaRefs>
 						<MediaRef Id="426459993"/>
@@ -128,12 +215,25 @@
 				<Event Id="2882502644" Name="UI_Cursor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2774129122" Name="UI_Select" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1577714322" Name="GameProgress"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2032718168" Name="CharacterVoiceTone">
 					<Switches>
 						<Switch Id="670611050" Name="Neutral"/>
 						<Switch Id="1297835106" Name="Disapprove"/>
 						<Switch Id="1323806540" Name="Approve"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2420739616" Name="LaughTrackState">
+					<GameParameterRef Id="1577714322"/>
+					<Switches>
+						<Switch Id="685410452" Name="Gone"/>
+						<Switch Id="751093624" Name="NearFull"/>
+						<Switch Id="2510516222" Name="Full"/>
+						<Switch Id="2759656302" Name="NearGone"/>
+						<Switch Id="3633416822" Name="Half"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3747948696" Name="CharacterVoice">
@@ -148,7 +248,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{584C0B08-84B8-CA65-3DBC-E80EAD87AF15}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{40ECB5A9-5357-D2C1-B582-2FE1D4D11D63}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -184,6 +284,7 @@
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2420739616" Name="LaughTrackState">
+					<GameParameterRef Id="1577714322"/>
 					<Switches>
 						<Switch Id="685410452" Name="Gone"/>
 						<Switch Id="751093624" Name="NearFull"/>
@@ -205,5 +306,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8842750B-5082-5208-EEE4-CA511D26FCFA}</FileHash>
+	<FileHash>{C58D5D82-E612-6992-8891-50126AC0F895}</FileHash>
 </SoundBanksInfo>

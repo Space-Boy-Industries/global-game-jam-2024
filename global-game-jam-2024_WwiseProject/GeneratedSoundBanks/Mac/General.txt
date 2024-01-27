@@ -13,12 +13,18 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2032718168	CharacterVoiceTone			\Default Work Unit\CharacterVoiceTone	
+	2420739616	LaughTrackState			\Default Work Unit\LaughTrackState	
 	3747948696	CharacterVoice			\Default Work Unit\CharacterVoice	
 
 Switch	ID	Name	Switch Group			Notes
 	670611050	Neutral	CharacterVoiceTone			
 	1297835106	Disapprove	CharacterVoiceTone			
 	1323806540	Approve	CharacterVoiceTone			
+	685410452	Gone	LaughTrackState			
+	751093624	NearFull	LaughTrackState			
+	2510516222	Full	LaughTrackState			
+	2759656302	NearGone	LaughTrackState			
+	3633416822	Half	LaughTrackState			
 	746475195	Watcher	CharacterVoice			
 	818946243	Billy	CharacterVoice			
 	1619719889	HatGuy	CharacterVoice			
@@ -26,11 +32,20 @@ Switch	ID	Name	Switch Group			Notes
 	2732701073	AlMiller	CharacterVoice			
 	3460511428	Margaret	CharacterVoice			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1577714322	GameProgress			\Default Work Unit\GameProgress	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	43949581	ui_mx_margaret	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_margaret_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_margaret\ui_mx_margaret		280345
+	79962583	ui_laughtrack_sympathetic	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_sympathetic_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughSympathetic\ui_laughtrack_sympathetic		82701
 	194633189	ui_mx_billy	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_billy_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_billy\ui_mx_billy		271418
 	365336090	ui_mx_theme	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_theme_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_theme\ui_mx_theme		1362225
 	426459993	ui_mx_almiller	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_almiller_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_almiller\ui_mx_almiller		348504
 	474936770	ui_mx_themeb	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_themeb_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_themeb\ui_mx_themeb		1204996
+	490293320	ui_laughtrack_neargone	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_neargone_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_neargone		187223
+	514291367	ui_laughtrack_gone	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_gone_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_gone		119185
+	592104885	ui_laughtrack_full	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_full_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_full		215373
 	813810497	ui_mx_gamecomplete	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_mx_gamecomplete_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_gamecomplete\ui_mx_gamecomplete		1000849
+	872818341	ui_laughtrack_nearfull	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_nearfull_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_nearfull		155366
+	1072948247	ui_laughtrack_half	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Mac\SFX\ui_laughtrack_half_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_half		138478
 
