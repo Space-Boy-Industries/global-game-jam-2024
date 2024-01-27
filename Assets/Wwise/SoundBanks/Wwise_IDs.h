@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID CHARACTERSPEECH = 3610183652U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID LAUGHTRACK = 907177173U;
         static const AkUniqueID PLAY_ALMILLERSTINGER = 2331873856U;
         static const AkUniqueID PLAY_BILLYSTINGER = 549438392U;
@@ -60,17 +61,19 @@ namespace AK
             } // namespace SWITCH
         } // namespace CHARACTERVOICE
 
-        namespace CHARACTERVOICETONE
+        namespace FOOTSTEPS
         {
-            static const AkUniqueID GROUP = 2032718168U;
+            static const AkUniqueID GROUP = 2385628198U;
 
             namespace SWITCH
             {
-                static const AkUniqueID APPROVE = 1323806540U;
-                static const AkUniqueID DISAPPROVE = 1297835106U;
-                static const AkUniqueID NEUTRAL = 670611050U;
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID HARDWOOD = 3598975185U;
+                static const AkUniqueID LINOLEUM = 3995207278U;
             } // namespace SWITCH
-        } // namespace CHARACTERVOICETONE
+        } // namespace FOOTSTEPS
 
         namespace LAUGHTRACKSTATE
         {

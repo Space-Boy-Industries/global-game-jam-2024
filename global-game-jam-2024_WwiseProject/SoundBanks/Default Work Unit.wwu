@@ -6,6 +6,7 @@
 				<SoundBank Name="General" ID="{E0A7DB7D-988A-4746-85BE-5EAA96FC6B28}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Select" ID="{C23708AC-C589-402D-82F4-76EB29587F71}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{EF223D8D-D231-4552-B331-5B27E770890F}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{71F82C17-833B-4599-9A72-A423C4D58691}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CharacterSpeech" ID="{0913EC76-AAE2-47A7-8F44-A14959C27ED2}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>

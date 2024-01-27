@@ -49,6 +49,11 @@
 															</ModifierList>
 														</Property>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>60</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
@@ -71,6 +76,11 @@
 															</ModifierList>
 														</Property>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>60</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
@@ -81,6 +91,11 @@
 												<MusicPlaylistItem Name="" ID="{94C820FA-9BB1-4DC1-A335-06C1FE6A5A6E}" ShortID="253593230">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>40</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
@@ -91,6 +106,11 @@
 												<MusicPlaylistItem Name="" ID="{F73DE6C5-C195-407D-A69F-75AA9032950B}" ShortID="225470991">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>40</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
