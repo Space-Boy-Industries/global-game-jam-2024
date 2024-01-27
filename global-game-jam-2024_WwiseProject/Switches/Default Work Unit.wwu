@@ -33,6 +33,9 @@
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="LaughTrackState" ID="{A072ED91-458E-4CE5-8DFD-A56687CE8A87}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
 						<Switch Name="NearFull" ID="{6877EECE-4131-4595-865A-E26ABEC195D5}"/>
@@ -40,6 +43,46 @@
 						<Switch Name="NearGone" ID="{27004E79-F8C4-4117-93CD-C5D1ACECD814}"/>
 						<Switch Name="Gone" ID="{D604D532-F1ED-4159-A8C7-EB5E75C403F4}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="GameProgress" ID="{7B3E8187-47FC-49A1-9B5F-6BD3148EF18D}"/>
+						<Curve Name="" ID="{940140F6-EC05-4348-96C9-52D17BABBC9B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>20.66246</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>40.37855</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>61.04101</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>80.75709</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>5</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

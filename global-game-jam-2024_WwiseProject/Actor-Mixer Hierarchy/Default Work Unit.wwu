@@ -611,7 +611,252 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="UI" ID="{EC6F7250-2B37-432A-9756-6F8F7F4C295C}" ShortID="847627080"/>
+				<Folder Name="UI" ID="{EC6F7250-2B37-432A-9756-6F8F7F4C295C}" ShortID="847627080">
+					<ChildrenList>
+						<ActorMixer Name="LaughTrack" ID="{1F6AB6AD-28D2-46C6-88C7-4B71E7306A75}" ShortID="946222460">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="LaughTrack" ID="{8AE8FCC7-C37B-448F-8204-C02B34BE5CA0}" ShortID="816668362">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}" WorkUnitID="{734A767E-DE76-47B7-8057-02F852EF436D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="LaughTrackState" ID="{A072ED91-458E-4CE5-8DFD-A56687CE8A87}" WorkUnitID="{734A767E-DE76-47B7-8057-02F852EF436D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ui_laughtrack_full" ID="{3585ED89-486A-4F6D-A41D-D7B7C3164600}" ShortID="291425803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_full" ID="{74A1F86C-61CE-4552-8057-63FEB8DEB6E6}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_full.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="592104885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_full" ID="{74A1F86C-61CE-4552-8057-63FEB8DEB6E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ui_laughtrack_gone" ID="{B23C731A-1D98-4FEB-8436-3C29412B2B09}" ShortID="644813377">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_gone" ID="{7276A067-D1FC-4B81-8BE1-E1B451C3460A}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_gone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="514291367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_gone" ID="{7276A067-D1FC-4B81-8BE1-E1B451C3460A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ui_laughtrack_half" ID="{C9434E59-7767-4B0C-8FC7-9F6E70D4DF60}" ShortID="272716270">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_half" ID="{52F55CB5-495D-4EC3-9D0F-744FF34D7EAA}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_half.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072948247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_half" ID="{52F55CB5-495D-4EC3-9D0F-744FF34D7EAA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ui_laughtrack_nearfull" ID="{F7E51B28-0FD0-4E7A-BAE3-CF38F0F36704}" ShortID="361069289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_nearfull" ID="{87FBBE81-4147-431D-89C4-0E05CB3F3722}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_nearfull.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="872818341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_nearfull" ID="{87FBBE81-4147-431D-89C4-0E05CB3F3722}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ui_laughtrack_neargone" ID="{EDB65F15-DF4F-4340-8C7F-ED5A66C03791}" ShortID="572388967">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_neargone" ID="{A8321C2B-D1B5-4BA0-9A2B-E3E22D4B43CB}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_neargone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="490293320"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_neargone" ID="{A8321C2B-D1B5-4BA0-9A2B-E3E22D4B43CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="ui_laughtrack_neargone" ID="{EDB65F15-DF4F-4340-8C7F-ED5A66C03791}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ui_laughtrack_gone" ID="{B23C731A-1D98-4FEB-8436-3C29412B2B09}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ui_laughtrack_nearfull" ID="{F7E51B28-0FD0-4E7A-BAE3-CF38F0F36704}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ui_laughtrack_half" ID="{C9434E59-7767-4B0C-8FC7-9F6E70D4DF60}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="ui_laughtrack_full" ID="{3585ED89-486A-4F6D-A41D-D7B7C3164600}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Half" ID="{62AA3F15-69A0-4A0C-8176-4DA555535BB0}"/>
+												<ItemList>
+													<ItemRef Name="ui_laughtrack_half" ID="{C9434E59-7767-4B0C-8FC7-9F6E70D4DF60}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gone" ID="{D604D532-F1ED-4159-A8C7-EB5E75C403F4}"/>
+												<ItemList>
+													<ItemRef Name="ui_laughtrack_gone" ID="{B23C731A-1D98-4FEB-8436-3C29412B2B09}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="NearGone" ID="{27004E79-F8C4-4117-93CD-C5D1ACECD814}"/>
+												<ItemList>
+													<ItemRef Name="ui_laughtrack_neargone" ID="{EDB65F15-DF4F-4340-8C7F-ED5A66C03791}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
+												<ItemList>
+													<ItemRef Name="ui_laughtrack_full" ID="{3585ED89-486A-4F6D-A41D-D7B7C3164600}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="NearFull" ID="{6877EECE-4131-4595-865A-E26ABEC195D5}"/>
+												<ItemList>
+													<ItemRef Name="ui_laughtrack_nearfull" ID="{F7E51B28-0FD0-4E7A-BAE3-CF38F0F36704}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="LaughSympathetic" ID="{FB7E03D7-BCD4-4BEB-852C-64D4D434B308}" ShortID="58986780">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ui_laughtrack_sympathetic" ID="{A2B79556-562C-4343-B644-097A87A7BC89}" ShortID="165201376">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ui_laughtrack_sympathetic" ID="{F2A136A6-B161-4B11-AA61-2DF3B87C99F4}">
+													<Language>SFX</Language>
+													<AudioFile>ui_laughtrack_sympathetic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79962583"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ui_laughtrack_sympathetic" ID="{F2A136A6-B161-4B11-AA61-2DF3B87C99F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Interface" ID="{73B38E64-C22C-4289-A644-2E60BEDF7BF4}" ShortID="709968349">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

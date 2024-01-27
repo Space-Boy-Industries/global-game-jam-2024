@@ -14,9 +14,18 @@
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="GameProgress" ID="{7B3E8187-47FC-49A1-9B5F-6BD3148EF18D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Approve" ID="{E87F54D3-4A9F-4D5B-8306-8C8F64EC60FA}"/>
+						<CurrentSwitchRef Name="AlMiller" ID="{6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F}"/>
+						<CurrentSwitchRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

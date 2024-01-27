@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<Event Name="CharacterSpeech" ID="{0913EC76-AAE2-47A7-8F44-A14959C27ED2}">
 					<ChildrenList>
+						<Action Name="" ID="{C2AD6207-03AB-446B-A61C-34BD7289B73E}" ShortID="771275349">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterSpeech" ID="{705DE512-E244-49EB-8324-A70104F8CF6B}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{2EE4E04B-EC9C-47EA-A35E-729FBE4E6BCF}" ShortID="322758576">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -15,7 +25,17 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Ambience" ID="{FF58A1E3-D099-4DE4-AA4F-D3EC90193E5E}"/>
-				<Event Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}"/>
+				<Event Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}">
+					<ChildrenList>
+						<Action Name="" ID="{AE200D47-822D-4075-9CB9-510DB1D9F12A}" ShortID="758334712">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaughTrack" ID="{8AE8FCC7-C37B-448F-8204-C02B34BE5CA0}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="UI_Cursor" ID="{7F7DDFB7-AEF1-4F8C-B7FD-B627E42A2F9A}"/>
 				<Event Name="UI_Select" ID="{C23708AC-C589-402D-82F4-76EB29587F71}"/>
 				<Folder Name="Music" ID="{CE588620-FCFA-459D-82DC-49B938CA3036}" ShortID="745239755">
