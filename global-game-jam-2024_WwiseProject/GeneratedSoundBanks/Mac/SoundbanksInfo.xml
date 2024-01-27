@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{B115EC97-5010-978F-954B-E956E4E80261}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{7C251F3E-6A3F-0739-3C1F-AC4BAED405D0}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -49,6 +49,10 @@
 					<ShortName>ui_laughtrack_full.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_full_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="639797184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_mx_themec.wav</ShortName>
+					<CachePath>SFX/ui_mx_themec_239921B3.wem</CachePath>
+				</File>
 				<File Id="813810497" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_gamecomplete.wav</ShortName>
 					<CachePath>SFX/ui_mx_gamecomplete_239921B3.wem</CachePath>
@@ -56,6 +60,10 @@
 				<File Id="872818341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_nearfull.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_nearfull_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1063839443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_mx_themed.wav</ShortName>
+					<CachePath>SFX/ui_mx_themed_239921B3.wem</CachePath>
 				</File>
 				<File Id="1072948247" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_half.wav</ShortName>
@@ -204,12 +212,16 @@
 					<MediaRefs>
 						<MediaRef Id="365336090"/>
 						<MediaRef Id="474936770"/>
+						<MediaRef Id="639797184"/>
+						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="560299279" Name="Stop_Theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="365336090"/>
 						<MediaRef Id="474936770"/>
+						<MediaRef Id="639797184"/>
+						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2882502644" Name="UI_Cursor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -306,5 +318,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2F42DE71-F935-2D08-0ECF-D45E6B84BD48}</FileHash>
+	<FileHash>{65DF1BCA-FA4D-9F3C-74EE-A99257408971}</FileHash>
 </SoundBanksInfo>
