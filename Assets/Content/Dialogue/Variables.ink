@@ -1,5 +1,8 @@
 VAR IsTableClean = false
+
+
 -> START
+
 === START ===
 { IsTableClean:
     WIFE: Cleaned table. Thank :)
@@ -7,6 +10,8 @@ VAR IsTableClean = false
 - else:
     WIFE: Please clean table
     + Okay # close
+        -> START
+    + No # close
         -> START
 }
 
