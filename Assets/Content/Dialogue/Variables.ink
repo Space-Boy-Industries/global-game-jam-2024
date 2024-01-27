@@ -11,8 +11,6 @@ VAR IsTableClean = false
     WIFE: Please clean table
     + Okay # close
         -> START
-    + No # close
-        -> START
 }
 
 === CLEANED_TABLE ===
