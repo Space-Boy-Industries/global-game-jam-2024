@@ -8,11 +8,13 @@ public class CharacterController : MonoBehaviour
     private NavMeshAgent agent;
     private Camera camera;
     private Vector2 facingDirection;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         camera = Camera.main;
+        animator = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
         facingDirection = new Vector2(transform.forward.x, transform.forward.z);
     }
@@ -20,11 +22,14 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (agent.velocity.magnitude > 0.1f)
+        if (agent.velocity.magnitude > 0.01f)
         {
             // Set facing direction to current movement direction
             facingDirection = new Vector2(agent.velocity.x, agent.velocity.z);
         }
+
+        // Set animator parameters
+        animator.SetFloat("WalkSpeed", agent.velocity.magnitude / agent.speed);
 
         // Rotate towards facing direction
         transform.rotation = Quaternion.LookRotation(new Vector3(facingDirection.x, 0, facingDirection.y));
