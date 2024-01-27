@@ -111,6 +111,19 @@ public class DialogueSystem : MonoBehaviour
         }
     }
     
+    /**
+     * quick hack to get the dialogue to render correctly
+     * (this is really expensive, but it's the only way I could get it to work)
+     */
+    private void ForceLayoutGroupUpdate()
+    {
+        var layoutGroups = GetComponentsInChildren<LayoutGroup>();
+        foreach (var layoutGroup in layoutGroups)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(layoutGroup.transform as RectTransform);
+        }
+    }
+    
     private void DisplayLine(string text)
     {
         // create a new line
@@ -128,7 +141,7 @@ public class DialogueSystem : MonoBehaviour
             choiceObject.GetComponentInChildren<TMP_Text>().SetText(choice.text);
             choiceObject.GetComponent<Button>().onClick.AddListener(() => callback(choice.index));
         }
-
+        
         return choiceList;
     }
 
@@ -140,36 +153,50 @@ public class DialogueSystem : MonoBehaviour
     // coroutine to run the story
     private IEnumerator RunStory()
     {
+        // wait 1 frame so that no input is accidentally registered
+        yield return null;
+        
         while (story.canContinue || story.currentChoices.Count > 0)
         {
-            Debug.Log(story.currentFlowName);
             if (story.canContinue)
             {
+                // if we have text to display, display it
+                
                 var text = story.Continue();
                 DisplayLine(text);
+
+                // HACK: wait 1 frame so that the text is rendered before we force the layout group to update
+                yield return null;
+                ForceLayoutGroupUpdate();
                 
                 yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to continue
 
             } else if (story.currentChoices.Count > 0) {
-                // display choices
+                // if there is a choice in the dialogue, display choices
+                
                 var choices = story.currentChoices;
                 var choice = -1;
                 var choiceObject = DisplayChoices(choices, (int choiceIndex) =>
                 {
                     choice = choiceIndex;
                 });
+                
+                // HACK: wait 1 frame so that the text is rendered before we force the layout group to update
+                yield return null;
+                ForceLayoutGroupUpdate();
             
                 yield return new WaitUntil(() => choice != -1); // wait for a choice to be made
                 DestroyChoice(choiceObject);
                 story.ChooseChoiceIndex(choice);
             }
 
-            // if current story tag contains "close", close the dialogue for now
+            // if current dialogue is tagged as "close", close the dialogue. (this allows us to keep the whole dialogue for one npc in one file but then just close it when they are done talking in their current state)
             if (story.currentTags.Contains("close"))
             {
                 break;
             }
             
+            // invoke dialogue event (for triggering animations and sounds and all that stuff)
             OnDialogueEvent?.Invoke(new DialogueEventContext(story.currentTags.ToArray()));
             
             yield return null;
