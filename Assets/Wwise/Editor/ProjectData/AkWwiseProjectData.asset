@@ -24,11 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: eca4f2518cdd7f4f87882b5e815c3dd5
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690331943
-=======
-    m_lastTime: -8584952879177897298
->>>>>>> Stashed changes
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -42,11 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8719af7aafe0f541907b4fa30fd8aed6
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690401972
-=======
-    m_lastTime: -8584952879177964738
->>>>>>> Stashed changes
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -74,11 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 2d7b86e66458f94682bab429b110c0ba
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690361964
-=======
-    m_lastTime: -8584952292130352697
->>>>>>> Stashed changes
     List:
     - name: General
       guid: 7ddba7e08a98464785be5eaa96fc6b28
@@ -93,11 +81,7 @@ MonoBehaviour:
       - ElementName: General
         ObjectType: 7
         guid: 7ddba7e08a98464785be5eaa96fc6b28
-<<<<<<< Updated upstream
       Path: SoundBanks\Default Work Unit\General
-=======
-      Path: SoundBanks/Default Work Unit/General
->>>>>>> Stashed changes
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -110,30 +94,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ac85f02f85cb614c91586943d7a0700a
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690411962
     List:
-=======
-    m_lastTime: -8584952305366744622
-    List:
-    - name: Ambience
-      guid: e3a158ff99d0e44daa4fd3ec90193e5e
-      id: 85412153
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Ambience
-        ObjectType: 3
-        guid: e3a158ff99d0e44daa4fd3ec90193e5e
-      Path: Events/Default Work Unit/Ambience
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
->>>>>>> Stashed changes
     - name: CharacterSpeech
       guid: 76ec1309e2aaa7478f44a14959c27ed2
       id: 3610183652
@@ -147,199 +109,7 @@ MonoBehaviour:
       - ElementName: CharacterSpeech
         ObjectType: 3
         guid: 76ec1309e2aaa7478f44a14959c27ed2
-<<<<<<< Updated upstream
       Path: Events\Default Work Unit\CharacterSpeech
-=======
-      Path: Events/Default Work Unit/CharacterSpeech
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: LaughTrack
-      guid: 9f9426b3120edf4885181f95d07cf914
-      id: 907177173
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: LaughTrack
-        ObjectType: 3
-        guid: 9f9426b3120edf4885181f95d07cf914
-      Path: Events/Default Work Unit/LaughTrack
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Music
-      guid: 208658cefafc9d4582dc49b938ca3036
-      id: 3991942870
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      Path: Events/Default Work Unit/Music
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_AlMillerStinger
-      guid: 01f32d6304d24448b80f958759bfb8fd
-      id: 2331873856
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Play_AlMillerStinger
-        ObjectType: 3
-        guid: 01f32d6304d24448b80f958759bfb8fd
-      Path: Events/Default Work Unit/Music/Play_AlMillerStinger
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_BillyStinger
-      guid: e74ace289dc96a488246f0bbc3b79064
-      id: 549438392
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Play_BillyStinger
-        ObjectType: 3
-        guid: e74ace289dc96a488246f0bbc3b79064
-      Path: Events/Default Work Unit/Music/Play_BillyStinger
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_GameComplete
-      guid: b6eca578b85a5645b4426c3575c6651f
-      id: 4194000609
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Play_GameComplete
-        ObjectType: 3
-        guid: b6eca578b85a5645b4426c3575c6651f
-      Path: Events/Default Work Unit/Music/Play_GameComplete
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_MargaretStinger
-      guid: c5a613398e78ce49a11cf6f9c07e193a
-      id: 4226694603
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Play_MargaretStinger
-        ObjectType: 3
-        guid: c5a613398e78ce49a11cf6f9c07e193a
-      Path: Events/Default Work Unit/Music/Play_MargaretStinger
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Theme
-      guid: 03386ab9dc88a9479c26322d6b318569
-      id: 2479442773
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Play_Theme
-        ObjectType: 3
-        guid: 03386ab9dc88a9479c26322d6b318569
-      Path: Events/Default Work Unit/Music/Play_Theme
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Stop_Theme
-      guid: 45ab006483e49742b82bf8d506f9e03f
-      id: 560299279
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 208658cefafc9d4582dc49b938ca3036
-      - ElementName: Stop_Theme
-        ObjectType: 3
-        guid: 45ab006483e49742b82bf8d506f9e03f
-      Path: Events/Default Work Unit/Music/Stop_Theme
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: UI_Cursor
-      guid: b7df7d7ff1ae8c4fb7fdb627e42a2f9a
-      id: 2882502644
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: UI_Cursor
-        ObjectType: 3
-        guid: b7df7d7ff1ae8c4fb7fdb627e42a2f9a
-      Path: Events/Default Work Unit/UI_Cursor
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: UI_Select
-      guid: ac0837c289c52d4082f476eb29587f71
-      id: 2774129122
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac85f02f85cb614c91586943d7a0700a
-      - ElementName: UI_Select
-        ObjectType: 3
-        guid: ac0837c289c52d4082f476eb29587f71
-      Path: Events/Default Work Unit/UI_Select
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -355,27 +125,8 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d476c7b311a25448b6fa4ea5a1bc511e
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690411962
     List: []
-=======
-    m_lastTime: -8584952833537450929
-    List:
-    - name: GameProgress
-      guid: 87813e7bfc47a1499b5f6bd3148ef18d
-      id: 1577714322
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d476c7b311a25448b6fa4ea5a1bc511e
-      - ElementName: GameProgress
-        ObjectType: 13
-        guid: 87813e7bfc47a1499b5f6bd3148ef18d
-      Path: Game Parameters/Default Work Unit/GameProgress
->>>>>>> Stashed changes
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -388,11 +139,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9ba4019c9b3ed49a693226a411fb604
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690351960
-=======
-    m_lastTime: -8584952838404877668
->>>>>>> Stashed changes
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -406,159 +153,8 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 7e764a7376deb747805702f852ef436d
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690351960
     List:
-=======
-    m_lastTime: -8584952833537525657
-    List:
-    - name: AmbRoom
-      guid: 365b4e37ac2d0145adb3399593f7b636
-      id: 885864942
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7e764a7376deb747805702f852ef436d
-      - ElementName: AmbRoom
-        ObjectType: 11
-        guid: 365b4e37ac2d0145adb3399593f7b636
-      Path: Switches/Default Work Unit/AmbRoom
-      values:
-      - name: BillysRoom
-        guid: a2fd877af83e7f4fa66fd9f9adf70041
-        id: 2107887799
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: BillysRoom
-          ObjectType: 10
-          guid: a2fd877af83e7f4fa66fd9f9adf70041
-      - name: Den
-        guid: 41ef3fe7ade85f4c94b3eb49eed6d0fe
-        id: 378875106
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: Den
-          ObjectType: 10
-          guid: 41ef3fe7ade85f4c94b3eb49eed6d0fe
-      - name: DiningRoom
-        guid: 3d46295acafdf74f9099a9cb5a9f8e02
-        id: 2262472791
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: DiningRoom
-          ObjectType: 10
-          guid: 3d46295acafdf74f9099a9cb5a9f8e02
-      - name: Garage
-        guid: 9f166784e6901848abc6026608c369dc
-        id: 311707310
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: Garage
-          ObjectType: 10
-          guid: 9f166784e6901848abc6026608c369dc
-      - name: Kitchen
-        guid: 7af354c9f0b0c9439faa0f82c1977381
-        id: 1586158131
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: Kitchen
-          ObjectType: 10
-          guid: 7af354c9f0b0c9439faa0f82c1977381
-      - name: MainBedroom
-        guid: 7c81268aba14f245975055bf9f30d27f
-        id: 2819021838
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: MainBedroom
-          ObjectType: 10
-          guid: 7c81268aba14f245975055bf9f30d27f
-      - name: Porch
-        guid: 6c1cdd7e2381e74e9a7ef4be9c5b1aee
-        id: 2157048949
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: Porch
-          ObjectType: 10
-          guid: 6c1cdd7e2381e74e9a7ef4be9c5b1aee
-      - name: UtilityRoom
-        guid: 9c8ea74a795add4d95e671c996cfe61f
-        id: 3450058598
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: AmbRoom
-          ObjectType: 11
-          guid: 365b4e37ac2d0145adb3399593f7b636
-        - ElementName: UtilityRoom
-          ObjectType: 10
-          guid: 9c8ea74a795add4d95e671c996cfe61f
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
->>>>>>> Stashed changes
     - name: CharacterVoice
       guid: 34a7b6bd25126947a6126b28b2c5e267
       id: 3747948696
@@ -572,11 +168,7 @@ MonoBehaviour:
       - ElementName: CharacterVoice
         ObjectType: 11
         guid: 34a7b6bd25126947a6126b28b2c5e267
-<<<<<<< Updated upstream
       Path: Switches\Default Work Unit\CharacterVoice
-=======
-      Path: Switches/Default Work Unit/CharacterVoice
->>>>>>> Stashed changes
       values:
       - name: AlMiller
         guid: a4d2656b7ca66b4ba70d7c08c4b35c0f
@@ -690,11 +282,7 @@ MonoBehaviour:
       - ElementName: CharacterVoiceTone
         ObjectType: 11
         guid: 0969210e18388342abe1d375450cfbfa
-<<<<<<< Updated upstream
       Path: Switches\Default Work Unit\CharacterVoiceTone
-=======
-      Path: Switches/Default Work Unit/CharacterVoiceTone
->>>>>>> Stashed changes
       values:
       - name: Approve
         guid: d3547fe89f4a5b4d83068c8f64ec60fa
@@ -747,107 +335,6 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-<<<<<<< Updated upstream
-=======
-    - name: LaughTrackState
-      guid: 91ed72a08e45e54c8dfda56687ce8a87
-      id: 2420739616
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7e764a7376deb747805702f852ef436d
-      - ElementName: LaughTrackState
-        ObjectType: 11
-        guid: 91ed72a08e45e54c8dfda56687ce8a87
-      Path: Switches/Default Work Unit/LaughTrackState
-      values:
-      - name: Full
-        guid: 83a206f97a49554d89b49cd3ec32207a
-        id: 2510516222
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: LaughTrackState
-          ObjectType: 11
-          guid: 91ed72a08e45e54c8dfda56687ce8a87
-        - ElementName: Full
-          ObjectType: 10
-          guid: 83a206f97a49554d89b49cd3ec32207a
-      - name: Gone
-        guid: 32d504d6edf15941a8c7eb5e75c403f4
-        id: 685410452
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: LaughTrackState
-          ObjectType: 11
-          guid: 91ed72a08e45e54c8dfda56687ce8a87
-        - ElementName: Gone
-          ObjectType: 10
-          guid: 32d504d6edf15941a8c7eb5e75c403f4
-      - name: Half
-        guid: 153faa62a0690c4a81764da555535bb0
-        id: 3633416822
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: LaughTrackState
-          ObjectType: 11
-          guid: 91ed72a08e45e54c8dfda56687ce8a87
-        - ElementName: Half
-          ObjectType: 10
-          guid: 153faa62a0690c4a81764da555535bb0
-      - name: NearFull
-        guid: ceee776831419545865ae26abec195d5
-        id: 751093624
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: LaughTrackState
-          ObjectType: 11
-          guid: 91ed72a08e45e54c8dfda56687ce8a87
-        - ElementName: NearFull
-          ObjectType: 10
-          guid: ceee776831419545865ae26abec195d5
-      - name: NearGone
-        guid: 794e0027c4f8174193cdc5d1acecd814
-        id: 2759656302
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: LaughTrackState
-          ObjectType: 11
-          guid: 91ed72a08e45e54c8dfda56687ce8a87
-        - ElementName: NearGone
-          ObjectType: 10
-          guid: 794e0027c4f8174193cdc5d1acecd814
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
->>>>>>> Stashed changes
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -860,11 +347,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 475e1e253d964249846f784fc07bdbaa
     GuidInternal: 
-<<<<<<< Updated upstream
     m_lastTime: -8584952335690341953
-=======
-    m_lastTime: -8584952879177899166
->>>>>>> Stashed changes
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
