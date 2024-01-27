@@ -20,6 +20,27 @@
 						<Switch Name="Disapprove" ID="{9A0B3647-58C7-4BB4-8599-64D00B6E2E0A}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="AmbRoom" ID="{374E5B36-2DAC-4501-ADB3-399593F7B636}">
+					<ChildrenList>
+						<Switch Name="Kitchen" ID="{C954F37A-B0F0-43C9-9FAA-0F82C1977381}"/>
+						<Switch Name="DiningRoom" ID="{5A29463D-FDCA-4FF7-9099-A9CB5A9F8E02}"/>
+						<Switch Name="MainBedroom" ID="{8A26817C-14BA-45F2-9750-55BF9F30D27F}"/>
+						<Switch Name="BillysRoom" ID="{7A87FDA2-3EF8-4F7F-A66F-D9F9ADF70041}"/>
+						<Switch Name="Den" ID="{E73FEF41-E8AD-4C5F-94B3-EB49EED6D0FE}"/>
+						<Switch Name="UtilityRoom" ID="{4AA78E9C-5A79-4DDD-95E6-71C996CFE61F}"/>
+						<Switch Name="Garage" ID="{8467169F-90E6-4818-ABC6-026608C369DC}"/>
+						<Switch Name="Porch" ID="{7EDD1C6C-8123-4EE7-9A7E-F4BE9C5B1AEE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="LaughTrackState" ID="{A072ED91-458E-4CE5-8DFD-A56687CE8A87}">
+					<ChildrenList>
+						<Switch Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
+						<Switch Name="NearFull" ID="{6877EECE-4131-4595-865A-E26ABEC195D5}"/>
+						<Switch Name="Half" ID="{62AA3F15-69A0-4A0C-8176-4DA555535BB0}"/>
+						<Switch Name="NearGone" ID="{27004E79-F8C4-4117-93CD-C5D1ACECD814}"/>
+						<Switch Name="Gone" ID="{D604D532-F1ED-4159-A8C7-EB5E75C403F4}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
