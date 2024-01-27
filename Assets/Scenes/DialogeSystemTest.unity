@@ -657,6 +657,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6f69bf01579d46afb2245cdf657616d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnDialogueOpen:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogueClose:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []
   dialogueContent: {fileID: 5246887064945126105}
   dialogueLinePrefab: {fileID: 5038444766294073574, guid: bc3b8c8b50ada48baac2db38995ece2f,
     type: 3}
