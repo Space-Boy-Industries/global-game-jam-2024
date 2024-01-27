@@ -26,6 +26,18 @@
 						<Property Name="Color" Type="int16" Value="14"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="Ambience" ID="{5BABEBAC-BDC7-450F-B7EB-A5785AF43F40}" ShortID="934970660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialog" ID="{5D7AC111-DEEA-4C94-8E9C-2CBCA69FED69}" ShortID="529772384">
 					<PropertyList>
@@ -599,6 +611,7 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{EC6F7250-2B37-432A-9756-6F8F7F4C295C}" ShortID="847627080"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

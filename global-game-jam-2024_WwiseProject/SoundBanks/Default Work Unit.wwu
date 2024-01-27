@@ -4,7 +4,15 @@
 		<WorkUnit Name="Default Work Unit" ID="{E6867B2D-5864-46F9-82BA-B429B110C0BA}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="General" ID="{E0A7DB7D-988A-4746-85BE-5EAA96FC6B28}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Select" ID="{C23708AC-C589-402D-82F4-76EB29587F71}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{71F82C17-833B-4599-9A72-A423C4D58691}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CharacterSpeech" ID="{0913EC76-AAE2-47A7-8F44-A14959C27ED2}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{FF58A1E3-D099-4DE4-AA4F-D3EC90193E5E}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Cursor" ID="{7F7DDFB7-AEF1-4F8C-B7FD-B627E42A2F9A}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

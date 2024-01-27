@@ -14,6 +14,84 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambience" ID="{FF58A1E3-D099-4DE4-AA4F-D3EC90193E5E}"/>
+				<Event Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}"/>
+				<Event Name="UI_Cursor" ID="{7F7DDFB7-AEF1-4F8C-B7FD-B627E42A2F9A}"/>
+				<Event Name="UI_Select" ID="{C23708AC-C589-402D-82F4-76EB29587F71}"/>
+				<Folder Name="Music" ID="{CE588620-FCFA-459D-82DC-49B938CA3036}" ShortID="745239755">
+					<ChildrenList>
+						<Event Name="Play_Theme" ID="{B96A3803-88DC-47A9-9C26-322D6B318569}">
+							<ChildrenList>
+								<Action Name="" ID="{7716DA6F-8F70-4165-B5DF-8811210BBCF6}" ShortID="169868314">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Theme" ID="{6400AB45-E483-4297-B82B-F8D506F9E03F}">
+							<ChildrenList>
+								<Action Name="" ID="{8A027D3F-5EEC-4AA9-8693-29A83E0740CB}" ShortID="192242859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MargaretStinger" ID="{3913A6C5-788E-49CE-A11C-F6F9C07E193A}">
+							<ChildrenList>
+								<Action Name="" ID="{F376BA9E-00A4-4E3F-81C5-AB57DC02AC7A}" ShortID="18914129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_mx_margaret" ID="{7157D7D1-82BC-4736-9C24-9CFFCE30E4A2}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_BillyStinger" ID="{28CE4AE7-C99D-486A-8246-F0BBC3B79064}">
+							<ChildrenList>
+								<Action Name="" ID="{DC6962CB-273B-4C56-B7C7-7AE28DFC0390}" ShortID="923638498">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_mx_billy" ID="{7EFE497E-3B64-4C7F-9890-6A58AF1E1B1C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AlMillerStinger" ID="{632DF301-D204-4844-B80F-958759BFB8FD}">
+							<ChildrenList>
+								<Action Name="" ID="{5557ADAF-6CDD-4A9C-81B7-88E3F652FBB0}" ShortID="728535763">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_mx_almiller" ID="{53537E34-C95C-408C-BC22-74C1C49DEFD7}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GameComplete" ID="{78A5ECB6-5AB8-4556-B442-6C3575C6651F}">
+							<ChildrenList>
+								<Action Name="" ID="{212826E6-4C94-4037-ADE1-404EB38A3C22}" ShortID="957517217">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_mx_gamecomplete" ID="{936A3987-D2EC-4CB8-A6B7-42B21738EDEC}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
