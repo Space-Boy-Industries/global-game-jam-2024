@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{734A767E-DE76-47B7-8057-02F852EF436D}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{734A767E-DE76-47B7-8057-02F852EF436D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{734A767E-DE76-47B7-8057-02F852EF436D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="CharacterVoice" ID="{BDB6A734-1225-4769-A612-6B28B2C5E267}">
+					<ChildrenList>
+						<Switch Name="Dale" ID="{184736BD-063E-4B06-B610-F61998067E9C}"/>
+						<Switch Name="Margaret" ID="{AF02120D-403C-4D1A-8314-72FD85426522}"/>
+						<Switch Name="Billy" ID="{3CAC0D2B-D25C-4E5B-BE6D-239BF4F0E2A2}"/>
+						<Switch Name="AlMiller" ID="{6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F}"/>
+						<Switch Name="HatGuy" ID="{A4CDED82-18D8-45EE-BB8B-120FCE8B7338}"/>
+						<Switch Name="Watcher" ID="{9D354C96-41B9-4AF6-B4D8-9D78A5ACC964}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="CharacterVoiceTone" ID="{0E216909-3818-4283-ABE1-D375450CFBFA}">
+					<ChildrenList>
+						<Switch Name="Neutral" ID="{34D2E053-467B-469D-9850-27B815183D04}"/>
+						<Switch Name="Approve" ID="{E87F54D3-4A9F-4D5B-8306-8C8F64EC60FA}"/>
+						<Switch Name="Disapprove" ID="{9A0B3647-58C7-4BB4-8599-64D00B6E2E0A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
