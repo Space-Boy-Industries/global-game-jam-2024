@@ -43,7 +43,7 @@ public class CharacterController : MonoBehaviour
         var targetRotation = Quaternion.LookRotation(new Vector3(facingDirectionTarget.x, 0, facingDirectionTarget.y));
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, RotateSpeed * Time.deltaTime);
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && DialogueSystem.Instance.isOpen == false)
         {
             // Get mouse position in world space
             var ray = camera.ScreenPointToRay(Input.mousePosition);
@@ -52,9 +52,11 @@ public class CharacterController : MonoBehaviour
                 // Move to mouse position
                 StartCoroutine(SetNavTarget(hit.point));
 
-                if (hit.collider.gameObject.TryGetComponent(out Interactable interactable))
+                if (hit.collider.gameObject.tag == "Interactable")
                 {
+                    Debug.Log("Interactable clicked on");
                     // Set target interactable
+                    var interactable = hit.collider.gameObject.GetComponentInChildren<Interactable>();
                     targetInteractable = interactable;
                 }
                 else {
