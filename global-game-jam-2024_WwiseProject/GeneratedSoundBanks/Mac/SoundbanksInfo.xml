@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{86CE3E63-5013-54FE-5919-61ABBC8C376F}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{FDEFEB0D-8974-91FA-1DA6-8E61F0F2A29D}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -707,14 +707,14 @@
 						<MediaRef Id="194633189"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1321344996" Name="PlayGameComplete" DurationType="OneShot" DurationMin="17.857052" DurationMax="17.857052">
-					<MediaRefs>
-						<MediaRef Id="813810497"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="215920980" Name="PlayMargaretStinger" DurationType="OneShot" DurationMin="5.860317" DurationMax="5.860317">
 					<MediaRefs>
 						<MediaRef Id="43949581"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="113443216" Name="PlaySitcomStart" DurationType="OneShot" DurationMin="24.293242" DurationMax="24.293242">
+					<MediaRefs>
+						<MediaRef Id="365336090"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1110506798" Name="PlayTheme" DurationType="Infinite">
@@ -729,14 +729,6 @@
 					<MediaRefs>
 						<MediaRef Id="759955103"/>
 						<MediaRef Id="960644482"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="881985048" Name="StopTheme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<MediaRefs>
-						<MediaRef Id="365336090"/>
-						<MediaRef Id="474936770"/>
-						<MediaRef Id="639797184"/>
-						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3936663813" Name="UICursor" DurationType="OneShot" DurationMin="0.20895287" DurationMax="0.30243334">
@@ -852,5 +844,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7BC2F4B1-8B48-3DF0-7859-3FB0A2E79FA6}</FileHash>
+	<FileHash>{81B97B9A-7E0F-B5A1-0659-AEF56CC0EE0F}</FileHash>
 </SoundBanksInfo>
