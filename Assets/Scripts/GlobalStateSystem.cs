@@ -28,22 +28,25 @@ public class GlobalStateSystem : MonoBehaviour
         {
             Instance = this;
             GlobalState = new Dictionary<string, object>();
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Debug.LogError("There can only be one GlobalStateSystem.");
-            DestroyImmediate(this);
+            Destroy(this);
         }
     }
 
-    private void Start()
-    {
-        
-    }
-    
     public void SetFlag(string variableName, object value)
     {
-        GlobalState.GetType().GetProperty(variableName)?.SetValue(GlobalState, value);
+        GlobalState[variableName] = value;
         OnGlobalStateUpdate?.Invoke(new GlobalStateUpdateContext(variableName, value, GlobalState));
+    }
+    
+    public void DebugPrintState()
+    {
+        foreach (var key in GlobalState.Keys)
+        {
+            Debug.Log($"{key}: {GlobalState[key]}");
+        }
     }
 }

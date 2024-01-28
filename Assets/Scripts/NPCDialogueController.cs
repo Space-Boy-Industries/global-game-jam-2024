@@ -1,3 +1,4 @@
+using System;
 using Ink.Runtime;
 using UnityEngine;
 
@@ -11,9 +12,23 @@ public class NPCDialogueController : MonoBehaviour
     {
         story = new Story(storyAsset.text);
         
-        story.BindExternalFunction ("setVariable", (string variableName, object value) => {
+        story.BindExternalFunction ("setFlag", (string variableName, object value) =>
+        {
+            Debug.Log($"Setting flag {variableName} to {value}");
             GlobalStateSystem.Instance.SetFlag(variableName, value);
         });
+        
+        story.BindExternalFunction("loadScene", (string sceneName) =>
+        {
+            if (DialogueSystem.Instance.isOpen)
+            {
+                DialogueSystem.Instance.CloseDialogue();
+            }
+            SceneTransitionSystem.Instance.LoadScene(sceneName);
+        });
+        
+        story.BindExternalFunction("playSound", (string soundName) => throw new NotImplementedException());
+        story.BindExternalFunction("playAnimation", (string animationName, bool persist) => throw new NotImplementedException());
     }
 
     [ContextMenu("Start Dialogue")]

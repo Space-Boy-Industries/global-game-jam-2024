@@ -20,11 +20,11 @@ public class DialogueSystem : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Debug.LogError("There can only be one DialogueSystem.");
-            DestroyImmediate(this);
+            Destroy(this);
         }
     }
 

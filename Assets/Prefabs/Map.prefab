@@ -61,9 +61,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.036666665
+  m_VoxelSize: 0.033333335
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: b82a9b894b0de47c1b958ad5987ecff7, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 43ee8e0af8aa4423a8441893d05fb346, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &4504852508401163858
 GameObject:
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 276828df65129488da125fe70c048413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableOnStart: 0
+  disableOnStart: 1
   disableWhenInside:
   - {fileID: 645438019117516650}
   - {fileID: 4724581076737354009}
@@ -204,7 +204,7 @@ PrefabInstance:
     - target: {fileID: -7634550953490749298, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4576933175578147949, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
@@ -214,7 +214,7 @@ PrefabInstance:
     - target: {fileID: -4576933175578147949, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2348421206074587395, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
@@ -224,7 +224,7 @@ PrefabInstance:
     - target: {fileID: -2348421206074587395, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1695386897620489773, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
@@ -254,7 +254,7 @@ PrefabInstance:
     - target: {fileID: 343264765342988198, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
@@ -276,6 +276,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3665323647116951656, guid: a6249561d3a914ca1986c39f68fff4db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4169303580710731413, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_Layer
@@ -289,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 4662838286512970076, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4676091236189387500, guid: a6249561d3a914ca1986c39f68fff4db,
         type: 3}
