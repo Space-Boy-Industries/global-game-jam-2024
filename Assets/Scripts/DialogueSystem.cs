@@ -1,11 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AK.Wwise;
 using Ink.Runtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+
+[Serializable]
+public class Voice
+{
+    public string name;
+    public AK.Wwise.Switch voiceSwitch;
+}
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -14,7 +22,7 @@ public class DialogueSystem : MonoBehaviour
     public UnityEvent OnDialogueOpen;
     public UnityEvent OnDialogueClose;
     public UnityEvent<DialogueEventContext> OnDialogueEvent;
-    
+
     private void Awake()
     {
         if (Instance == null)
@@ -33,6 +41,8 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private GameObject choiceListPrefab;
     [SerializeField] private GameObject choicePrefab;
     [SerializeField] private GameObject canvas;
+    [SerializeField] private Voice[] voices;
+    [SerializeField] private AK.Wwise.Event dialogueEvent;
     
     private Story story;
     private bool _isOpen;
@@ -165,10 +175,22 @@ public class DialogueSystem : MonoBehaviour
                 var text = story.Continue();
                 DisplayLine(text);
 
+                var characterName = text.Split(":")[0];
+                
+                // find the voice for the character
+                var voice = Array.Find(voices, (v) => v.name.ToLower().Trim() == characterName.ToLower().Trim());
+                
+                if (voice != null)
+                {
+                    // if we found a voice, play the voice
+                    voice.voiceSwitch.SetValue(gameObject);
+                    dialogueEvent.Post(gameObject);
+                }
+
                 // HACK: wait 1 frame so that the text is rendered before we force the layout group to update
                 yield return null;
                 ForceLayoutGroupUpdate();
-                
+
                 yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to continue
 
             } else if (story.currentChoices.Count > 0) {
