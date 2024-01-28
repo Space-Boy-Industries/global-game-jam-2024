@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated/VisualScripting.Core.meta
-guid: 2c7332469e729457eb201d17ba8465b0
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-========
 guid: 8d605e2443c7d6d46bfcc0a93b14bbae
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
->>>>>>>> d2b44391e08b00a2fa1b0131b33429986cf91280:Assets/Textures/part 2/Door Wood.mat.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
