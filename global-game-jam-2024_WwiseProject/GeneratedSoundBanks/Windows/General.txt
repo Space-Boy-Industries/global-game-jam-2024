@@ -1,15 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Ambience	
+	113443216	PlaySitcomStart			\Default Work Unit\Music\PlaySitcomStart	
 	215920980	PlayMargaretStinger			\Default Work Unit\Music\PlayMargaretStinger	
 	441242622	kneeslap			\Default Work Unit\kneeslap	
 	492709867	AmbDishwasher			\Default Work Unit\AmbEmitters\AmbDishwasher	
 	748690246	CoffeeServe			\Default Work Unit\CoffeeMinigame\CoffeeServe	
-	881985048	StopTheme			\Default Work Unit\Music\StopTheme	
 	907177173	LaughTrack			\Default Work Unit\LaughTrack	
 	912635980	AmbFridge			\Default Work Unit\AmbEmitters\AmbFridge	
 	1110506798	PlayTheme			\Default Work Unit\Music\PlayTheme	
 	1312131451	UIError			\Default Work Unit\UIError	
-	1321344996	PlayGameComplete			\Default Work Unit\Music\PlayGameComplete	
 	1816659375	UISelect			\Default Work Unit\UISelect	
 	2108844903	CoffeeAddMilk			\Default Work Unit\CoffeeMinigame\CoffeeAddMilk	
 	2304158007	CoffeePour			\Default Work Unit\CoffeeMinigame\CoffeePour	
