@@ -11,6 +11,7 @@
 					<ChildrenList>
 						<SwitchContainer Name="Footsteps" ID="{54F9B1A3-01EB-41C0-9710-F58CD1F94516}" ShortID="1017712592">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>15</Value>
@@ -29,8 +30,16 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Foot" ID="{5B0FF696-9536-42D4-8925-FB7DC2A0CDED}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 								</Reference>
@@ -1167,7 +1176,6 @@
 								</SwitchContainer>
 								<ActorMixer Name="Emitters" ID="{5333826D-E3B7-4F57-9DCD-2BD511B05037}" ShortID="39177330">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1189,9 +1197,14 @@
 									<ChildrenList>
 										<Sound Name="amb_emit_dishwasher" ID="{58BF4CEE-205F-42B2-901A-E901FCA518EF}" ShortID="960901079">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="KitchenAttenuation" ID="{6528522E-FE5E-4DA7-AD86-047039A571BE}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 												</Reference>
@@ -1220,7 +1233,20 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="amb_emit_fridge" ID="{77FE54BE-4034-4E47-A888-93757B965D00}" ShortID="146639189">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="KitchenAttenuation" ID="{6528522E-FE5E-4DA7-AD86-047039A571BE}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 												</Reference>
@@ -1250,9 +1276,14 @@
 										</Sound>
 										<Sound Name="amb_emit_modeltrain" ID="{6DAE24C9-98C9-4048-8817-7E7F1D211DBA}" ShortID="624663684">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Train" ID="{485775AB-3E12-4225-B306-3CE31335F829}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 												</Reference>
@@ -1281,7 +1312,14 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="amb_emit_modeltrainstop" ID="{46D3F3D2-07BC-4AF5-8E56-A59E7FFFC7B7}" ShortID="50393126">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Train" ID="{485775AB-3E12-4225-B306-3CE31335F829}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 												</Reference>
@@ -1328,6 +1366,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>

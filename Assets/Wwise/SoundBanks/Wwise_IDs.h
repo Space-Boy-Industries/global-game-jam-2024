@@ -27,11 +27,10 @@ namespace AK
         static const AkUniqueID MODELTRAIN = 4293656322U;
         static const AkUniqueID PLAYALMILLERSTINGER = 2753664387U;
         static const AkUniqueID PLAYBILLYSTINGER = 2370389293U;
-        static const AkUniqueID PLAYGAMECOMPLETE = 1321344996U;
         static const AkUniqueID PLAYMARGARETSTINGER = 215920980U;
+        static const AkUniqueID PLAYSITCOMSTART = 113443216U;
         static const AkUniqueID PLAYTHEME = 1110506798U;
         static const AkUniqueID STOPMODELTRAIN = 2628123274U;
-        static const AkUniqueID STOPTHEME = 881985048U;
         static const AkUniqueID UICURSOR = 3936663813U;
         static const AkUniqueID UIERROR = 1312131451U;
         static const AkUniqueID UISELECT = 1816659375U;

@@ -32,7 +32,7 @@ public class DialogueSystem : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 
@@ -192,6 +192,8 @@ public class DialogueSystem : MonoBehaviour
                 ForceLayoutGroupUpdate();
 
                 yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to continue
+                
+                CharacterAnimationSystem.Instance.ResetAnimations();
 
             } else if (story.currentChoices.Count > 0) {
                 // if there is a choice in the dialogue, display choices

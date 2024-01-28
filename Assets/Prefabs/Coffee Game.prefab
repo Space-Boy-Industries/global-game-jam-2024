@@ -81,6 +81,31 @@ MonoBehaviour:
   - {fileID: 218593735920578816}
   - {fileID: 7443043902701423893}
   - {fileID: 2005629268667775445}
+  PourCoffeeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e19206438743a448ebf6616f4a03a519,
+      type: 2}
+  AddSugarSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b02a655b52115469ca7d1bbe7a57c436,
+      type: 2}
+  AddMilkSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb6d8d48faf5d440dbeabbe29562c0d9,
+      type: 2}
+  ServeCoffeeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bf2a19879ecf34b24985eccf0b16eb42,
+      type: 2}
+  UIErrorSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c18c9865698d4e9ea975f78261c74e8,
+      type: 2}
 --- !u!1 &919612418644453002
 GameObject:
   m_ObjectHideFlags: 0

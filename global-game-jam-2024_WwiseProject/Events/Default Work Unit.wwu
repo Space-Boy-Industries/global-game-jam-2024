@@ -70,32 +70,6 @@
 				</Event>
 				<Folder Name="Music" ID="{CE588620-FCFA-459D-82DC-49B938CA3036}" ShortID="745239755">
 					<ChildrenList>
-						<Event Name="PlayTheme" ID="{B96A3803-88DC-47A9-9C26-322D6B318569}">
-							<ChildrenList>
-								<Action Name="" ID="{7716DA6F-8F70-4165-B5DF-8811210BBCF6}" ShortID="169868314">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="StopTheme" ID="{6400AB45-E483-4297-B82B-F8D506F9E03F}">
-							<ChildrenList>
-								<Action Name="" ID="{8A027D3F-5EEC-4AA9-8693-29A83E0740CB}" ShortID="192242859">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="PlayMargaretStinger" ID="{3913A6C5-788E-49CE-A11C-F6F9C07E193A}">
 							<ChildrenList>
 								<Action Name="" ID="{F376BA9E-00A4-4E3F-81C5-AB57DC02AC7A}" ShortID="18914129">
@@ -129,12 +103,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayGameComplete" ID="{78A5ECB6-5AB8-4556-B442-6C3575C6651F}">
+						<Event Name="PlayTheme" ID="{18A20195-8A20-4AFD-9C56-603C181D8515}">
 							<ChildrenList>
-								<Action Name="" ID="{212826E6-4C94-4037-ADE1-404EB38A3C22}" ShortID="957517217">
+								<Action Name="" ID="{7F2C60F8-7A5B-414B-93A7-94862546ADF3}" ShortID="1026235030">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ui_mx_gamecomplete" ID="{936A3987-D2EC-4CB8-A6B7-42B21738EDEC}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+											<ObjectRef Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlaySitcomStart" ID="{908F46FC-6F56-4A6A-8128-7682147F609F}">
+							<ChildrenList>
+								<Action Name="" ID="{4ADF1338-80AB-4B17-867F-0CD63E1C6EAE}" ShortID="904075518">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ui_mx_theme" ID="{D5C61D33-9DF1-4222-AFB2-7F03F806069C}" WorkUnitID="{239076B5-659F-4A45-9EF3-2BE6DBAEE238}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
