@@ -5,8 +5,7 @@ EXTERNAL playAnimation(animationName, persist)
 
 VAR in_sitcom = false
 VAR cleaned_table = false
-VAR has_coffee = false
-VAR coffee_correct = false
+VAR coffee_done = false
 VAR did_homework = false
 VAR built_gundam = false
 VAR gave_life_advice = false
@@ -14,7 +13,6 @@ VAR talked_about_life = false
 
 VAR talked_to_al_phase_1 = false
 VAR talked_to_al_phase_2 = false
-VAR talked_to_al_phase_3 = false
 
 -> STATEMACHINE
 === STATEMACHINE ===
@@ -23,7 +21,7 @@ VAR talked_to_al_phase_3 = false
         {has_coffee && built_gundam: 
             -> PHASE2
         - else:
-            -> BLOCKED
+            -> BLOCKED1
         }
     - else:
         -> PHASE1
@@ -82,25 +80,5 @@ AL: Not Implemented # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
-AL: Not Implemented # close
--> STATEMACHINE
-
-=== BLOCKED2 ===
-AL: Not Implemented # close
--> STATEMACHINE
-
-=== PHASE3 ===
-{talked_to_al_phase_3:
-    -> PHASE1REPEAT
-- else:
-    -> PHASE1START
-}
-
-=== PHASE3START ===
-~ talked_to_al_phase_3 = true
-AL: Not Implemented # close
--> STATEMACHINE
-
-=== PHASE3REPEAT ===
 AL: Not Implemented # close
 -> STATEMACHINE

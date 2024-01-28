@@ -8,6 +8,7 @@ VAR cleaned_table = false
 VAR asked_for_coffee = false
 VAR has_coffee = false
 VAR coffee_correct = false
+VAR coffee_done = false
 VAR did_homework = false
 VAR built_gundam = false
 VAR gave_life_advice = false
@@ -22,7 +23,7 @@ VAR talked_to_margaret_phase_3 = false
 {in_sitcom:
     {cleaned_table:
         {did_homework:
-            {coffee_correct:
+            {coffee_done:
                 {built_gundam && gave_life_advice:
                     -> PHASE3
                 - else:
@@ -92,12 +93,20 @@ DALE: And where is that laughing coming from?! # close
 -> STATEMACHINE
 
 === PHASE1REPEAT ===
-MARGARET: 
+MARGARET: That dang train set is still on the table. How am I supposed to clean with that in the way?
+playSound("LaughTrack")
+DALE: It's never been in your way before!
+DALE: Ugh, fine. I'll put it away. # close
+-> STATEMACHINE
+
+=== BLOCKED1 ===
+MARGARET: I'm going to be busy cleaning.
+MARGARET: I think Billy needed help with his homework. Can you go help him? #close
 -> STATEMACHINE
 
 === PHASE2 ===
 {has_coffee:
-    -> PHASE2REPEAT
+    -> GIVECOFFEE
 - else:
     {talked_to_margaret_phase_2:
         -> PHASE2REPEAT
@@ -106,24 +115,27 @@ MARGARET:
     }
 }
 
-=== BLOCKED1 ===
-MARGARET: Not Implemented #close
--> STATEMACHINE
-
-=== PHASE2 ===
-{talked_to_margaret_phase_2:
-    -> PHASE1REPEAT
+=== GIVECOFFEE ===
+~ setFlag("has_coffee", false)
+{coffee_correct:
+    MARGARET: Just how I like it. Thank you dear. # close
+    ~ setFlag("coffee_done", true)
+    -> STATEMACHINE
 - else:
-    -> PHASE1START
+    MARGARET: Come on Dale, we've been married for 12 years and you still don't know how I like my coffee?
+    playSound("LaughTrack")
+    MARGARET: Milk and two spoonfuls of sugar. Now get to it, I can't be the only one staying busy! # close
+    -> STATEMACHINE
 }
 
 === PHASE2START ===
 ~ talked_to_margaret_phase_2 = true
-MARGARET: Not Implemented # close
+~ setFlag("asked_for_coffee", true)
+MARGARET: Make me coffee pls. # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
-MARGARET: Not Implemented # close
+MARGARET: Make me coffee pls. # close
 -> STATEMACHINE
 
 === BLOCKED2 ===

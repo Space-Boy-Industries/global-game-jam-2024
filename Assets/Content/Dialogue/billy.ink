@@ -5,8 +5,7 @@ EXTERNAL playAnimation(animationName, persist)
 
 VAR in_sitcom = false
 VAR cleaned_table = false
-VAR has_coffee = false
-VAR coffee_correct = false
+VAR coffee_done = false
 VAR did_homework = false
 VAR built_gundam = false
 VAR gave_life_advice = false
@@ -22,7 +21,7 @@ VAR talked_to_billy_phase_3 = false
     {did_homework:
         {cleaned_table:
             {built_gundam:
-                {coffee_correct && gave_life_advice:
+                {coffee_done && gave_life_advice:
                     -> PHASE3
                 - else:
                     -> BLOCKED2

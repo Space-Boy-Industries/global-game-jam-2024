@@ -42,7 +42,9 @@ public class CoffeeGameController : MonoBehaviour
     public void StartMinigame()
     {
         if ((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("has_coffee", false)
-         || (bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("coffee_correct", false))
+         || (bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("coffee_done", false)
+         || !((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("asked_for_coffee", false))
+        )
         {
             return;
         }
