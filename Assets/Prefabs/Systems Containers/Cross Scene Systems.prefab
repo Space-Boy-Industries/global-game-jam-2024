@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3966153471591305340}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -236,7 +236,7 @@ PrefabInstance:
     - target: {fileID: 1238465470553413066, guid: dbec4ec90e1cc42e6aa551be3d51113f,
         type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1426912550633646901, guid: dbec4ec90e1cc42e6aa551be3d51113f,
         type: 3}
@@ -253,6 +253,61 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[0].name
+      value: dale
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[1].name
+      value: billy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[2].name
+      value: margaret
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[3].name
+      value: al
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: dialogueEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0351fcc4f2d58457f878dc61293e1c67,
+        type: 2}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[0].voiceSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: e6778942377214568bf5135705e30691,
+        type: 2}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[1].voiceSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2ddf66635e39242ce8bda3b9c2cbf7b3,
+        type: 2}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[2].voiceSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3dd4fcfba32bd40819f27bb3fd750777,
+        type: 2}
+    - target: {fileID: 2524993479091609251, guid: dbec4ec90e1cc42e6aa551be3d51113f,
+        type: 3}
+      propertyPath: voices.Array.data[3].voiceSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 98e46204749f34c828e4354222be12e5,
+        type: 2}
     - target: {fileID: 4209300986013147012, guid: dbec4ec90e1cc42e6aa551be3d51113f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -341,12 +396,12 @@ PrefabInstance:
     - target: {fileID: 8118696653137701226, guid: dbec4ec90e1cc42e6aa551be3d51113f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.00021362305
       objectReference: {fileID: 0}
     - target: {fileID: 8118696653137701226, guid: dbec4ec90e1cc42e6aa551be3d51113f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.00012207031
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
