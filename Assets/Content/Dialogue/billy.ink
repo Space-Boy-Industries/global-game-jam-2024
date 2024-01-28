@@ -74,8 +74,23 @@ DALE: Okay Billy. Let's do this. # close
 -> STATEMACHINE
 
 === PHASE1REPEAT ===
-BILLY: I need help with my Math homework... # close
+-> MATHHOMEWORK
+
+=== WRONGANSWER ===
+~ playSound("LaughTrack")
+BILLY: I don't think that's right... # close
 -> STATEMACHINE
+
+=== MATHHOMEWORK ===
+BILLY: Okay, first problem. What is 2 + 2?
++ [2]
+    -> WRONGANSWER
++ [4]
+    ~ setFlag("did_homework", true)
+    BILLY: Ok, that was it. #close
+    -> STATEMACHINE
++ [22]
+    -> WRONGANSWER
 
 === BLOCKED1 ===
 BILLY: Dad...
