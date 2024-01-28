@@ -156,9 +156,23 @@ MARGARET: Honey - I thought you were going to play with Billy? And talk to Al ab
 ~ talked_to_margaret_phase_3 = true
 MARGARET: Dale.
 ~ playSound("LaughTrack")
-DALE: Margaret. What gives! I've had such a confusing day. It feels like I'm in a sitcom or something. # close
+DALE: Marg... I've had such a confusing day. It feels like I'm in a sitcom or something...
+MARGARET: What do you mean?
+DALE: Well, it's hard to explain. Doesn't matter now. Today was... alright, I think. Except for the disembodied laughing.
+~ playSound("LaughSympathetic")
+MARGARET: I didn't hear any such laughing. Do you need to see a doctor?
+DALE: Just then! Right when you spoke!
+MARGARET: Honey... I think you might be hearing things.
+DALE: Okay, fine, it doesn't matter. But here's something that does matter to me: Did you have a good day?
+MARGARET: I did.
+~ playSound("PlayMargaretStinger")
+MARGARET: Thank you for all the help today. Have you talked to Billy yet?  #close
 -> STATEMACHINE
 
 === PHASE3REPEAT ===
-MARGARET: I love you, dear. Let's take Billy to the park tomorrow. # close
+MARGARET: I love you, dear. Let's take Billy to the park tomorrow.
+MARGARET: ...
+MARGARET: ... # close
+DALE: What?
+MARGARET: ...I think someone's outside again.
 -> STATEMACHINE
