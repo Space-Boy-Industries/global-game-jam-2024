@@ -25,7 +25,11 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (agent.pathStatus == NavMeshPathStatus.PathComplete && agent.remainingDistance <= agent.stoppingDistance && targetInteractable != null)
+        if (agent.pathStatus == NavMeshPathStatus.PathComplete
+            && agent.remainingDistance <= agent.stoppingDistance
+            && targetInteractable != null
+            && Vector3.Distance(targetInteractable.transform.position, transform.position) <= 3f
+        )
         {
             StartCoroutine(InteractWithTarget());
         }
