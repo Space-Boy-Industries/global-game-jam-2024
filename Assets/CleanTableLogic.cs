@@ -14,8 +14,9 @@ public class CleanTableLogic : MonoBehaviour
     private IEnumerator CleanTableCoroutine()
     {
         CleanTableSound.Post(gameObject);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         GlobalStateSystem.Instance.SetFlag("cleaned_table", true);
         Destroy(gameObject);
+        
     }
 }
