@@ -52,9 +52,10 @@ public class CharacterController : MonoBehaviour
                 // Move to mouse position
                 StartCoroutine(SetNavTarget(hit.point));
 
-                if (hit.collider.gameObject.TryGetComponent(out Interactable interactable))
+                if (hit.collider.gameObject.tag == "Interactable")
                 {
                     // Set target interactable
+                    var interactable = hit.collider.gameObject.GetComponentInChildren<Interactable>();
                     targetInteractable = interactable;
                 }
                 else {
