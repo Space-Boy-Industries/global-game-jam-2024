@@ -32,7 +32,7 @@ public class DialogueSystem : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 

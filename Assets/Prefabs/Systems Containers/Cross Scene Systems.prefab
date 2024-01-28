@@ -162,7 +162,7 @@ MonoBehaviour:
   endingTheme:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: bd0d5c63e822d457fa11e1d5ba222cbb,
+    WwiseObjectReference: {fileID: 11400000, guid: 23a6bb95b738446b8a23d6c7d55ef7ea,
       type: 2}
 --- !u!1 &3966153471591305340
 GameObject:

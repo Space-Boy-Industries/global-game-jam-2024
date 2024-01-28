@@ -834,6 +834,12 @@ MonoBehaviour:
   choicePrefab: {fileID: 3827448694806621207, guid: 5f82897faba794c709b91871efe87402,
     type: 3}
   canvas: {fileID: 2083712005447075553}
+  voices: []
+  dialogueEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0351fcc4f2d58457f878dc61293e1c67,
+      type: 2}
 --- !u!1 &6850523737988614356
 GameObject:
   m_ObjectHideFlags: 0
