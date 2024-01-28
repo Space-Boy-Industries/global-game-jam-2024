@@ -12,10 +12,30 @@ VAR built_gundam = false
 VAR gave_life_advice = false
 VAR talked_about_life = false
 
+VAR talked_to_billy_phase_1 = false
+VAR talked_to_billy_phase_2 = false
+VAR talked_to_billy_phase_3 = false
+
 -> STATEMACHINE
 === STATEMACHINE ===
 {in_sitcom:
-    -> PHASE1
+    {did_homework:
+        {cleaned_table:
+            {built_gundam:
+                {coffee_correct && gave_life_advice:
+                    -> PHASE3
+                - else:
+                    -> BLOCKED2
+                }
+            - else:
+                -> PHASE2
+            }
+        - else:
+            -> BLOCKED1
+        }
+    - else:
+        -> PHASE1
+    }
 - else:
     -> PROLOGUE
 }
@@ -37,18 +57,57 @@ DALE: Goodnight Billy. # close
 -> STATEMACHINE
 
 === PHASE1 ===
-Billy: Not Implemented #close
+{talked_to_billy_phase_1:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
+
+=== PHASE1START ===
+~ talked_to_billy_phase_1 = true
+BILLY: Not Implemented # close
 -> STATEMACHINE
 
-=== BLOCKED ===
-Billy: Not Implemented #close
+=== PHASE1REPEAT ===
+BILLY: Not Implemented # close
+-> STATEMACHINE
+
+=== BLOCKED1 ===
+BILLY: Not Implemented # close
 -> STATEMACHINE
 
 === PHASE2 ===
-Billy: Not Implemented #close
+{talked_to_billy_phase_2:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
+
+=== PHASE2START ===
+~ talked_to_billy_phase_2 = true
+BILLY: Not Implemented # close
 -> STATEMACHINE
 
-=== ENDING ===
-Billy: Not Implemented #close
+=== PHASE2REPEAT ===
+BILLY: Not Implemented # close
 -> STATEMACHINE
 
+=== BLOCKED2 ===
+BILLY: Not Implemented # close
+-> STATEMACHINE
+
+=== PHASE3 ===
+{talked_to_billy_phase_3:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
+
+=== PHASE3START ===
+~ talked_to_billy_phase_3 = true
+BILLY: Not Implemented # close
+-> STATEMACHINE
+
+=== PHASE3REPEAT ===
+BILLY: Not Implemented # close
+-> STATEMACHINE

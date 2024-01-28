@@ -12,6 +12,10 @@ VAR built_gundam = false
 VAR gave_life_advice = false
 VAR talked_about_life = false
 
+VAR talked_to_al_phase_1 = false
+VAR talked_to_al_phase_2 = false
+VAR talked_to_al_phase_3 = false
+
 -> STATEMACHINE
 === STATEMACHINE ===
 {in_sitcom: 
@@ -46,17 +50,57 @@ DALE: Yeah, I'll see if I can make it. Have a good night Al. # close
 -> PROLOGUEREPEAT
 
 === PHASE1 ===
-AL: Im Drunk
-+ Life Advice
-    ~ setFlag("gave_life_advice", true)
-    AL: Thanks #close
+{talked_to_al_phase_1:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
 
+=== PHASE1START ===
+~ talked_to_al_phase_1 = true
+AL: Not Implemented # close
 -> STATEMACHINE
-=== BLOCKED ===
-Al: zzz # close
 
+=== PHASE1REPEAT ===
+AL: Not Implemented # close
 -> STATEMACHINE
+
+=== BLOCKED1 ===
+AL: Not Implemented # close
+-> STATEMACHINE
+
 === PHASE2 ===
-Al: not implemented #close
+{talked_to_al_phase_2:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
+
+=== PHASE2START ===
+~ talked_to_al_phase_2 = true
+AL: Not Implemented # close
 -> STATEMACHINE
 
+=== PHASE2REPEAT ===
+AL: Not Implemented # close
+-> STATEMACHINE
+
+=== BLOCKED2 ===
+AL: Not Implemented # close
+-> STATEMACHINE
+
+=== PHASE3 ===
+{talked_to_al_phase_3:
+    -> PHASE1REPEAT
+- else:
+    -> PHASE1START
+}
+
+=== PHASE3START ===
+~ talked_to_al_phase_3 = true
+AL: Not Implemented # close
+-> STATEMACHINE
+
+=== PHASE3REPEAT ===
+AL: Not Implemented # close
+-> STATEMACHINE
