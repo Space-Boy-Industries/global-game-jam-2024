@@ -21,6 +21,14 @@ public class CoffeeGameController : MonoBehaviour
     private bool milkAdded;
     private int sugarAdded;
 
+
+    //Minigame Wwise Event Triggers
+    public AK.Wwise.Event PourCoffeeSound;
+    public AK.Wwise.Event AddSugarSound;
+    public AK.Wwise.Event AddMilkSound;
+    public AK.Wwise.Event ServeCoffeeSound;
+    public AK.Wwise.Event UIErrorSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -102,6 +110,12 @@ public class CoffeeGameController : MonoBehaviour
         if (!coffeeDispensing && !coffeeDispensed)
         {
             StartCoroutine(CoffeeDispenseAnimation());
+            //Wwise Event Trigger: CoffeePour
+            PourCoffeeSound.Post(gameObject);
+        }
+        else
+        {
+            UIErrorSound.Post(gameObject);
         }
     }
 
@@ -109,6 +123,12 @@ public class CoffeeGameController : MonoBehaviour
     {
         if (coffeeDispensed) {
             milkAdded = true;
+            //Wwise Event Trigger: CoffeeMilk
+            AddMilkSound.Post(gameObject);
+        }
+        else
+        {
+            UIErrorSound.Post(gameObject);
         }
     }
 
@@ -116,6 +136,12 @@ public class CoffeeGameController : MonoBehaviour
     {
         if (coffeeDispensed) {
             sugarAdded++;
+            //Wwise Event Trigger Add Sugar
+            AddSugarSound.Post(gameObject);
+        }
+        else
+        {
+            UIErrorSound.Post(gameObject);
         }
     }
 
@@ -125,7 +151,13 @@ public class CoffeeGameController : MonoBehaviour
         if (coffeeDispensed) {
             GlobalStateSystem.Instance.SetFlag("has_coffee", true);
             GlobalStateSystem.Instance.SetFlag("coffee_correct", coffeeDispensed && milkAdded && sugarAdded == 2);
+            //Wwise Event Trigger Serve Coffee
+            ServeCoffeeSound.Post(gameObject);
             QuitMinigame();
+        }
+        else
+        {
+            UIErrorSound.Post(gameObject);
         }
     }
 }
