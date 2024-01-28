@@ -122,11 +122,13 @@ BILLY: Alright, next one: What is 4+2(3+5)?
 BILLY:  Last one! This one is just extra credit. What are the roots of the quadratic equation x^2-5x+6?
 + [1, -1]
     BILLY: Well... if you say so.
+    -> HOMEWORKDONE
 + [-5, 6]
     BILLY: Well... if you say so.
+    -> HOMEWORKDONE
 + [2, 3]
     BILLY: Great! I really needed that extra credit.
--> HOMEWORKDONE
+    -> HOMEWORKDONE
 
 === HOMEWORKDONE ===
 ~ setFlag("did_homework", true)
