@@ -70,11 +70,71 @@ BILLY: Dad! I need help with my homework.
 DALE: Okay Billy. What's the homework?
 ~ playSound("LaughSympathetic")
 BILLY: Math! It's a multiple choice sheet. Please help. I want to play with my toys.
-DALE: Okay Billy. Let's do this. # close
--> STATEMACHINE
+DALE: Okay Billy. Let's do this.
+-> HOMEWORK1
 
 === PHASE1REPEAT ===
-BILLY: I need help with my Math homework... # close
+DALE: Alright, let's try again.
+-> HOMEWORK1
+
+=== WRONGANSWER ===
+~ playSound("LaughTrack")
+BILLY: Uhh, I don't think that's right... # close
+-> STATEMACHINE
+
+=== HOMEWORK1 ===
+BILLY: Okay, first problem: What is 2+2?
++ [2]
+    -> WRONGANSWER
++ [4]
+    -> HOMEWORK2
++ [22]
+    -> WRONGANSWER
+
+=== HOMEWORK2 ===
+BILLY: Next one: What is 3×5?
++ [32.951]
+    -> WRONGANSWER
++ [19]
+    -> WRONGANSWER
++ [15]
+    -> HOMEWORK3
+
+=== HOMEWORK3 ===
+BILLY: Next problem: What is 72÷9?
++ [8]
+    -> HOMEWORK4
++ [19]
+    -> WRONGANSWER
++ [9]
+    -> WRONGANSWER
+
+=== HOMEWORK4 ===
+BILLY: Alright, next one: What is 4+2(3+5)?
++ [16]
+    -> WRONGANSWER
++ [20]
+    -> HOMEWORK5
++ [48]
+    -> WRONGANSWER
+
+=== HOMEWORK5 ===
+BILLY:  Last one! This one is just extra credit. What are the roots of the quadratic equation x^2-5x+6?
++ [1, -1]
+    BILLY: Well... if you say so.
+    -> HOMEWORKDONE
++ [-5, 6]
+    BILLY: Well... if you say so.
+    -> HOMEWORKDONE
++ [2, 3]
+    BILLY: Great! I really needed that extra credit.
+    -> HOMEWORKDONE
+
+=== HOMEWORKDONE ===
+~ setFlag("did_homework", true)
+~ playSound("LaughTrack")
+BILLY: Thanks Dad!! I just really don't understand all these numbers. I'm so silly.
+DALE: No problem, son. We can play with toys soon. #close
 -> STATEMACHINE
 
 === BLOCKED1 ===
