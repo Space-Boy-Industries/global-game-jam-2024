@@ -34,7 +34,7 @@ public class GlobalSoundSystem : MonoBehaviour
     {
         GlobalStateSystem.Instance.OnGlobalStateUpdate.AddListener((ctx) =>
         {
-            if (ctx.Value.ToString() != "true")
+            if (ctx.Value.ToString().ToLower().Trim() != "true")
                 return;
 
             switch (ctx.VariableName)
