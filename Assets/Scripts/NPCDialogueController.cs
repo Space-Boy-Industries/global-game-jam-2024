@@ -10,6 +10,10 @@ public class NPCDialogueController : MonoBehaviour
     private void Start()
     {
         story = new Story(storyAsset.text);
+        
+        story.BindExternalFunction ("setVariable", (string variableName, object value) => {
+            GlobalStateSystem.Instance.SetFlag(variableName, value);
+        });
     }
 
     [ContextMenu("Start Dialogue")]
