@@ -14,6 +14,7 @@ public class SitcomIntroController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        GlobalStateSystem.Instance.SetFlag("in_intro", true);
         sitcomIntroEvent.Post(gameObject);
 
         StartCoroutine(StartCoroutine());
@@ -27,6 +28,9 @@ public class SitcomIntroController : MonoBehaviour
         animation.Play("do");
         yield return new WaitForSeconds(6.0f);
         
+        GlobalStateSystem.Instance.SetFlag("in_intro", false);
+        
         margaret.StartDialogue();
+        
     }
 }

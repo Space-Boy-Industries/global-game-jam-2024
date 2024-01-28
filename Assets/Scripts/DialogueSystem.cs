@@ -56,7 +56,17 @@ public class DialogueSystem : MonoBehaviour
         GlobalStateSystem.Instance.OnGlobalStateUpdate.AddListener((context) =>
         {
             if (story == null) return;
-            story.variablesState[context.VariableName] = context.Value;   
+
+            if (context.VariableName == "in_intro") return; /// hack to ignore intro variable  because ic an't code
+
+            try
+            {
+                story.variablesState[context.VariableName] = context.Value;   
+            } catch (Exception e)
+            {
+                // ignore errors, literally who asked
+                Debug.Log(e);
+            }
         });
     }
 
@@ -94,6 +104,7 @@ public class DialogueSystem : MonoBehaviour
         // set current properties when opening
         foreach (var variable in GlobalStateSystem.Instance.GlobalState)
         {
+            if (variable.Key == "in_intro") continue; // hack to ignore intro variable  because ic an't code
             story.variablesState[variable.Key] = variable.Value;
         }
         
