@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{7C251F3E-6A3F-0739-3C1F-AC4BAED405D0}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{8B4CBADD-A0C4-4360-FEE4-C672C9767D35}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -17,49 +17,273 @@
 					<ShortName>ui_mx_margaret.wav</ShortName>
 					<CachePath>SFX/ui_mx_margaret_239921B3.wem</CachePath>
 				</File>
+				<File Id="51707345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_carpet-003.wav</ShortName>
+					<CachePath>SFX/pc_fs_carpet-003_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="79962583" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_sympathetic.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_sympathetic_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="84895179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_hardwood-004.wav</ShortName>
+					<CachePath>SFX/pc_fs_hardwood-004_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="162474841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_neutral02.wav</ShortName>
+					<CachePath>SFX/npc_margaret_neutral02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="177700746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_approve02.wav</ShortName>
+					<CachePath>SFX/npc_almiller_approve02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="190622905" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_disapprove01.wav</ShortName>
+					<CachePath>SFX/npc_margaret_disapprove01_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="194633189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_billy.wav</ShortName>
 					<CachePath>SFX/ui_mx_billy_239921B3.wem</CachePath>
 				</File>
+				<File Id="202759321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_disapprove01.wav</ShortName>
+					<CachePath>SFX/npc_almiller_disapprove01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="203266722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_grass-002.wav</ShortName>
+					<CachePath>SFX/pc_fs_grass-002_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="210979877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_disapprove01.wav</ShortName>
+					<CachePath>SFX/npc_billy_disapprove01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="247432583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_hardwood-001.wav</ShortName>
+					<CachePath>SFX/pc_fs_hardwood-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="248093457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_linoleum-002.wav</ShortName>
+					<CachePath>SFX/pc_fs_linoleum-002_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="248573548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_neutral01.wav</ShortName>
+					<CachePath>SFX/npc_billy_neutral01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="254702680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_approve01.wav</ShortName>
+					<CachePath>SFX/npc_margaret_approve01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="299370518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral06.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral06_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="300732567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_carpet-005.wav</ShortName>
+					<CachePath>SFX/pc_fs_carpet-005_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="302666020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Confirm.wav</ShortName>
+					<CachePath>SFX/UI_Confirm_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="319809128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral01.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="322510831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_disapprove02.wav</ShortName>
+					<CachePath>SFX/npc_margaret_disapprove02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="343465781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_concrete-005.wav</ShortName>
+					<CachePath>SFX/pc_fs_concrete-005_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="350737742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_neutral02.wav</ShortName>
+					<CachePath>SFX/npc_billy_neutral02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="360757635" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_concrete-002.wav</ShortName>
+					<CachePath>SFX/pc_fs_concrete-002_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="365336090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_theme.wav</ShortName>
 					<CachePath>SFX/ui_mx_theme_239921B3.wem</CachePath>
+				</File>
+				<File Id="390060414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Select02.wav</ShortName>
+					<CachePath>SFX/UI_Select02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="391672243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_hardwood-003.wav</ShortName>
+					<CachePath>SFX/pc_fs_hardwood-003_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="426459993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_almiller.wav</ShortName>
 					<CachePath>SFX/ui_mx_almiller_239921B3.wem</CachePath>
 				</File>
+				<File Id="457082571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_grass-005.wav</ShortName>
+					<CachePath>SFX/pc_fs_grass-005_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="466412805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral05.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral05_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="474936770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_themeb.wav</ShortName>
 					<CachePath>SFX/ui_mx_themeb_239921B3.wem</CachePath>
+				</File>
+				<File Id="488568406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_approve02.wav</ShortName>
+					<CachePath>SFX/npc_billy_approve02_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="490293320" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_neargone.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_neargone_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="500779584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_disapprove02.wav</ShortName>
+					<CachePath>SFX/npc_almiller_disapprove02_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="514291367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_gone.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_gone_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="554233079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Select01.wav</ShortName>
+					<CachePath>SFX/UI_Select01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="583050396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_grass-001.wav</ShortName>
+					<CachePath>SFX/pc_fs_grass-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="588585310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral04.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral04_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="592104885" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_full.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_full_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="618748752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_concrete-003.wav</ShortName>
+					<CachePath>SFX/pc_fs_concrete-003_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="621022802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_linoleum-003.wav</ShortName>
+					<CachePath>SFX/pc_fs_linoleum-003_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="639797184" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_themec.wav</ShortName>
 					<CachePath>SFX/ui_mx_themec_239921B3.wem</CachePath>
+				</File>
+				<File Id="666815364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_approve02.wav</ShortName>
+					<CachePath>SFX/npc_margaret_approve02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="668295172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Select03.wav</ShortName>
+					<CachePath>SFX/UI_Select03_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="671643261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_hardwood-002.wav</ShortName>
+					<CachePath>SFX/pc_fs_hardwood-002_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="676248066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_concrete-001.wav</ShortName>
+					<CachePath>SFX/pc_fs_concrete-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="683873016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_neutral01.wav</ShortName>
+					<CachePath>SFX/npc_margaret_neutral01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="684436251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_approve01.wav</ShortName>
+					<CachePath>SFX/npc_billy_approve01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="735636949" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_neutral03.wav</ShortName>
+					<CachePath>SFX/npc_almiller_neutral03_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="750478494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_carpet-002.wav</ShortName>
+					<CachePath>SFX/pc_fs_carpet-002_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="751266271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_neutral01.wav</ShortName>
+					<CachePath>SFX/npc_almiller_neutral01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="766323330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_grass-004.wav</ShortName>
+					<CachePath>SFX/pc_fs_grass-004_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="774235333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral03.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral03_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="783234087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_carpet-001.wav</ShortName>
+					<CachePath>SFX/pc_fs_carpet-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="801560478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_neutral03.wav</ShortName>
+					<CachePath>SFX/npc_billy_neutral03_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="812537128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_dale_neutral02.wav</ShortName>
+					<CachePath>SFX/pc_dale_neutral02_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="813810497" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_gamecomplete.wav</ShortName>
 					<CachePath>SFX/ui_mx_gamecomplete_239921B3.wem</CachePath>
 				</File>
+				<File Id="815406233" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_linoleum-001.wav</ShortName>
+					<CachePath>SFX/pc_fs_linoleum-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="835221907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_margaret_neutral03.wav</ShortName>
+					<CachePath>SFX/npc_margaret_neutral03_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="869934605" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_carpet-004.wav</ShortName>
+					<CachePath>SFX/pc_fs_carpet-004_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="872818341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_laughtrack_nearfull.wav</ShortName>
 					<CachePath>SFX/ui_laughtrack_nearfull_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="910401603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_linoleum-004.wav</ShortName>
+					<CachePath>SFX/pc_fs_linoleum-004_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="947664754" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_grass-003.wav</ShortName>
+					<CachePath>SFX/pc_fs_grass-003_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="967575227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_concrete-004.wav</ShortName>
+					<CachePath>SFX/pc_fs_concrete-004_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="982532950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_approve01.wav</ShortName>
+					<CachePath>SFX/npc_almiller_approve01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1021506927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_linoleum-005.wav</ShortName>
+					<CachePath>SFX/pc_fs_linoleum-005_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1031246990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_almiller_neutral02.wav</ShortName>
+					<CachePath>SFX/npc_almiller_neutral02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1038317689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>npc_billy_disapprove02.wav</ShortName>
+					<CachePath>SFX/npc_billy_disapprove02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1043408242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pc_fs_hardwood-005.wav</ShortName>
+					<CachePath>SFX/pc_fs_hardwood-005_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="1063839443" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_themed.wav</ShortName>
@@ -72,59 +296,209 @@
 			</Media>
 			<Events>
 				<Event Id="85412153" Name="Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3610183652" Name="CharacterSpeech" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="3610183652" Name="CharacterSpeech" DurationType="OneShot" DurationMin="1.4673705" DurationMax="3.1885648">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="3460511428"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="162474841"/>
+								<MediaRef Id="190622905"/>
+								<MediaRef Id="254702680"/>
+								<MediaRef Id="322510831"/>
+								<MediaRef Id="666815364"/>
+								<MediaRef Id="683873016"/>
+								<MediaRef Id="835221907"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="818946243"/>
-							<Children/>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="1619719889"/>
-							<Children/>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="746475195"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="210979877"/>
+								<MediaRef Id="248573548"/>
+								<MediaRef Id="350737742"/>
+								<MediaRef Id="488568406"/>
+								<MediaRef Id="684436251"/>
+								<MediaRef Id="801560478"/>
+								<MediaRef Id="1038317689"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="2732701073"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="177700746"/>
+								<MediaRef Id="202759321"/>
+								<MediaRef Id="500779584"/>
+								<MediaRef Id="735636949"/>
+								<MediaRef Id="751266271"/>
+								<MediaRef Id="982532950"/>
+								<MediaRef Id="1031246990"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="1825249057" Default="true"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="299370518"/>
+								<MediaRef Id="319809128"/>
+								<MediaRef Id="466412805"/>
+								<MediaRef Id="588585310"/>
+								<MediaRef Id="774235333"/>
+								<MediaRef Id="812537128"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="3460511428"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="162474841"/>
+								<MediaRef Id="190622905"/>
+								<MediaRef Id="254702680"/>
+								<MediaRef Id="322510831"/>
+								<MediaRef Id="666815364"/>
+								<MediaRef Id="683873016"/>
+								<MediaRef Id="835221907"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="818946243"/>
-							<Children/>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="1619719889"/>
-							<Children/>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="746475195"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="210979877"/>
+								<MediaRef Id="248573548"/>
+								<MediaRef Id="350737742"/>
+								<MediaRef Id="488568406"/>
+								<MediaRef Id="684436251"/>
+								<MediaRef Id="801560478"/>
+								<MediaRef Id="1038317689"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="2732701073"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="177700746"/>
+								<MediaRef Id="202759321"/>
+								<MediaRef Id="500779584"/>
+								<MediaRef Id="735636949"/>
+								<MediaRef Id="751266271"/>
+								<MediaRef Id="982532950"/>
+								<MediaRef Id="1031246990"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3747948696" Id="1825249057" Default="true"/>
-							<Children/>
+							<MediaRefs>
+								<MediaRef Id="299370518"/>
+								<MediaRef Id="319809128"/>
+								<MediaRef Id="466412805"/>
+								<MediaRef Id="588585310"/>
+								<MediaRef Id="774235333"/>
+								<MediaRef Id="812537128"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="907177173" Name="LaughTrack" DurationType="OneShot" DurationMin="2.7164166" DurationMax="4.6282706">
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="1.2832084" DurationMax="1.3411875">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3995207278"/>
+							<MediaRefs>
+								<MediaRef Id="248093457"/>
+								<MediaRef Id="621022802"/>
+								<MediaRef Id="815406233"/>
+								<MediaRef Id="910401603"/>
+								<MediaRef Id="1021506927"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="841620460"/>
+							<MediaRefs>
+								<MediaRef Id="343465781"/>
+								<MediaRef Id="360757635"/>
+								<MediaRef Id="618748752"/>
+								<MediaRef Id="676248066"/>
+								<MediaRef Id="967575227"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3598975185"/>
+							<MediaRefs>
+								<MediaRef Id="84895179"/>
+								<MediaRef Id="247432583"/>
+								<MediaRef Id="391672243"/>
+								<MediaRef Id="671643261"/>
+								<MediaRef Id="1043408242"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="203266722"/>
+								<MediaRef Id="457082571"/>
+								<MediaRef Id="583050396"/>
+								<MediaRef Id="766323330"/>
+								<MediaRef Id="947664754"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2412606308" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="51707345"/>
+								<MediaRef Id="300732567"/>
+								<MediaRef Id="750478494"/>
+								<MediaRef Id="783234087"/>
+								<MediaRef Id="869934605"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3995207278"/>
+							<MediaRefs>
+								<MediaRef Id="248093457"/>
+								<MediaRef Id="621022802"/>
+								<MediaRef Id="815406233"/>
+								<MediaRef Id="910401603"/>
+								<MediaRef Id="1021506927"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="841620460"/>
+							<MediaRefs>
+								<MediaRef Id="343465781"/>
+								<MediaRef Id="360757635"/>
+								<MediaRef Id="618748752"/>
+								<MediaRef Id="676248066"/>
+								<MediaRef Id="967575227"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3598975185"/>
+							<MediaRefs>
+								<MediaRef Id="84895179"/>
+								<MediaRef Id="247432583"/>
+								<MediaRef Id="391672243"/>
+								<MediaRef Id="671643261"/>
+								<MediaRef Id="1043408242"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="203266722"/>
+								<MediaRef Id="457082571"/>
+								<MediaRef Id="583050396"/>
+								<MediaRef Id="766323330"/>
+								<MediaRef Id="947664754"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2412606308" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="51707345"/>
+								<MediaRef Id="300732567"/>
+								<MediaRef Id="750478494"/>
+								<MediaRef Id="783234087"/>
+								<MediaRef Id="869934605"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="907177173" Name="LaughTrack" DurationType="OneShot" DurationMin="2.420052" DurationMax="5.195058">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2420739616" Id="3633416822"/>
@@ -231,11 +605,13 @@
 				<GameParameter Id="1577714322" Name="GameProgress"/>
 			</GameParameters>
 			<SwitchGroups>
-				<SwitchGroup Id="2032718168" Name="CharacterVoiceTone">
+				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
-						<Switch Id="670611050" Name="Neutral"/>
-						<Switch Id="1297835106" Name="Disapprove"/>
-						<Switch Id="1323806540" Name="Approve"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="3598975185" Name="Hardwood"/>
+						<Switch Id="3995207278" Name="Linoleum"/>
+						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2420739616" Name="LaughTrackState">
@@ -288,11 +664,13 @@
 						<Switch Id="3450058598" Name="UtilityRoom"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2032718168" Name="CharacterVoiceTone">
+				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
-						<Switch Id="670611050" Name="Neutral"/>
-						<Switch Id="1297835106" Name="Disapprove"/>
-						<Switch Id="1323806540" Name="Approve"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="3598975185" Name="Hardwood"/>
+						<Switch Id="3995207278" Name="Linoleum"/>
+						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2420739616" Name="LaughTrackState">
@@ -318,5 +696,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F072756B-34A4-6018-1F35-92EFA25CCE4E}</FileHash>
+	<FileHash>{E16CB248-5600-99AC-E949-A88B16454A46}</FileHash>
 </SoundBanksInfo>

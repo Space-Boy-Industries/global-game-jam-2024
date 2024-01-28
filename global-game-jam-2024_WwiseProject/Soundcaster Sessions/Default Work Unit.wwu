@@ -22,7 +22,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Approve" ID="{E87F54D3-4A9F-4D5B-8306-8C8F64EC60FA}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{2FB98AFC-AFE6-42DD-955B-3584B65CC95E}"/>
 						<CurrentSwitchRef Name="AlMiller" ID="{6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F}"/>
 						<CurrentSwitchRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
 					</CurrentSwitchList>

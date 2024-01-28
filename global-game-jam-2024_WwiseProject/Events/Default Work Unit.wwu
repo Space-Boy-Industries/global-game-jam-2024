@@ -11,14 +11,14 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CharacterSpeech" ID="{705DE512-E244-49EB-8324-A70104F8CF6B}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+									<ObjectRef Name="CharacterSpeech" ID="{F69460A4-D69F-4603-B04D-C2AD474E86A8}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{2EE4E04B-EC9C-47EA-A35E-729FBE4E6BCF}" ShortID="322758576">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CharacterSpeech" ID="{705DE512-E244-49EB-8324-A70104F8CF6B}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+									<ObjectRef Name="CharacterSpeech" ID="{F69460A4-D69F-4603-B04D-C2AD474E86A8}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -112,6 +112,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Footsteps" ID="{EF223D8D-D231-4552-B331-5B27E770890F}">
+					<ChildrenList>
+						<Action Name="" ID="{91E2CA96-3B0A-49D4-A594-832C68EDCB7F}" ShortID="250869154">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{54F9B1A3-01EB-41C0-9710-F58CD1F94516}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

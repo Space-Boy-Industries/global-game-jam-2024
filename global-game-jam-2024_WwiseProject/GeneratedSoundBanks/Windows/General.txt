@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	560299279	Stop_Theme			\Default Work Unit\Music\Stop_Theme	
 	907177173	LaughTrack			\Default Work Unit\LaughTrack	
 	2331873856	Play_AlMillerStinger			\Default Work Unit\Music\Play_AlMillerStinger	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2479442773	Play_Theme			\Default Work Unit\Music\Play_Theme	
 	2774129122	UI_Select			\Default Work Unit\UI_Select	
 	2882502644	UI_Cursor			\Default Work Unit\UI_Cursor	
@@ -12,14 +13,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	4226694603	Play_MargaretStinger			\Default Work Unit\Music\Play_MargaretStinger	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	2032718168	CharacterVoiceTone			\Default Work Unit\CharacterVoiceTone	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2420739616	LaughTrackState			\Default Work Unit\LaughTrackState	
 	3747948696	CharacterVoice			\Default Work Unit\CharacterVoice	
 
 Switch	ID	Name	Switch Group			Notes
-	670611050	Neutral	CharacterVoiceTone			
-	1297835106	Disapprove	CharacterVoiceTone			
-	1323806540	Approve	CharacterVoiceTone			
+	841620460	Concrete	Footsteps			
+	2412606308	Carpet	Footsteps			
+	3598975185	Hardwood	Footsteps			
+	3995207278	Linoleum	Footsteps			
+	4248645337	Grass	Footsteps			
 	685410452	Gone	LaughTrackState			
 	751093624	NearFull	LaughTrackState			
 	2510516222	Full	LaughTrackState			
@@ -37,17 +40,73 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	43949581	ui_mx_margaret	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_margaret_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_margaret\ui_mx_margaret		280345
+	51707345	pc_fs_carpet-003	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_carpet-003_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_carpet\pc_fs_carpet-003		8895
 	79962583	ui_laughtrack_sympathetic	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_sympathetic_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughSympathetic\ui_laughtrack_sympathetic		82701
+	84895179	pc_fs_hardwood-004	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_hardwood-004_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_hardwood\pc_fs_hardwood-004		9535
+	162474841	npc_margaret_neutral02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_neutral02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_neutral02		66487
+	177700746	npc_almiller_approve02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_approve02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_approve02		52127
+	190622905	npc_margaret_disapprove01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_disapprove01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_disapprove01		75865
 	194633189	ui_mx_billy	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_billy_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_billy\ui_mx_billy		271418
+	202759321	npc_almiller_disapprove01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_disapprove01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_disapprove01		51326
+	203266722	pc_fs_grass-002	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_grass-002_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_grass\pc_fs_grass-002		10026
+	210979877	npc_billy_disapprove01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_disapprove01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_disapprove01		38104
+	247432583	pc_fs_hardwood-001	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_hardwood-001_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_hardwood\pc_fs_hardwood-001		8123
+	248093457	pc_fs_linoleum-002	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_linoleum-002_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_linoleum\pc_fs_linoleum-002		10692
+	248573548	npc_billy_neutral01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_neutral01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_neutral01		39857
+	254702680	npc_margaret_approve01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_approve01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_approve01		58077
+	299370518	pc_dale_neutral06	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral06_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral06		59092
+	300732567	pc_fs_carpet-005	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_carpet-005_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_carpet\pc_fs_carpet-005		8820
+	302666020	UI_Confirm	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\UI_Confirm_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interface\Confirm\UI_Confirm		29139
+	319809128	pc_dale_neutral01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral01		47079
+	322510831	npc_margaret_disapprove02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_disapprove02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_disapprove02		89048
+	343465781	pc_fs_concrete-005	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_concrete-005_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_concrete\pc_fs_concrete-005		9501
+	350737742	npc_billy_neutral02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_neutral02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_neutral02		43076
+	360757635	pc_fs_concrete-002	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_concrete-002_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_concrete\pc_fs_concrete-002		8554
 	365336090	ui_mx_theme	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_theme_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_theme\ui_mx_theme		1362225
+	390060414	UI_Select02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\UI_Select02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interface\Select\UI_Select02		15306
+	391672243	pc_fs_hardwood-003	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_hardwood-003_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_hardwood\pc_fs_hardwood-003		8770
 	426459993	ui_mx_almiller	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_almiller_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_almiller\ui_mx_almiller		348504
+	457082571	pc_fs_grass-005	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_grass-005_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_grass\pc_fs_grass-005		10227
+	466412805	pc_dale_neutral05	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral05_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral05		74165
 	474936770	ui_mx_themeb	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_themeb_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_themeb\ui_mx_themeb		1204996
+	488568406	npc_billy_approve02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_approve02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_approve02		44995
 	490293320	ui_laughtrack_neargone	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_neargone_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_neargone		187223
+	500779584	npc_almiller_disapprove02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_disapprove02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_disapprove02		67799
 	514291367	ui_laughtrack_gone	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_gone_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_gone		119185
+	554233079	UI_Select01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\UI_Select01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interface\Select\UI_Select01		17323
+	583050396	pc_fs_grass-001	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_grass-001_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_grass\pc_fs_grass-001		10794
+	588585310	pc_dale_neutral04	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral04_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral04		33484
 	592104885	ui_laughtrack_full	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_full_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_full		215373
+	618748752	pc_fs_concrete-003	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_concrete-003_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_concrete\pc_fs_concrete-003		10315
+	621022802	pc_fs_linoleum-003	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_linoleum-003_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_linoleum\pc_fs_linoleum-003		12182
 	639797184	ui_mx_themec	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_themec_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_themec\ui_mx_themec		940399
+	666815364	npc_margaret_approve02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_approve02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_approve02		61563
+	668295172	UI_Select03	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\UI_Select03_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Interface\Select\UI_Select03		13092
+	671643261	pc_fs_hardwood-002	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_hardwood-002_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_hardwood\pc_fs_hardwood-002		9246
+	676248066	pc_fs_concrete-001	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_concrete-001_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_concrete\pc_fs_concrete-001		9766
+	683873016	npc_margaret_neutral01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_neutral01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_neutral01		64878
+	684436251	npc_billy_approve01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_approve01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_approve01		32918
+	735636949	npc_almiller_neutral03	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_neutral03_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_neutral03		49507
+	750478494	pc_fs_carpet-002	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_carpet-002_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_carpet\pc_fs_carpet-002		7772
+	751266271	npc_almiller_neutral01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_neutral01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_neutral01		69098
+	766323330	pc_fs_grass-004	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_grass-004_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_grass\pc_fs_grass-004		11534
+	774235333	pc_dale_neutral03	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral03_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral03		43127
+	783234087	pc_fs_carpet-001	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_carpet-001_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_carpet\pc_fs_carpet-001		10299
+	801560478	npc_billy_neutral03	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_neutral03_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_neutral03		40655
+	812537128	pc_dale_neutral02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_dale_neutral02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Dale\pc_dale_neutral02		43561
 	813810497	ui_mx_gamecomplete	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_gamecomplete_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\ui_mx_gamecomplete\ui_mx_gamecomplete		1000849
+	815406233	pc_fs_linoleum-001	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_linoleum-001_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_linoleum\pc_fs_linoleum-001		11376
+	835221907	npc_margaret_neutral03	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_margaret_neutral03_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Margaret\npc_margaret_neutral03		56428
+	869934605	pc_fs_carpet-004	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_carpet-004_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_carpet\pc_fs_carpet-004		9116
 	872818341	ui_laughtrack_nearfull	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_nearfull_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_nearfull		155366
+	910401603	pc_fs_linoleum-004	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_linoleum-004_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_linoleum\pc_fs_linoleum-004		10303
+	947664754	pc_fs_grass-003	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_grass-003_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_grass\pc_fs_grass-003		12693
+	967575227	pc_fs_concrete-004	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_concrete-004_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_concrete\pc_fs_concrete-004		10556
+	982532950	npc_almiller_approve01	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_approve01_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_approve01		54694
+	1021506927	pc_fs_linoleum-005	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_linoleum-005_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_linoleum\pc_fs_linoleum-005		9965
+	1031246990	npc_almiller_neutral02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_almiller_neutral02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\AlMiller\npc_almiller_neutral02		53799
+	1038317689	npc_billy_disapprove02	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\npc_billy_disapprove02_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialog\CharacterSpeech\Billy\npc_billy_disapprove02		55710
+	1043408242	pc_fs_hardwood-005	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\pc_fs_hardwood-005_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\fs_hardwood\pc_fs_hardwood-005		9291
 	1063839443	ui_mx_themed	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_mx_themed_239921B3.wem		\Interactive Music Hierarchy\Default Work Unit\Theme\ui_mx_themed\ui_mx_themed		1324835
 	1072948247	ui_laughtrack_half	Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\.cache\Windows\SFX\ui_laughtrack_half_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LaughTrack\LaughTrack\ui_laughtrack_half		138478
 
