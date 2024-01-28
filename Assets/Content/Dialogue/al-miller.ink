@@ -18,7 +18,7 @@ VAR talked_to_al_phase_2 = false
 === STATEMACHINE ===
 {in_sitcom: 
     {gave_life_advice:
-        {has_coffee && built_gundam: 
+        {coffee_done && built_gundam: 
             -> PHASE2
         - else:
             -> BLOCKED1
@@ -56,7 +56,9 @@ DALE: Yeah, I'll see if I can make it. Have a good night Al. # close
 
 === PHASE1START ===
 ~ talked_to_al_phase_1 = true
-AL: Not Implemented # close
+AL: Well hey there ol' buddy ol' pal, Dale my guy, how's it going? Wanna have a beer with me?
+~ playSound("LaughTrack")
+DALE: Al, are you drunk again? What happened to going sober? # close
 -> STATEMACHINE
 
 === PHASE1REPEAT ===
