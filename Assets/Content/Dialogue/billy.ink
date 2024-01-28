@@ -5,7 +5,8 @@ EXTERNAL playAnimation(animationName, persist)
 
 VAR in_sitcom = false
 VAR cleaned_table = false
-VAR coffee_done = false
+VAR has_coffee = false
+VAR coffee_correct = false
 VAR did_homework = false
 VAR built_gundam = false
 VAR gave_life_advice = false
@@ -21,7 +22,7 @@ VAR talked_to_billy_phase_3 = false
     {did_homework:
         {cleaned_table:
             {built_gundam:
-                {coffee_done && gave_life_advice:
+                {coffee_correct && gave_life_advice:
                     -> PHASE3
                 - else:
                     -> BLOCKED2
@@ -64,15 +65,21 @@ DALE: Goodnight Billy. # close
 
 === PHASE1START ===
 ~ talked_to_billy_phase_1 = true
-BILLY: Not Implemented # close
+~ playSound(laughtrack)
+BILLY: Dad! I need help with my homework. # laughtrack
+DALE: Okay Billy. What's the homework?
+~ playSound(laughsympathetic)
+BILLY: Math! It's a multiple choice sheet. Please help. I want to play with my toys.
+DALE: Okay Billy. Let's do this. # close
 -> STATEMACHINE
 
 === PHASE1REPEAT ===
-BILLY: Not Implemented # close
+BILLY: I need help with my Math homework... # close
 -> STATEMACHINE
 
 === BLOCKED1 ===
-BILLY: Not Implemented # close
+BILLY: Dad...
+BILL: Can we talk later? You're supposed to help Mom clean off the table...   # close
 -> STATEMACHINE
 
 === PHASE2 ===
@@ -84,15 +91,19 @@ BILLY: Not Implemented # close
 
 === PHASE2START ===
 ~ talked_to_billy_phase_2 = true
-BILLY: Not Implemented # close
+DALE: Okay Billy! Are you ready to play? I got you something the other day. It's a GUNDAM!
+~ playSound(laughtrack)
+BILLY: A Gundam?  No Way! Let's build it together!
+DALE: Okay Billy! # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
-BILLY: Not Implemented # close
+BILLY: Dad... when can we build the gundam? You promised. # close
 -> STATEMACHINE
 
 === BLOCKED2 ===
-BILLY: Not Implemented # close
+BILLY: Dad!
+BILLY: The neighbor's being loud outside again! # close
 -> STATEMACHINE
 
 === PHASE3 ===
@@ -104,9 +115,22 @@ BILLY: Not Implemented # close
 
 === PHASE3START ===
 ~ talked_to_billy_phase_3 = true
-BILLY: Not Implemented # close
+BILLY: Hey Dad.
+DALE: Hey Billy. Let's talk.
+~ playSound(laughsympathetic)
+BILLY: Okay dad. What's up?
+DALE: What happened? I thought you got an A on your math test?
+~ playSound(laughtrack)
+BILLY: I don't know where you heard that! You know I'm not good at that stuff.
+DALE: But... I see. Okay Billy. I don't really know what is going on here but yesterday the whole world was different.
+DALE: Yesterday, you liked sports and you were good at math. Today, neither of those things are true.
+DALE: But that's okay. We'll figure it out together.
+~ playSound(laughsympathetic)
+DALE: You're young! Everything will be just fine.
+BILLY: Thanks Dad. For the homework. And for playing with me too. # close
 -> STATEMACHINE
 
 === PHASE3REPEAT ===
-BILLY: Not Implemented # close
+BILLY: Thanks for everything, Dad. Can you take me to school tomorrow? I want to show everyone my Gundam!
+DALE: Of course, Billy. # close
 -> STATEMACHINE
