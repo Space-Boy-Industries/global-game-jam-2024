@@ -3,7 +3,12 @@ guid: 9c61cf82ea172e248a67c214fd86a0ac
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dale Color
+    second: {fileID: 2100000, guid: d0b6629df16dcf14daf1b80b69bd1b84, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
