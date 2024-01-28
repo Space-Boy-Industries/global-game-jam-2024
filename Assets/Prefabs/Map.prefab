@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 854280610347585873}
   - component: {fileID: 6134471561613366934}
   - component: {fileID: 4625758259952502033}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: GrassMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7821766313795831163}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: AudioSwitches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 2496999892486961211}
   - component: {fileID: 8897954870950683950}
   - component: {fileID: 4395012549262818025}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: WoodMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1461,7 +1461,7 @@ GameObject:
   - component: {fileID: 8827166965493740551}
   - component: {fileID: 6050106479848964176}
   - component: {fileID: 5076648107496341458}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: LinoleumMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1640,7 @@ GameObject:
   - component: {fileID: 3310936269952494332}
   - component: {fileID: 8649215683405461871}
   - component: {fileID: 4269105943263770330}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: ConcreteMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3346,7 +3346,7 @@ GameObject:
   - component: {fileID: 3508619976704732473}
   - component: {fileID: 3303254557091124943}
   - component: {fileID: 1614592609668883069}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: GrassMaterial (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4068,7 +4068,7 @@ GameObject:
   - component: {fileID: 6751865281726180219}
   - component: {fileID: 6484071404664528035}
   - component: {fileID: 1610024137721732633}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: WoodMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4624,7 +4624,7 @@ GameObject:
   - component: {fileID: 4277578477655475180}
   - component: {fileID: 3165713124968465737}
   - component: {fileID: 5841288960694835505}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: ConcreteMaterial (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4908,7 +4908,7 @@ GameObject:
   - component: {fileID: 4038588426147984730}
   - component: {fileID: 861700922865561494}
   - component: {fileID: 7313107828141682178}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: ExteriorAmbRegion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5951,7 +5951,7 @@ GameObject:
   - component: {fileID: 4095856078211684940}
   - component: {fileID: 3966974455241957947}
   - component: {fileID: 7144090327595230518}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: WoodMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6778,7 +6778,7 @@ GameObject:
   - component: {fileID: 2433647836887250039}
   - component: {fileID: 7976197311591313437}
   - component: {fileID: 8461213384766301587}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: InteriorAmbRegion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7807,7 +7807,7 @@ GameObject:
   - component: {fileID: 4307223221266818385}
   - component: {fileID: 6714021568643745809}
   - component: {fileID: 6681342717091943846}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: ConcreteMaterial (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7880,7 +7880,7 @@ GameObject:
   - component: {fileID: 1225156439908026021}
   - component: {fileID: 4109695886180507375}
   - component: {fileID: 8264854637861715036}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: GrassMaterial (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8036,7 +8036,7 @@ GameObject:
   - component: {fileID: 4149071203269179379}
   - component: {fileID: 4940367914338498029}
   - component: {fileID: 8889641470316887974}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: LinoleumMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8215,7 +8215,7 @@ GameObject:
   - component: {fileID: 5094361465203884333}
   - component: {fileID: 1103262340453384352}
   - component: {fileID: 8337530933751804771}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: CarpetMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8659,7 +8659,7 @@ GameObject:
   - component: {fileID: 536005494298312677}
   - component: {fileID: 6713554108032316881}
   - component: {fileID: 378848671172912936}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: CarpetMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9642,7 +9642,7 @@ GameObject:
   - component: {fileID: 805452649942212448}
   - component: {fileID: 7865232016437319966}
   - component: {fileID: 4096906591987966578}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: CarpetMaterial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11559,7 +11559,7 @@ GameObject:
   - component: {fileID: 2437326637480522567}
   - component: {fileID: 8108569674127790315}
   - component: {fileID: 1113218940686037206}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: Carpet Material
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11844,7 +11844,7 @@ GameObject:
   - component: {fileID: 6581532216767272692}
   - component: {fileID: 7090505080657209152}
   - component: {fileID: 3131955057640998763}
-  m_Layer: 6
+  m_Layer: 2
   m_Name: GrassMaterial (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
