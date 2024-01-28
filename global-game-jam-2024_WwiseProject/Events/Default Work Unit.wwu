@@ -24,7 +24,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Ambience" ID="{FF58A1E3-D099-4DE4-AA4F-D3EC90193E5E}"/>
+				<Event Name="Ambience" ID="{FF58A1E3-D099-4DE4-AA4F-D3EC90193E5E}">
+					<ChildrenList>
+						<Action Name="" ID="{666A30A8-57B1-416F-92C5-03D81520B501}" ShortID="96141717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbienceBed" ID="{ECAEAE39-1035-43EA-949B-C671ACA4E016}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="LaughTrack" ID="{B326949F-0E12-48DF-8518-1F95D07CF914}">
 					<ChildrenList>
 						<Action Name="" ID="{AE200D47-822D-4075-9CB9-510DB1D9F12A}" ShortID="758334712">
@@ -36,11 +46,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="UI_Cursor" ID="{7F7DDFB7-AEF1-4F8C-B7FD-B627E42A2F9A}"/>
-				<Event Name="UI_Select" ID="{C23708AC-C589-402D-82F4-76EB29587F71}"/>
+				<Event Name="UICursor" ID="{7F7DDFB7-AEF1-4F8C-B7FD-B627E42A2F9A}">
+					<ChildrenList>
+						<Action Name="" ID="{BE74FC29-FDC7-48BA-9228-B5A6AB4A95E3}" ShortID="626451550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cursor" ID="{61D3DE74-EB91-422B-82B9-E436018AF789}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UISelect" ID="{C23708AC-C589-402D-82F4-76EB29587F71}">
+					<ChildrenList>
+						<Action Name="" ID="{BDFB9530-6574-48A5-AC3C-9D573BB8E5B0}" ShortID="1052627545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Select" ID="{0B900B68-5CB2-47E1-9F9F-C0E6CAEC8AD7}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Folder Name="Music" ID="{CE588620-FCFA-459D-82DC-49B938CA3036}" ShortID="745239755">
 					<ChildrenList>
-						<Event Name="Play_Theme" ID="{B96A3803-88DC-47A9-9C26-322D6B318569}">
+						<Event Name="PlayTheme" ID="{B96A3803-88DC-47A9-9C26-322D6B318569}">
 							<ChildrenList>
 								<Action Name="" ID="{7716DA6F-8F70-4165-B5DF-8811210BBCF6}" ShortID="169868314">
 									<ReferenceList>
@@ -51,7 +81,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Theme" ID="{6400AB45-E483-4297-B82B-F8D506F9E03F}">
+						<Event Name="StopTheme" ID="{6400AB45-E483-4297-B82B-F8D506F9E03F}">
 							<ChildrenList>
 								<Action Name="" ID="{8A027D3F-5EEC-4AA9-8693-29A83E0740CB}" ShortID="192242859">
 									<PropertyList>
@@ -66,7 +96,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_MargaretStinger" ID="{3913A6C5-788E-49CE-A11C-F6F9C07E193A}">
+						<Event Name="PlayMargaretStinger" ID="{3913A6C5-788E-49CE-A11C-F6F9C07E193A}">
 							<ChildrenList>
 								<Action Name="" ID="{F376BA9E-00A4-4E3F-81C5-AB57DC02AC7A}" ShortID="18914129">
 									<ReferenceList>
@@ -77,7 +107,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_BillyStinger" ID="{28CE4AE7-C99D-486A-8246-F0BBC3B79064}">
+						<Event Name="PlayBillyStinger" ID="{28CE4AE7-C99D-486A-8246-F0BBC3B79064}">
 							<ChildrenList>
 								<Action Name="" ID="{DC6962CB-273B-4C56-B7C7-7AE28DFC0390}" ShortID="923638498">
 									<ReferenceList>
@@ -88,7 +118,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_AlMillerStinger" ID="{632DF301-D204-4844-B80F-958759BFB8FD}">
+						<Event Name="PlayAlMillerStinger" ID="{632DF301-D204-4844-B80F-958759BFB8FD}">
 							<ChildrenList>
 								<Action Name="" ID="{5557ADAF-6CDD-4A9C-81B7-88E3F652FBB0}" ShortID="728535763">
 									<ReferenceList>
@@ -99,7 +129,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_GameComplete" ID="{78A5ECB6-5AB8-4556-B442-6C3575C6651F}">
+						<Event Name="PlayGameComplete" ID="{78A5ECB6-5AB8-4556-B442-6C3575C6651F}">
 							<ChildrenList>
 								<Action Name="" ID="{212826E6-4C94-4037-ADE1-404EB38A3C22}" ShortID="957517217">
 									<ReferenceList>
@@ -118,6 +148,135 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{54F9B1A3-01EB-41C0-9710-F58CD1F94516}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="CoffeeMinigame" ID="{0E4C3D92-55BD-4D9C-ACA0-19236A750F05}" ShortID="952495248">
+					<ChildrenList>
+						<Event Name="CoffeePour" ID="{11DECEA3-F360-48AF-93C6-12471ECF40B5}">
+							<ChildrenList>
+								<Action Name="" ID="{CA8AFC13-F15D-4674-845E-612119CA3E3C}" ShortID="464948487">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoffeePour" ID="{FC1FD20A-ED73-414A-A561-424F0DA3996B}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CoffeeAddMilk" ID="{67B89067-B721-4440-B79C-BD248445D561}">
+							<ChildrenList>
+								<Action Name="" ID="{81B89CC1-6B3E-48D3-8A8B-D3FF4B8AD58C}" ShortID="635492286">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoffeeAddMilk" ID="{DDEB1AF4-F1F9-420B-A40A-308E1132B6E9}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CoffeeAddSugar" ID="{39FD09AB-58AB-48B8-B962-D38364578E2B}">
+							<ChildrenList>
+								<Action Name="" ID="{D787958F-6E70-4CDB-9B36-CFDCBF5BA482}" ShortID="711113889">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoffeeAddSugar" ID="{F70066D8-05E2-4982-9C18-4FE5793F8261}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CoffeeServe" ID="{0A656F2D-54E3-4938-B848-3589AE191008}">
+							<ChildrenList>
+								<Action Name="" ID="{B7140670-1670-4568-BC0C-E51DEC7739F4}" ShortID="386552201">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoffeeServe" ID="{877C17A5-E6F6-46D9-8169-29EBF9DEFD41}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AmbEmitters" ID="{7997B0D6-5E97-48E8-9A4C-4B71A72ADD37}" ShortID="217508782">
+					<ChildrenList>
+						<Event Name="AmbDishwasher" ID="{F259DD4F-A868-4A5D-8602-EB9707DD68E7}">
+							<ChildrenList>
+								<Action Name="" ID="{D53C6092-A66A-46E0-9F20-E26242E8B3E9}" ShortID="154874154">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_dishwasher" ID="{58BF4CEE-205F-42B2-901A-E901FCA518EF}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AmbFridge" ID="{393AE6E2-D97A-4A9F-8FD7-B7646130BAAC}">
+							<ChildrenList>
+								<Action Name="" ID="{E9BD6786-A848-4760-A713-4C347BBC61E7}" ShortID="885882185">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_fridge" ID="{77FE54BE-4034-4E47-A888-93757B965D00}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ModelTrain" ID="{4B53C4F5-5CF9-499E-90C7-B374764AA62C}">
+							<ChildrenList>
+								<Action Name="" ID="{1FF62205-0520-4F26-8A62-2A514DDEAA0C}" ShortID="244694728">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_modeltrain" ID="{6DAE24C9-98C9-4048-8817-7E7F1D211DBA}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopModelTrain" ID="{FBCAECF8-0063-4924-80F1-C9D06E1D0AAA}">
+							<ChildrenList>
+								<Action Name="" ID="{F96E4B83-EC42-4482-82AD-C41238ABD111}" ShortID="829262841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_modeltrain" ID="{6DAE24C9-98C9-4048-8817-7E7F1D211DBA}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C37A0805-5B8A-4660-B8C9-3C9CC10C309A}" ShortID="609134485">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_modeltrainstop" ID="{46D3F3D2-07BC-4AF5-8E56-A59E7FFFC7B7}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="UIError" ID="{A3C0B39A-01F5-460E-93AF-C91FC03E66CD}">
+					<ChildrenList>
+						<Action Name="" ID="{E98DB93D-4517-401C-97BE-2157CCB39641}" ShortID="218708821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error" ID="{496604A5-A27D-4285-AA57-747DF0FE5484}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="kneeslap" ID="{D7C5213F-BCEE-4AF2-898C-4315865A0603}">
+					<ChildrenList>
+						<Action Name="" ID="{AB464BA3-7F39-49F1-9827-42843F66EB30}" ShortID="356736434">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kneeslap" ID="{256B7178-06BF-4CC7-B64B-3F0FEF5B4F65}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

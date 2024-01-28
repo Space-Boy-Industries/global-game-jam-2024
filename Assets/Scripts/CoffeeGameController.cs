@@ -41,6 +41,10 @@ public class CoffeeGameController : MonoBehaviour
 
     public void StartMinigame()
     {
+        if ((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("has_coffee", false)) {
+            return;
+        }
+
         GlobalStateSystem.Instance.SetFlag("has_coffee", false);
         foreach (var obj in CoffeeGameObjects)
         {

@@ -9,10 +9,18 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{8B4CBADD-A0C4-4360-FEE4-C672C9767D35}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{191CE77B-C5A2-50C0-2D30-315BBDE2330E}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="9232634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_bed_interior.wav</ShortName>
+					<CachePath>SFX/amb_bed_interior_239921B3.wem</CachePath>
+				</File>
+				<File Id="26069217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_serve01.wav</ShortName>
+					<CachePath>SFX/coffee_serve01_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="43949581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_margaret.wav</ShortName>
 					<CachePath>SFX/ui_mx_margaret_239921B3.wem</CachePath>
@@ -28,6 +36,10 @@
 				<File Id="84895179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_hardwood-004.wav</ShortName>
 					<CachePath>SFX/pc_fs_hardwood-004_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="132030022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_bed_exterior.wav</ShortName>
+					<CachePath>SFX/amb_bed_exterior_239921B3.wem</CachePath>
 				</File>
 				<File Id="162474841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_margaret_neutral02.wav</ShortName>
@@ -85,6 +97,10 @@
 					<ShortName>UI_Confirm.wav</ShortName>
 					<CachePath>SFX/UI_Confirm_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="306408158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_addmilk02.wav</ShortName>
+					<CachePath>SFX/coffee_addmilk02_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="319809128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_dale_neutral01.wav</ShortName>
 					<CachePath>SFX/pc_dale_neutral01_380E8DD5.wem</CachePath>
@@ -117,6 +133,10 @@
 					<ShortName>pc_fs_hardwood-003.wav</ShortName>
 					<CachePath>SFX/pc_fs_hardwood-003_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="415396162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_addmilk01.wav</ShortName>
+					<CachePath>SFX/coffee_addmilk01_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="426459993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_almiller.wav</ShortName>
 					<CachePath>SFX/ui_mx_almiller_239921B3.wem</CachePath>
@@ -132,6 +152,10 @@
 				<File Id="474936770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_mx_themeb.wav</ShortName>
 					<CachePath>SFX/ui_mx_themeb_239921B3.wem</CachePath>
+				</File>
+				<File Id="484785830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>kneeslap.wav</ShortName>
+					<CachePath>SFX/kneeslap_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="488568406" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_billy_approve02.wav</ShortName>
@@ -156,6 +180,10 @@
 				<File Id="583050396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_grass-001.wav</ShortName>
 					<CachePath>SFX/pc_fs_grass-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="587294550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_emit_dishwasher.wav</ShortName>
+					<CachePath>SFX/amb_emit_dishwasher_239921B3.wem</CachePath>
 				</File>
 				<File Id="588585310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_dale_neutral04.wav</ShortName>
@@ -201,6 +229,14 @@
 					<ShortName>npc_billy_approve01.wav</ShortName>
 					<CachePath>SFX/npc_billy_approve01_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="689652132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_pour02.wav</ShortName>
+					<CachePath>SFX/coffee_pour02_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="723930902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_emit_fridge.wav</ShortName>
+					<CachePath>SFX/amb_emit_fridge_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="735636949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_almiller_neutral03.wav</ShortName>
 					<CachePath>SFX/npc_almiller_neutral03_380E8DD5.wem</CachePath>
@@ -213,6 +249,14 @@
 					<ShortName>npc_almiller_neutral01.wav</ShortName>
 					<CachePath>SFX/npc_almiller_neutral01_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="753470210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_addsugar01.wav</ShortName>
+					<CachePath>SFX/coffee_addsugar01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="759955103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_emit_modeltrain.wav</ShortName>
+					<CachePath>SFX/amb_emit_modeltrain_239921B3.wem</CachePath>
+				</File>
 				<File Id="766323330" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_grass-004.wav</ShortName>
 					<CachePath>SFX/pc_fs_grass-004_380E8DD5.wem</CachePath>
@@ -224,6 +268,10 @@
 				<File Id="783234087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_carpet-001.wav</ShortName>
 					<CachePath>SFX/pc_fs_carpet-001_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="792579052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_serve02.wav</ShortName>
+					<CachePath>SFX/coffee_serve02_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="801560478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_billy_neutral03.wav</ShortName>
@@ -257,9 +305,21 @@
 					<ShortName>pc_fs_linoleum-004.wav</ShortName>
 					<CachePath>SFX/pc_fs_linoleum-004_380E8DD5.wem</CachePath>
 				</File>
+				<File Id="918398882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Error.wav</ShortName>
+					<CachePath>SFX/UI_Error_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="930561500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_pour01.wav</ShortName>
+					<CachePath>SFX/coffee_pour01_380E8DD5.wem</CachePath>
+				</File>
 				<File Id="947664754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_grass-003.wav</ShortName>
 					<CachePath>SFX/pc_fs_grass-003_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="960644482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_emit_modeltrainstop.wav</ShortName>
+					<CachePath>SFX/amb_emit_modeltrainstop_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="967575227" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_concrete-004.wav</ShortName>
@@ -268,6 +328,10 @@
 				<File Id="982532950" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_almiller_approve01.wav</ShortName>
 					<CachePath>SFX/npc_almiller_approve01_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1016479793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coffee_addsugar02.wav</ShortName>
+					<CachePath>SFX/coffee_addsugar02_380E8DD5.wem</CachePath>
 				</File>
 				<File Id="1021506927" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pc_fs_linoleum-005.wav</ShortName>
@@ -295,7 +359,44 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="85412153" Name="Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="492709867" Name="AmbDishwasher" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="587294550"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="912635980" Name="AmbFridge" MaxAttenuation="100" DurationType="OneShot" DurationMin="6" DurationMax="6">
+					<MediaRefs>
+						<MediaRef Id="723930902"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="85412153" Name="Ambience" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2800954364" Id="2213992659"/>
+							<MediaRefs>
+								<MediaRef Id="132030022"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2800954364" Id="1132214669" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="9232634"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2800954364" Id="2213992659"/>
+							<MediaRefs>
+								<MediaRef Id="132030022"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2800954364" Id="1132214669" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="9232634"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3610183652" Name="CharacterSpeech" DurationType="OneShot" DurationMin="1.4673705" DurationMax="3.1885648">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -394,7 +495,31 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="1.2832084" DurationMax="1.3411875">
+				<Event Id="2108844903" Name="CoffeeAddMilk" DurationType="OneShot" DurationMin="1.336348" DurationMax="1.7958925">
+					<MediaRefs>
+						<MediaRef Id="306408158"/>
+						<MediaRef Id="415396162"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3056163180" Name="CoffeeAddSugar" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="753470210"/>
+						<MediaRef Id="1016479793"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2304158007" Name="CoffeePour" DurationType="OneShot" DurationMin="2.2544935" DurationMax="2.8404837">
+					<MediaRefs>
+						<MediaRef Id="689652132"/>
+						<MediaRef Id="930561500"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="748690246" Name="CoffeeServe" DurationType="OneShot" DurationMin="1.9703339" DurationMax="2.4824653">
+					<MediaRefs>
+						<MediaRef Id="26069217"/>
+						<MediaRef Id="792579052"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="1.1432086" DurationMax="1.505432">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3995207278"/>
@@ -497,6 +622,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="441242622" Name="kneeslap" DurationType="OneShot" DurationMin="0.29839584" DurationMax="0.29839584">
+					<MediaRefs>
+						<MediaRef Id="484785830"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="907177173" Name="LaughTrack" DurationType="OneShot" DurationMin="2.420052" DurationMax="5.195058">
 					<SwitchContainers>
@@ -562,27 +692,32 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2331873856" Name="Play_AlMillerStinger" DurationType="OneShot" DurationMin="7.3463945" DurationMax="7.3463945">
+				<Event Id="4293656322" Name="ModelTrain" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="759955103"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2753664387" Name="PlayAlMillerStinger" DurationType="OneShot" DurationMin="7.3463945" DurationMax="7.3463945">
 					<MediaRefs>
 						<MediaRef Id="426459993"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="549438392" Name="Play_BillyStinger" DurationType="OneShot" DurationMin="5.860317" DurationMax="5.860317">
+				<Event Id="2370389293" Name="PlayBillyStinger" DurationType="OneShot" DurationMin="5.860317" DurationMax="5.860317">
 					<MediaRefs>
 						<MediaRef Id="194633189"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4194000609" Name="Play_GameComplete" DurationType="OneShot" DurationMin="17.857052" DurationMax="17.857052">
+				<Event Id="1321344996" Name="PlayGameComplete" DurationType="OneShot" DurationMin="17.857052" DurationMax="17.857052">
 					<MediaRefs>
 						<MediaRef Id="813810497"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4226694603" Name="Play_MargaretStinger" DurationType="OneShot" DurationMin="5.860317" DurationMax="5.860317">
+				<Event Id="215920980" Name="PlayMargaretStinger" DurationType="OneShot" DurationMin="5.860317" DurationMax="5.860317">
 					<MediaRefs>
 						<MediaRef Id="43949581"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2479442773" Name="Play_Theme" DurationType="Infinite">
+				<Event Id="1110506798" Name="PlayTheme" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="365336090"/>
 						<MediaRef Id="474936770"/>
@@ -590,7 +725,13 @@
 						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="560299279" Name="Stop_Theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="2628123274" Name="StopModelTrain" MaxAttenuation="100" DurationType="OneShot" DurationMin="4" DurationMax="4">
+					<MediaRefs>
+						<MediaRef Id="759955103"/>
+						<MediaRef Id="960644482"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="881985048" Name="StopTheme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="365336090"/>
 						<MediaRef Id="474936770"/>
@@ -598,8 +739,23 @@
 						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2882502644" Name="UI_Cursor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2774129122" Name="UI_Select" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3936663813" Name="UICursor" DurationType="OneShot" DurationMin="0.20895287" DurationMax="0.30243334">
+					<MediaRefs>
+						<MediaRef Id="390060414"/>
+						<MediaRef Id="554233079"/>
+						<MediaRef Id="668295172"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1312131451" Name="UIError" DurationType="OneShot" DurationMin="0.5406042" DurationMax="0.5406042">
+					<MediaRefs>
+						<MediaRef Id="918398882"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1816659375" Name="UISelect" DurationType="OneShot" DurationMin="0.37698007" DurationMax="0.47496513">
+					<MediaRefs>
+						<MediaRef Id="302666020"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1577714322" Name="GameProgress"/>
@@ -622,6 +778,12 @@
 						<Switch Id="2510516222" Name="Full"/>
 						<Switch Id="2759656302" Name="NearGone"/>
 						<Switch Id="3633416822" Name="Half"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2800954364" Name="AmbArea">
+					<Switches>
+						<Switch Id="1132214669" Name="Interior"/>
+						<Switch Id="2213992659" Name="Exterior"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3747948696" Name="CharacterVoice">
@@ -652,18 +814,6 @@
 				<GameParameter Id="1577714322" Name="GameProgress"/>
 			</GameParameters>
 			<SwitchGroups>
-				<SwitchGroup Id="885864942" Name="AmbRoom">
-					<Switches>
-						<Switch Id="311707310" Name="Garage"/>
-						<Switch Id="378875106" Name="Den"/>
-						<Switch Id="1586158131" Name="Kitchen"/>
-						<Switch Id="2107887799" Name="BillysRoom"/>
-						<Switch Id="2157048949" Name="Porch"/>
-						<Switch Id="2262472791" Name="DiningRoom"/>
-						<Switch Id="2819021838" Name="MainBedroom"/>
-						<Switch Id="3450058598" Name="UtilityRoom"/>
-					</Switches>
-				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
 						<Switch Id="841620460" Name="Concrete"/>
@@ -683,6 +833,12 @@
 						<Switch Id="3633416822" Name="Half"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="2800954364" Name="AmbArea">
+					<Switches>
+						<Switch Id="1132214669" Name="Interior"/>
+						<Switch Id="2213992659" Name="Exterior"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3747948696" Name="CharacterVoice">
 					<Switches>
 						<Switch Id="746475195" Name="Watcher"/>
@@ -696,5 +852,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E16CB248-5600-99AC-E949-A88B16454A46}</FileHash>
+	<FileHash>{57B8B552-EE27-F49C-F001-A4822E3DB8D0}</FileHash>
 </SoundBanksInfo>

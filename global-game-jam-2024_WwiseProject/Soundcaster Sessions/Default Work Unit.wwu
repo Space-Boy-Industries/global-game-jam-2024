@@ -6,11 +6,11 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{7742A1BD-B0F1-40A9-810A-D4529AFE6537}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Theme" ID="{B96A3803-88DC-47A9-9C26-322D6B318569}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}"/>
+							<ObjectRef Name="ModelTrain" ID="{4B53C4F5-5CF9-499E-90C7-B374764AA62C}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Theme" ID="{6400AB45-E483-4297-B82B-F8D506F9E03F}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}"/>
+							<ObjectRef Name="StopModelTrain" ID="{FBCAECF8-0063-4924-80F1-C9D06E1D0AAA}" WorkUnitID="{2FF085AC-CB85-4C61-9158-6943D7A0700A}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
@@ -23,7 +23,8 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Carpet" ID="{2FB98AFC-AFE6-42DD-955B-3584B65CC95E}"/>
-						<CurrentSwitchRef Name="AlMiller" ID="{6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F}"/>
+						<CurrentSwitchRef Name="Exterior" ID="{00633A29-7201-4D85-A8C8-60B6BAED2A34}"/>
+						<CurrentSwitchRef Name="Dale" ID="{184736BD-063E-4B06-B610-F61998067E9C}"/>
 						<CurrentSwitchRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
