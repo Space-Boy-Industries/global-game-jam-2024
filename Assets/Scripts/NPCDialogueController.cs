@@ -30,7 +30,10 @@ public class NPCDialogueController : MonoBehaviour
         });
         
         story.BindExternalFunction("playSound", (string soundName) => throw new NotImplementedException());
-        story.BindExternalFunction("playAnimation", (string animationName, bool persist) => throw new NotImplementedException());
+        story.BindExternalFunction("playAnimation", (string character, string animationName) =>
+        {
+            CharacterAnimationSystem.Instance.PlayAnimation(character, animationName);
+        });
     }
 
     [ContextMenu("Start Dialogue")]
