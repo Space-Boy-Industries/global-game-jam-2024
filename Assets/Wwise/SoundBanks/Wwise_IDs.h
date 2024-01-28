@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID COFFEEPOUR = 2304158007U;
         static const AkUniqueID COFFEESERVE = 748690246U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID KNEESLAP = 441242622U;
         static const AkUniqueID LAUGHTRACK = 907177173U;
         static const AkUniqueID MODELTRAIN = 4293656322U;
         static const AkUniqueID PLAYALMILLERSTINGER = 2753664387U;

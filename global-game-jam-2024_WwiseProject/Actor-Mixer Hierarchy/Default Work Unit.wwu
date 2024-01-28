@@ -734,6 +734,28 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<Sound Name="kneeslap" ID="{256B7178-06BF-4CC7-B64B-3F0FEF5B4F65}" ShortID="943754026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="kneeslap" ID="{32158015-9C33-4514-BD72-CB3CA7436067}">
+									<Language>SFX</Language>
+									<AudioFile>kneeslap.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="484785830"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="kneeslap" ID="{32158015-9C33-4514-BD72-CB3CA7436067}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="NPCs" ID="{BC8BBCB5-804C-4DEE-B108-7E76FDC9A8E3}" ShortID="277011041">
@@ -749,6 +771,21 @@
 					</PropertyList>
 					<ChildrenList>
 						<ActorMixer Name="CoffeeMinigame" ID="{C7E660DE-C70F-4802-8ECC-C1C788FEAB9D}" ShortID="227696471">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7FEFA583-BAA0-4D7F-93CC-0C1A44A4711D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
@@ -767,6 +804,52 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="coffee_pour01" ID="{22EC2BCF-3503-4287-8DD1-983DD6C9FA16}" ShortID="820129903">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_pour01" ID="{AC4568EA-6F03-41AA-A75A-D04FE1735668}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_pour01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="930561500"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_pour01" ID="{AC4568EA-6F03-41AA-A75A-D04FE1735668}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="coffee_pour02" ID="{0B52A831-9E6F-4F92-B584-DD07107BF269}" ShortID="1025963554">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_pour02" ID="{E18C2909-A2BD-4B63-88D5-B7A1329C7E96}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_pour02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="689652132"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_pour02" ID="{E18C2909-A2BD-4B63-88D5-B7A1329C7E96}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="CoffeeAddMilk" ID="{DDEB1AF4-F1F9-420B-A40A-308E1132B6E9}" ShortID="355505641">
 									<ReferenceList>
@@ -777,6 +860,52 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="coffee_addmilk01" ID="{D707BE8B-8026-4C34-97AE-D96F97B2C5C4}" ShortID="340658793">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_addmilk01" ID="{C2E66468-8C2D-45FA-A882-EB76F311F455}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_addmilk01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415396162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_addmilk01" ID="{C2E66468-8C2D-45FA-A882-EB76F311F455}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="coffee_addmilk02" ID="{DCF8D256-E087-43B7-9A34-4B10CD08EE39}" ShortID="63685797">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_addmilk02" ID="{AB1367F5-545E-4976-8188-7DC41AFC260B}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_addmilk02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="306408158"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_addmilk02" ID="{AB1367F5-545E-4976-8188-7DC41AFC260B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="CoffeeAddSugar" ID="{F70066D8-05E2-4982-9C18-4FE5793F8261}" ShortID="204796832">
 									<ReferenceList>
@@ -787,6 +916,52 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="coffee_addsugar01" ID="{0134AA19-E1EB-4D57-A63B-B7B5FAC6A517}" ShortID="379656345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_addsugar01" ID="{0ECA3C7D-9204-4A8D-9126-224298CDD784}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_addsugar01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753470210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_addsugar01" ID="{0ECA3C7D-9204-4A8D-9126-224298CDD784}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="coffee_addsugar02" ID="{B31EBB00-EB49-42C5-BAE3-6B8FB86C5339}" ShortID="863930987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_addsugar02" ID="{6C218340-7E5B-4222-A62A-073F66AF4988}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_addsugar02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1016479793"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_addsugar02" ID="{6C218340-7E5B-4222-A62A-073F66AF4988}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="CoffeeServe" ID="{877C17A5-E6F6-46D9-8169-29EBF9DEFD41}" ShortID="116934079">
 									<ReferenceList>
@@ -797,6 +972,52 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="coffee_serve01" ID="{6C2B8E5B-58C3-46CB-8224-2DF5C4EC0A29}" ShortID="355224064">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_serve01" ID="{8279670F-2D68-4F64-B76A-78B6CD71B7F0}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_serve01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26069217"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_serve01" ID="{8279670F-2D68-4F64-B76A-78B6CD71B7F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="coffee_serve02" ID="{6F9EB844-D706-4AE4-9849-DC5534DFA57B}" ShortID="1007107366">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AAF1987-E0AF-41F5-907B-4FA30FD8AED6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="coffee_serve02" ID="{791AE334-C1E8-47DF-B43E-C61CD1401407}">
+													<Language>SFX</Language>
+													<AudioFile>coffee_serve02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="792579052"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="coffee_serve02" ID="{791AE334-C1E8-47DF-B43E-C61CD1401407}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
@@ -946,6 +1167,8 @@
 								</SwitchContainer>
 								<ActorMixer Name="Emitters" ID="{5333826D-E3B7-4F57-9DCD-2BD511B05037}" ShortID="39177330">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>10</Value>
@@ -953,6 +1176,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="KitchenAttenuation" ID="{6528522E-FE5E-4DA7-AD86-047039A571BE}" WorkUnitID="{2CC753F2-960F-43C1-95BB-9D66D6C2156D}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>
 										</Reference>

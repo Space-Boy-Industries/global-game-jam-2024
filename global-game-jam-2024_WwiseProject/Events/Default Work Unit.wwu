@@ -188,7 +188,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="CoffeeServe" ID="{0A656F2D-54E3-4938-B848-3589AE191008}"/>
+						<Event Name="CoffeeServe" ID="{0A656F2D-54E3-4938-B848-3589AE191008}">
+							<ChildrenList>
+								<Action Name="" ID="{B7140670-1670-4568-BC0C-E51DEC7739F4}" ShortID="386552201">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoffeeServe" ID="{877C17A5-E6F6-46D9-8169-29EBF9DEFD41}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="AmbEmitters" ID="{7997B0D6-5E97-48E8-9A4C-4B71A72ADD37}" ShortID="217508782">
@@ -204,7 +214,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="AmbFridge" ID="{393AE6E2-D97A-4A9F-8FD7-B7646130BAAC}"/>
+						<Event Name="AmbFridge" ID="{393AE6E2-D97A-4A9F-8FD7-B7646130BAAC}">
+							<ChildrenList>
+								<Action Name="" ID="{E9BD6786-A848-4760-A713-4C347BBC61E7}" ShortID="885882185">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_emit_fridge" ID="{77FE54BE-4034-4E47-A888-93757B965D00}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="ModelTrain" ID="{4B53C4F5-5CF9-499E-90C7-B374764AA62C}">
 							<ChildrenList>
 								<Action Name="" ID="{1FF62205-0520-4F26-8A62-2A514DDEAA0C}" ShortID="244694728">
@@ -246,6 +266,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Error" ID="{496604A5-A27D-4285-AA57-747DF0FE5484}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="kneeslap" ID="{D7C5213F-BCEE-4AF2-898C-4315865A0603}">
+					<ChildrenList>
+						<Action Name="" ID="{AB464BA3-7F39-49F1-9827-42843F66EB30}" ShortID="356736434">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kneeslap" ID="{256B7178-06BF-4CC7-B64B-3F0FEF5B4F65}" WorkUnitID="{71F82C17-833B-4599-9A72-A423C4D58691}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
