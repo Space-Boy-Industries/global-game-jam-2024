@@ -82,11 +82,11 @@ MARGARET: Okay, let me know when you're ready. # close
 === PHASE1START ===
 ~ talked_to_margaret_phase_1 = true
 MARGARET: Rise and shine, Dale! Today, we're cleaning the house. I've got plans!
-playSound("LaughTrack")
+~ playSound("LaughTrack")
 DALE: Uh, okay. You sure are chipper this morning.
 DALE: Huh? What in the world? Who's laughing?
 MARGARET: And we're starting with that model train set on the table!
-playSound("LaughTrack")
+~ playSound("LaughTrack")
 MARGARET: Or should I say, you're starting with it. I'm going to go make some coffee.
 DALE: What? You've never had a problem with my train set before.
 DALE: And where is that laughing coming from?! # close
@@ -94,7 +94,7 @@ DALE: And where is that laughing coming from?! # close
 
 === PHASE1REPEAT ===
 MARGARET: That dang train set is still on the table. How am I supposed to clean with that in the way?
-playSound("LaughTrack")
+~ playSound("LaughTrack")
 DALE: It's never been in your way before!
 DALE: Ugh, fine. I'll put it away. # close
 -> STATEMACHINE
@@ -123,7 +123,7 @@ MARGARET: I think Billy needed help with his homework. Can you go help him? #clo
     -> STATEMACHINE
 - else:
     MARGARET: Come on Dale, we've been married for 12 years and you still don't know how I like my coffee?
-    playSound("LaughTrack")
+    ~ playSound("LaughTrack")
     MARGARET: Milk and two spoonfuls of sugar. Now get to it, I can't be the only one staying busy! # close
     -> STATEMACHINE
 }
