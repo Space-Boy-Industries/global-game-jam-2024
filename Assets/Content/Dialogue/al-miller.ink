@@ -82,19 +82,42 @@ AL: Huh? STOP drinking?!
 ~ playAnimation("Dale","Dissapointed")
 ~ playSound("LaughTrack")
 AL: But I have to stay hydrated!
+~ playAnimation("Al","Drunk")
+~ playAnimation("Dale","No")
 DALE: Al...
-+ [Lose the booze, .]
++ [Lose the booze, man. You know you should.]
     -> GOOD3
-+ [I think you need another beer.]
++ [You're right. Get anotha' one!]
     -> BAD2
 
-
-=== PHASE1REPEAT ===
-AL: Not Implemented # close
+=== BAD2 ===
+~ playAnimation("AL","Yes")
+~ playSound("LaughTrack")
+AL: One step ahead of you buddy!
+~ playAnimation("AL","Drunk")
+~ playAnimation("DALE","Yes")
+DALE: Heck yeah! # close
 -> STATEMACHINE
 
+=== GOOD3 ===
+~ playAnimation("AL","Crossing Arms")
+AL: Man, you're such a party pooper, dawg!
+~ playAnimation("AL","Yes")
+~ setFlag("gave_life_advice", true)
+AL: But...you're right. I really should, huh? # close
+-> STATEMACHINE
+
+=== PHASE1REPEAT ===
+~ playAnimation("Al","Drunk")
+AL: Huh, Dale? Back so soon?
+-> PHASE1START
+
 === BLOCKED1 ===
-AL: Not Implemented # close
+~ playAnimation("Al","Dissapointed")
+AL: I need to think about this, Dale. 
+~ playAnimation("Al","Dissapointed")
+~ playAnimation("Dale","Yes")
+DALE: Take your time... # close
 -> STATEMACHINE
 
 === PHASE2 ===
@@ -106,7 +129,68 @@ AL: Not Implemented # close
 
 === PHASE2START ===
 ~ talked_to_al_phase_2 = true
-AL: Not Implemented # close
+~ playAnimation("Al","Pondering")
+AL: Say Dale, what's up with you today?
+~ playAnimation("Al","Dissapointed")
+~ playAnimation("DALE","Why")
+DALE: I've been hearing laugh tracks all day!
+~ playAnimation("Al","No")
+AL: Really? I don't hear anything.
+~ playAnimation("Al","IDLE 1")
+~ playAnimation("DALE","Converse1")
+DALE: Say something funny!
+~ playAnimation("Al","Yes")
+AL: Ok.
+~ playAnimation("Al","Converse 1")
+AL: What do people say when they're from Kansas?
+~ playAnimation("Al","IDLE 1")
+DALE: What?
+~ playAnimation("Al","Knee Slap")
+~ playAnimation("DALE","Dissapointed")
+~ playSound("LaughTrack")
+AL: They say, 'Hi! I'm from Kansas!'
+~ playAnimation("DALE","No")
+DALE: ...
+DALE: I just don't know what to do. Everyone is acting so weird.
+~ playAnimation("DALE","Pondering")
+~ playAnimation("Al","Pondering")
+AL: Have you ever thought you're just projecting your own delusions?
+~ playAnimation("Al","Pondering")
+~ playAnimation("DALE","Crossing Arms")
+DALE: What do you mean?
+~ playAnimation("Al","Converse 1")
+AL: Maybe you've been so stressed with work that you can no longer percieve the dimension of your own family.
+~ playAnimation("DALE","Pondering")
+DALE: Huh...
++ [I think you're right.]
+    -> GREAT2
++ [Nah, that's horse raddish!]
+    -> EVIL2
+
+=== GREAT2 ===
+~ playSound("LaughTrack")
+~ playAnimation("Al","Converse")
+AL: I know I'm right, bucko! You really haven't been yourself today.
+~ playAnimation("DALE","Yes")
+DALE: Thanks, Al.
++ [I should be more considerate of my family.]
+    -> GREAT3
++ [Let's go get drunk at the Casino!]
+    -> EVIL2
+
+== GREAT3 ==
+~ setFlag("talked_about_life", true)
+~ playAnimation("Al","Yes")
+AL: That you should, buddy... That you should. # close
+-> STATEMACHINE
+
+=== EVIL2 ===
+~ playSound("LaughTrack")
+~ playAnimation("Al","Dissapointed")
+AL: Oh, Dale!
+~ playAnimation("Al","Converse 1")
+AL: Maybe you should go think for a moment, don't you think?
+DALE: Whatever, AL. # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
