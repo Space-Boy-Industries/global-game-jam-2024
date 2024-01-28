@@ -13,13 +13,6 @@
 						<Switch Name="Watcher" ID="{9D354C96-41B9-4AF6-B4D8-9D78A5ACC964}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="CharacterVoiceTone" ID="{0E216909-3818-4283-ABE1-D375450CFBFA}">
-					<ChildrenList>
-						<Switch Name="Neutral" ID="{34D2E053-467B-469D-9850-27B815183D04}"/>
-						<Switch Name="Approve" ID="{E87F54D3-4A9F-4D5B-8306-8C8F64EC60FA}"/>
-						<Switch Name="Disapprove" ID="{9A0B3647-58C7-4BB4-8599-64D00B6E2E0A}"/>
-					</ChildrenList>
-				</SwitchGroup>
 				<SwitchGroup Name="AmbRoom" ID="{374E5B36-2DAC-4501-ADB3-399593F7B636}">
 					<ChildrenList>
 						<Switch Name="Kitchen" ID="{C954F37A-B0F0-43C9-9FAA-0F82C1977381}"/>
@@ -83,6 +76,15 @@
 							</PointList>
 						</Curve>
 					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Footsteps" ID="{28D3B14D-1194-4472-A007-62F86AA82CEA}">
+					<ChildrenList>
+						<Switch Name="Hardwood" ID="{EF26E0EE-3DD6-480F-9794-0F19A6D1FCD2}"/>
+						<Switch Name="Linoleum" ID="{89724C04-AE6F-4AC9-ACC9-9FE6D8E1A0A9}"/>
+						<Switch Name="Carpet" ID="{2FB98AFC-AFE6-42DD-955B-3584B65CC95E}"/>
+						<Switch Name="Grass" ID="{07CF15EF-2D4A-4358-A85E-D65BB1C0949F}"/>
+						<Switch Name="Concrete" ID="{8CA92F3F-C034-4AD6-9C83-E76CFA9BC149}"/>
+					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

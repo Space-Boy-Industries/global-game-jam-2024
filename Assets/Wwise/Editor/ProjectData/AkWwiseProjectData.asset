@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 2d7b86e66458f94682bab429b110c0ba
     GuidInternal: 
-    m_lastTime: -8584952240070604650
+    m_lastTime: -8584951997279296302
     List:
     - name: General
       guid: 7ddba7e08a98464785be5eaa96fc6b28
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ac85f02f85cb614c91586943d7a0700a
     GuidInternal: 
-    m_lastTime: -8584952233197893914
+    m_lastTime: -8584951997280710065
     List:
     - name: Ambience
       guid: e3a158ff99d0e44daa4fd3ec90193e5e
@@ -128,8 +128,25 @@ MonoBehaviour:
         guid: 76ec1309e2aaa7478f44a14959c27ed2
       Path: Events/Default Work Unit/CharacterSpeech
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 3.1885648
+      minDuration: 1.4673705
+    - name: Footsteps
+      guid: 8d3d22ef31d25245b3315b27e770890f
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac85f02f85cb614c91586943d7a0700a
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 8d3d22ef31d25245b3315b27e770890f
+      Path: Events/Default Work Unit/Footsteps
+      maxAttenuation: 0
+      maxDuration: 1.3411875
+      minDuration: 1.2832084
     - name: LaughTrack
       guid: 9f9426b3120edf4885181f95d07cf914
       id: 907177173
@@ -145,8 +162,8 @@ MonoBehaviour:
         guid: 9f9426b3120edf4885181f95d07cf914
       Path: Events/Default Work Unit/LaughTrack
       maxAttenuation: 0
-      maxDuration: 4.6282706
-      minDuration: 2.7164166
+      maxDuration: 5.195058
+      minDuration: 2.420052
     - name: Music
       guid: 208658cefafc9d4582dc49b938ca3036
       id: 3991942870
@@ -372,7 +389,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 7e764a7376deb747805702f852ef436d
     GuidInternal: 
-    m_lastTime: -8584952233197494396
+    m_lastTime: -8584951997279293720
     List:
     - name: AmbRoom
       guid: 365b4e37ac2d0145adb3399593f7b636
@@ -634,9 +651,9 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-    - name: CharacterVoiceTone
-      guid: 0969210e18388342abe1d375450cfbfa
-      id: 2032718168
+    - name: Footsteps
+      guid: 4db1d32894117244a00762f86aa82cea
+      id: 2385628198
       PathAndIcons:
       - ElementName: Switches
         ObjectType: 5
@@ -644,14 +661,14 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 7e764a7376deb747805702f852ef436d
-      - ElementName: CharacterVoiceTone
+      - ElementName: Footsteps
         ObjectType: 11
-        guid: 0969210e18388342abe1d375450cfbfa
-      Path: Switches/Default Work Unit/CharacterVoiceTone
+        guid: 4db1d32894117244a00762f86aa82cea
+      Path: Switches/Default Work Unit/Footsteps
       values:
-      - name: Approve
-        guid: d3547fe89f4a5b4d83068c8f64ec60fa
-        id: 1323806540
+      - name: Carpet
+        guid: fc8ab92fe6afdd42955b3584b65cc95e
+        id: 2412606308
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -659,15 +676,15 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: CharacterVoiceTone
+        - ElementName: Footsteps
           ObjectType: 11
-          guid: 0969210e18388342abe1d375450cfbfa
-        - ElementName: Approve
+          guid: 4db1d32894117244a00762f86aa82cea
+        - ElementName: Carpet
           ObjectType: 10
-          guid: d3547fe89f4a5b4d83068c8f64ec60fa
-      - name: Disapprove
-        guid: 47360b9ac758b44b859964d00b6e2e0a
-        id: 1297835106
+          guid: fc8ab92fe6afdd42955b3584b65cc95e
+      - name: Concrete
+        guid: 3f2fa98c34c0d64a9c83e76cfa9bc149
+        id: 841620460
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -675,15 +692,15 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: CharacterVoiceTone
+        - ElementName: Footsteps
           ObjectType: 11
-          guid: 0969210e18388342abe1d375450cfbfa
-        - ElementName: Disapprove
+          guid: 4db1d32894117244a00762f86aa82cea
+        - ElementName: Concrete
           ObjectType: 10
-          guid: 47360b9ac758b44b859964d00b6e2e0a
-      - name: Neutral
-        guid: 53e0d2347b469d46985027b815183d04
-        id: 670611050
+          guid: 3f2fa98c34c0d64a9c83e76cfa9bc149
+      - name: Grass
+        guid: ef15cf074a2d5843a85ed65bb1c0949f
+        id: 4248645337
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -691,12 +708,44 @@ MonoBehaviour:
         - ElementName: Default Work Unit
           ObjectType: 12
           guid: 7e764a7376deb747805702f852ef436d
-        - ElementName: CharacterVoiceTone
+        - ElementName: Footsteps
           ObjectType: 11
-          guid: 0969210e18388342abe1d375450cfbfa
-        - ElementName: Neutral
+          guid: 4db1d32894117244a00762f86aa82cea
+        - ElementName: Grass
           ObjectType: 10
-          guid: 53e0d2347b469d46985027b815183d04
+          guid: ef15cf074a2d5843a85ed65bb1c0949f
+      - name: Hardwood
+        guid: eee026efd63d0f4897940f19a6d1fcd2
+        id: 3598975185
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 4db1d32894117244a00762f86aa82cea
+        - ElementName: Hardwood
+          ObjectType: 10
+          guid: eee026efd63d0f4897940f19a6d1fcd2
+      - name: Linoleum
+        guid: 044c72896faec94aacc99fe6d8e1a0a9
+        id: 3995207278
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7e764a7376deb747805702f852ef436d
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 4db1d32894117244a00762f86aa82cea
+        - ElementName: Linoleum
+          ObjectType: 10
+          guid: 044c72896faec94aacc99fe6d8e1a0a9
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
