@@ -147,9 +147,9 @@ MARGARET: Honey - I thought you were going to play with Billy? And talk to Al ab
 
 === PHASE3 ===
 {talked_to_margaret_phase_3:
-    -> PHASE1REPEAT
+    -> PHASE3REPEAT
 - else:
-    -> PHASE1START
+    -> PHASE3START
 }
 
 === PHASE3START ===
