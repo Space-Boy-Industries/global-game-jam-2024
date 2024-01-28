@@ -1,6 +1,8 @@
 using System;
+using AK.Wwise;
 using Ink.Runtime;
 using UnityEngine;
+using Event = AK.Wwise.Event;
 
 public class NPCDialogueController : MonoBehaviour
 {

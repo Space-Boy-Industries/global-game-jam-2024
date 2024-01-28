@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa01dbe1c055043fca9de9f3f72ec493, type: 3}
+  m_Name: 6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F
+  m_EditorClassIdentifier: 
+  objectName: AlMiller
+  id: 2732701073
+  guid: 6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: a82ad8ba98d3f4c348d4bc7b6a093ee7,
+    type: 2}

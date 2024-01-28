@@ -856,6 +856,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Al
       objectReference: {fileID: 0}
+    - target: {fileID: 6106406575513723376, guid: 0e56e27cf8d78474fbc863ea56609f71,
+        type: 3}
+      propertyPath: dialogueEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0351fcc4f2d58457f878dc61293e1c67,
+        type: 2}
+    - target: {fileID: 6106406575513723376, guid: 0e56e27cf8d78474fbc863ea56609f71,
+        type: 3}
+      propertyPath: dialogueSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 98e46204749f34c828e4354222be12e5,
+        type: 2}
     - target: {fileID: 7459742146819568543, guid: 0e56e27cf8d78474fbc863ea56609f71,
         type: 3}
       propertyPath: m_LocalPosition.x
