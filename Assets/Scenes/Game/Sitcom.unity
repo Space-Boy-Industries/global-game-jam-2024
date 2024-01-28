@@ -699,7 +699,7 @@ PrefabInstance:
     - target: {fileID: 1168732016601329497, guid: 1d34e4abf6db84ec8b673135fcdf4d5b,
         type: 3}
       propertyPath: m_Name
-      value: Marg
+      value: Margaret
       objectReference: {fileID: 0}
     - target: {fileID: 9115548714585723571, guid: 1d34e4abf6db84ec8b673135fcdf4d5b,
         type: 3}
