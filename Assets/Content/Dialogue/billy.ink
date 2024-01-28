@@ -154,8 +154,10 @@ BILLY: Can we talk later? You're supposed to help Mom clean off the table...   #
 ~ talked_to_billy_phase_2 = true
 DALE: Okay Billy! Are you ready to play? I got you something the other day. It's a GUNDAM!
 ~ playSound("LaughTrack")
-BILLY: A Gundam?  No Way! Let's build it together!
-DALE: Okay Billy! # close
+BILLY: A Gundam?  No way! Let's build it together!
+DALE: Okay Billy!
+~ setFlag("built_gundam", true)
+(Gundam building cutscene happen) # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===

@@ -125,9 +125,9 @@ DALE: Take your time... # close
 
 === PHASE2 ===
 {talked_to_al_phase_2:
-    -> PHASE1REPEAT
+    -> PHASE2REPEAT
 - else:
-    -> PHASE1START
+    -> PHASE2START
 }
 
 === PHASE2START ===
@@ -193,7 +193,7 @@ AL: That you should, buddy... That you should. # close
 AL: Oh, Dale!
 ~ playAnimation("Al","Converse 1")
 AL: Maybe you should go think for a moment, don't you think?
-DALE: Whatever, AL. # close
+DALE: Whatever, Al. # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
