@@ -145,9 +145,9 @@ BILLY: Can we talk later? You're supposed to help Mom clean off the table...   #
 
 === PHASE2 ===
 {talked_to_billy_phase_2:
-    -> PHASE1REPEAT
+    -> PHASE2REPEAT
 - else:
-    -> PHASE1START
+    -> PHASE2START
 }
 
 === PHASE2START ===
@@ -169,9 +169,9 @@ BILLY: The neighbor's being loud outside again! # close
 
 === PHASE3 ===
 {talked_to_billy_phase_3:
-    -> PHASE1REPEAT
+    -> PHASE3REPEAT
 - else:
-    -> PHASE1START
+    -> PHASE3START
 }
 
 === PHASE3START ===
