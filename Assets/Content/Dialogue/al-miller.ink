@@ -55,11 +55,39 @@ DALE: Yeah, I'll see if I can make it. Have a good night Al. # close
 }
 
 === PHASE1START ===
+~ playAnimation("Al","Drunk")
 ~ talked_to_al_phase_1 = true
 AL: Well hey there ol' buddy ol' pal, Dale my guy, how's it going? Wanna have a beer with me?
 ~ playSound("LaughTrack")
-DALE: Al, are you drunk again? What happened to going sober? # close
--> STATEMACHINE
+~ playAnimation("Al","Drunk")
+~ playAnimation("Dale","No")
+DALE: Al, are you drunk again? What happened to going sober?
+~ playAnimation("Al","Pondering")
+AL: Sober?
+~ playAnimation("Al","Pondering")
+~ playSound("LaughTrack")
+AL: Who's that?
+~ playAnimation("Al","Drunk")
+~ playAnimation("Dale","Dissapointed")
+DALE: Al...
++ [You need to stop drinking.]
+    -> GOOD2
++ [I think you need another beer.]
+    -> BAD2
+
+=== GOOD2 ===
+~ playAnimation("Al","Why")
+AL: Huh? STOP drinking?!
+~ playAnimation("Al","No")
+~ playAnimation("Dale","Dissapointed")
+~ playSound("LaughTrack")
+AL: But I have to stay hydrated!
+DALE: Al...
++ [Lose the booze, .]
+    -> GOOD3
++ [I think you need another beer.]
+    -> BAD2
+
 
 === PHASE1REPEAT ===
 AL: Not Implemented # close
