@@ -131,6 +131,7 @@ MARGARET: I think Billy needed help with his homework. Can you go help him? #clo
 === PHASE2START ===
 ~ talked_to_margaret_phase_2 = true
 ~ setFlag("asked_for_coffee", true)
+MARGARET: I need caffeine.
 MARGARET: Make me coffee pls. # close
 -> STATEMACHINE
 
