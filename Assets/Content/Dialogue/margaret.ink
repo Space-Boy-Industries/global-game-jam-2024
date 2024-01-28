@@ -118,6 +118,8 @@ MARGARET: I think Billy needed help with his homework. Can you go help him? #clo
 === GIVECOFFEE ===
 ~ setFlag("has_coffee", false)
 {coffee_correct:
+    ~ playSound("LaughSympathetic")
+    ~ playSound("PlayMargaretStinger")
     MARGARET: Just how I like it. Thank you dear. # close
     ~ setFlag("coffee_done", true)
     -> STATEMACHINE
@@ -132,15 +134,15 @@ MARGARET: I think Billy needed help with his homework. Can you go help him? #clo
 ~ talked_to_margaret_phase_2 = true
 ~ setFlag("asked_for_coffee", true)
 MARGARET: I need caffeine.
-MARGARET: Make me coffee pls. # close
+MARGARET: Dale, could you please make me a cup of coffee? # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
-MARGARET: Make me coffee pls. # close
+MARGARET: Make me coffee please. # close
 -> STATEMACHINE
 
 === BLOCKED2 ===
-MARGARET: Not Implemented # close
+MARGARET: Honey - I thought you were going to play with Billy? And talk to Al about something? We can talk later.# close
 -> STATEMACHINE
 
 === PHASE3 ===
@@ -152,9 +154,11 @@ MARGARET: Not Implemented # close
 
 === PHASE3START ===
 ~ talked_to_margaret_phase_3 = true
-MARGARET: Not Implemented # close
+MARGARET: Dale.
+~ playSound("LaughTrack")
+DALE: Margaret. What gives! I've had such a confusing day. It feels like I'm in a sitcom or something. # close
 -> STATEMACHINE
 
 === PHASE3REPEAT ===
-MARGARET: Not Implemented # close
+MARGARET: I love you, dear. Let's take Billy to the park tomorrow. # close
 -> STATEMACHINE
