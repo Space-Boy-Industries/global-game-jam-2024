@@ -65,10 +65,10 @@ DALE: Goodnight Billy. # close
 
 === PHASE1START ===
 ~ talked_to_billy_phase_1 = true
-~ playSound(laughtrack)
-BILLY: Dad! I need help with my homework. # laughtrack
+~ playSound("LaughTrack")
+BILLY: Dad! I need help with my homework.
 DALE: Okay Billy. What's the homework?
-~ playSound(laughsympathetic)
+~ playSound("LaughSympathetic")
 BILLY: Math! It's a multiple choice sheet. Please help. I want to play with my toys.
 DALE: Okay Billy. Let's do this. # close
 -> STATEMACHINE
@@ -92,7 +92,7 @@ BILL: Can we talk later? You're supposed to help Mom clean off the table...   # 
 === PHASE2START ===
 ~ talked_to_billy_phase_2 = true
 DALE: Okay Billy! Are you ready to play? I got you something the other day. It's a GUNDAM!
-~ playSound(laughtrack)
+~ playSound("LaughTrack")
 BILLY: A Gundam?  No Way! Let's build it together!
 DALE: Okay Billy! # close
 -> STATEMACHINE
@@ -117,15 +117,15 @@ BILLY: The neighbor's being loud outside again! # close
 ~ talked_to_billy_phase_3 = true
 BILLY: Hey Dad.
 DALE: Hey Billy. Let's talk.
-~ playSound(laughsympathetic)
+~ playSound("LaughSympathetic")
 BILLY: Okay dad. What's up?
 DALE: What happened? I thought you got an A on your math test?
-~ playSound(laughtrack)
+~ playSound("LaughTrack")
 BILLY: I don't know where you heard that! You know I'm not good at that stuff.
 DALE: But... I see. Okay Billy. I don't really know what is going on here but yesterday the whole world was different.
 DALE: Yesterday, you liked sports and you were good at math. Today, neither of those things are true.
 DALE: But that's okay. We'll figure it out together.
-~ playSound(laughsympathetic)
+~ playSound("LaughSympathetic")
 DALE: You're young! Everything will be just fine.
 BILLY: Thanks Dad. For the homework. And for playing with me too. # close
 -> STATEMACHINE
