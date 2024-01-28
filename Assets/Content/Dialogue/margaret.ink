@@ -1,4 +1,7 @@
-EXTERNAL setVariable(variableName, value)
+EXTERNAL setFlag(variableName, value)
+EXTERNAL loadScene(sceneName)
+EXTERNAL playSound(soundName)
+EXTERNAL playAnimation(animationName, persist)
 
 VAR in_sitcom = false
 VAR cleaned_table = false
@@ -18,22 +21,25 @@ VAR talked_about_life = false
 
 === PROLOGUE ====
 MARGARET: Goodnight Honey.  
-DALE: Goodnight sweetie. #close
+DALE: Goodnight sweetie. 
+~ setFlag("in_sitcom", true)
+~ loadScene("sitcom")
+# close
 -> STATEMACHINE
 
 === PHASE1 ===
-Billy: Not Implemented #close
+MARGARET: Not Implemented #close
 -> STATEMACHINE
 
 === BLOCKED ===
-Billy: Not Implemented #close
+MARGARET: Not Implemented #close
 -> STATEMACHINE
 
 === PHASE2 ===
-Billy: Not Implemented #close
+MARGARET: Not Implemented #close
 -> STATEMACHINE
 
 === ENDING ===
-Billy: Not Implemented #close
+MARGARET: Not Implemented #close
 -> STATEMACHINE
 

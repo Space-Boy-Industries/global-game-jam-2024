@@ -1,4 +1,7 @@
 EXTERNAL setVariable(variableName, value)
+EXTERNAL loadScene(sceneName)
+EXTERNAL playSound(soundName)
+EXTERNAL playAnimation(animationName, persist)
 
 VAR in_sitcom = false
 VAR cleaned_table = false
