@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{191CE77B-C5A2-50C0-2D30-315BBDE2330E}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{86CE3E63-5013-54FE-5919-61ABBC8C376F}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -235,7 +235,7 @@
 				</File>
 				<File Id="723930902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>amb_emit_fridge.wav</ShortName>
-					<CachePath>SFX/amb_emit_fridge_380E8DD5.wem</CachePath>
+					<CachePath>SFX/amb_emit_fridge_239921B3.wem</CachePath>
 				</File>
 				<File Id="735636949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>npc_almiller_neutral03.wav</ShortName>
@@ -359,12 +359,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="492709867" Name="AmbDishwasher" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="492709867" Name="AmbDishwasher" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="587294550"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="912635980" Name="AmbFridge" MaxAttenuation="100" DurationType="OneShot" DurationMin="6" DurationMax="6">
+				<Event Id="912635980" Name="AmbFridge" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="723930902"/>
 					</MediaRefs>
@@ -519,7 +519,7 @@
 						<MediaRef Id="792579052"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="1.1432086" DurationMax="1.505432">
+				<Event Id="2385628198" Name="Footsteps" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1432086" DurationMax="1.505432">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3995207278"/>
@@ -692,7 +692,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4293656322" Name="ModelTrain" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="4293656322" Name="ModelTrain" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="759955103"/>
 					</MediaRefs>
@@ -725,7 +725,7 @@
 						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2628123274" Name="StopModelTrain" MaxAttenuation="100" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="2628123274" Name="StopModelTrain" MaxAttenuation="5" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="759955103"/>
 						<MediaRef Id="960644482"/>
@@ -852,5 +852,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{139FB524-C089-D18A-F9CD-0166E8E88133}</FileHash>
+	<FileHash>{7BC2F4B1-8B48-3DF0-7859-3FB0A2E79FA6}</FileHash>
 </SoundBanksInfo>

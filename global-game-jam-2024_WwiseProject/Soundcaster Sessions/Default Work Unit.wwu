@@ -24,7 +24,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Carpet" ID="{2FB98AFC-AFE6-42DD-955B-3584B65CC95E}"/>
 						<CurrentSwitchRef Name="Exterior" ID="{00633A29-7201-4D85-A8C8-60B6BAED2A34}"/>
-						<CurrentSwitchRef Name="Dale" ID="{184736BD-063E-4B06-B610-F61998067E9C}"/>
+						<CurrentSwitchRef Name="AlMiller" ID="{6B65D2A4-A67C-4B6B-A70D-7C08C4B35C0F}"/>
 						<CurrentSwitchRef Name="Full" ID="{F906A283-497A-4D55-89B4-9CD3EC32207A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

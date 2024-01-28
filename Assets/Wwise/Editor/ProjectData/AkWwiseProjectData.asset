@@ -113,7 +113,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4fdd59f268a85d4a8602eb9707dd68e7
       Path: Events/Default Work Unit/AmbEmitters/AmbDishwasher
-      maxAttenuation: 100
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: AmbEmitters
@@ -150,7 +150,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e2e63a397ad99f4a8fd7b7646130baac
       Path: Events/Default Work Unit/AmbEmitters/AmbFridge
-      maxAttenuation: 100
+      maxAttenuation: 15
       maxDuration: 6
       minDuration: 6
     - name: Ambience
@@ -298,7 +298,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8d3d22ef31d25245b3315b27e770890f
       Path: Events/Default Work Unit/Footsteps
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: 1.505432
       minDuration: 1.1432086
     - name: kneeslap
@@ -352,7 +352,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f5c4534bf95c9e4990c7b374764aa62c
       Path: Events/Default Work Unit/AmbEmitters/ModelTrain
-      maxAttenuation: 100
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Music
@@ -489,7 +489,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f8eccafb6300244980f1c9d06e1d0aaa
       Path: Events/Default Work Unit/AmbEmitters/StopModelTrain
-      maxAttenuation: 100
+      maxAttenuation: 5
       maxDuration: 4
       minDuration: 4
     - name: StopTheme
@@ -993,7 +993,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584952879177899166
     List: []
-  ExpandedFileSystemItemIds: 020000000300000009000000
+  ExpandedFileSystemItemIds: 020000000300000004000000090000001d0000001e0000001f00000029000000
   ExpandedWaapiItemIds: 3700000038000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

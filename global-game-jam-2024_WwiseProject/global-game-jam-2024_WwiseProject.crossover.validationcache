@@ -29,10 +29,10 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024_WwiseIntegrationTemp\global-game-jam-2024_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1706318839" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1706405256" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1706464662" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\States\Default Work Unit.wwu" DateLow="1706323044" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1706406091" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1706398660" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1706464662" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1706464662" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Queries\Factory Queries.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1706318967" DateHigh="0"/>
@@ -44,7 +44,7 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1706395925" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\global-game-jam-2024_WwiseProject.wproj" DateLow="1706384326" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1706323531" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Events\Default Work Unit.wwu" DateLow="1706405256" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Events\Default Work Unit.wwu" DateLow="1706467497" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Effects\Factory Effects.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
@@ -52,6 +52,6 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1706377672" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1706318967" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1706406091" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1706467466" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\global-game-jam-2024\global-game-jam-2024_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1706467497" DateHigh="0"/>
 </ValidationCache>
