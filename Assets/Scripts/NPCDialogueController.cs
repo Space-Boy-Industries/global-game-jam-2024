@@ -38,6 +38,11 @@ public class NPCDialogueController : MonoBehaviour
         {
             CharacterAnimationSystem.Instance.PlayAnimation(character, animationName);
         });
+        
+        story.BindExternalFunction("debugFlag", () =>
+        {
+            GlobalStateSystem.Instance.DebugPrintState();
+        });
     }
 
     [ContextMenu("Start Dialogue")]
