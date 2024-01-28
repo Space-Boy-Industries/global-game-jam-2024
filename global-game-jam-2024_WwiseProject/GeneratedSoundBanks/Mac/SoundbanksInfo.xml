@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{FDEFEB0D-8974-91FA-1DA6-8E61F0F2A29D}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{EEC3BAD5-6323-DCE9-21EE-FA277E37F2D9}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -692,7 +692,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4293656322" Name="ModelTrain" MaxAttenuation="5" DurationType="Infinite">
+				<Event Id="4293656322" Name="ModelTrain" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="759955103"/>
 					</MediaRefs>
@@ -725,7 +725,7 @@
 						<MediaRef Id="1063839443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2628123274" Name="StopModelTrain" MaxAttenuation="5" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="2628123274" Name="StopModelTrain" MaxAttenuation="15" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="759955103"/>
 						<MediaRef Id="960644482"/>
@@ -844,5 +844,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81B97B9A-7E0F-B5A1-0659-AEF56CC0EE0F}</FileHash>
+	<FileHash>{8E169150-B257-97FE-0B7E-C31D1EB43566}</FileHash>
 </SoundBanksInfo>
