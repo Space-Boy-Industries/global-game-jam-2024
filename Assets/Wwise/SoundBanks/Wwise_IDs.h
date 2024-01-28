@@ -13,38 +13,41 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBDISHWASHER = 492709867U;
+        static const AkUniqueID AMBFRIDGE = 912635980U;
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID CHARACTERSPEECH = 3610183652U;
+        static const AkUniqueID COFFEEADDMILK = 2108844903U;
+        static const AkUniqueID COFFEEADDSUGAR = 3056163180U;
+        static const AkUniqueID COFFEEPOUR = 2304158007U;
+        static const AkUniqueID COFFEESERVE = 748690246U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID LAUGHTRACK = 907177173U;
-        static const AkUniqueID PLAY_ALMILLERSTINGER = 2331873856U;
-        static const AkUniqueID PLAY_BILLYSTINGER = 549438392U;
-        static const AkUniqueID PLAY_GAMECOMPLETE = 4194000609U;
-        static const AkUniqueID PLAY_MARGARETSTINGER = 4226694603U;
-        static const AkUniqueID PLAY_THEME = 2479442773U;
-        static const AkUniqueID STOP_THEME = 560299279U;
-        static const AkUniqueID UI_CURSOR = 2882502644U;
-        static const AkUniqueID UI_SELECT = 2774129122U;
+        static const AkUniqueID MODELTRAIN = 4293656322U;
+        static const AkUniqueID PLAYALMILLERSTINGER = 2753664387U;
+        static const AkUniqueID PLAYBILLYSTINGER = 2370389293U;
+        static const AkUniqueID PLAYGAMECOMPLETE = 1321344996U;
+        static const AkUniqueID PLAYMARGARETSTINGER = 215920980U;
+        static const AkUniqueID PLAYTHEME = 1110506798U;
+        static const AkUniqueID STOPMODELTRAIN = 2628123274U;
+        static const AkUniqueID STOPTHEME = 881985048U;
+        static const AkUniqueID UICURSOR = 3936663813U;
+        static const AkUniqueID UIERROR = 1312131451U;
+        static const AkUniqueID UISELECT = 1816659375U;
     } // namespace EVENTS
 
     namespace SWITCHES
     {
-        namespace AMBROOM
+        namespace AMBAREA
         {
-            static const AkUniqueID GROUP = 885864942U;
+            static const AkUniqueID GROUP = 2800954364U;
 
             namespace SWITCH
             {
-                static const AkUniqueID BILLYSROOM = 2107887799U;
-                static const AkUniqueID DEN = 378875106U;
-                static const AkUniqueID DININGROOM = 2262472791U;
-                static const AkUniqueID GARAGE = 311707310U;
-                static const AkUniqueID KITCHEN = 1586158131U;
-                static const AkUniqueID MAINBEDROOM = 2819021838U;
-                static const AkUniqueID PORCH = 2157048949U;
-                static const AkUniqueID UTILITYROOM = 3450058598U;
+                static const AkUniqueID EXTERIOR = 2213992659U;
+                static const AkUniqueID INTERIOR = 1132214669U;
             } // namespace SWITCH
-        } // namespace AMBROOM
+        } // namespace AMBAREA
 
         namespace CHARACTERVOICE
         {
