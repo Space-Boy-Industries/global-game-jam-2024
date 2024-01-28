@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa01dbe1c055043fca9de9f3f72ec493, type: 3}
+  m_Name: AF02120D-403C-4D1A-8314-72FD85426522
+  m_EditorClassIdentifier: 
+  objectName: Margaret
+  id: 3460511428
+  guid: AF02120D-403C-4D1A-8314-72FD85426522
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: a82ad8ba98d3f4c348d4bc7b6a093ee7,
+    type: 2}

@@ -1,4 +1,4 @@
-EXTERNAL setVariable(variableName, value)
+EXTERNAL setFlag(variableName, value)
 EXTERNAL loadScene(sceneName)
 EXTERNAL playSound(soundName)
 EXTERNAL playAnimation(animationName, persist)

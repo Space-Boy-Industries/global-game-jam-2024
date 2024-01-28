@@ -1,4 +1,4 @@
-EXTERNAL setVariable(variableName, value)
+EXTERNAL setFlag(variableName, value)
 EXTERNAL loadScene(sceneName)
 EXTERNAL playSound(soundName)
 EXTERNAL playAnimation(animationName, persist)
@@ -40,7 +40,7 @@ DALE: Maybe Al. Have a good night. # close
 === PHASE1 ===
 AL: Im Drunk
 + Life Advice
-    ~ setVariable("gave_life_advice", true)
+    ~ setFlag("gave_life_advice", true)
     AL: Thanks #close
 
 -> STATEMACHINE
