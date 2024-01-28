@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d057a26329c9bf858921ff5cec847fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RotateSpeed: 800
   ClickNavTargets:
     serializedVersion: 2
     m_Bits: 64

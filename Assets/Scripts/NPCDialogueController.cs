@@ -11,10 +11,6 @@ public class NPCDialogueController : MonoBehaviour
     {
         story = new Story(storyAsset.text);
     }
-    private void OnMouseDown()
-    {
-        StartDialogue();
-    }
 
     [ContextMenu("Start Dialogue")]
     public void StartDialogue()
