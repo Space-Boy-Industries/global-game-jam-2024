@@ -65,7 +65,6 @@ DALE: Goodnight Billy. # close
 
 === PHASE1START ===
 ~ talked_to_billy_phase_1 = true
-~ playSound("LaughTrack")
 BILLY: Dad! I need help with my homework.
 DALE: Okay Billy. What's the homework?
 ~ playSound("LaughSympathetic")
@@ -139,7 +138,7 @@ DALE: No problem, son. We can play with toys soon. #close
 
 === BLOCKED1 ===
 BILLY: Dad...
-BILL: Can we talk later? You're supposed to help Mom clean off the table...   # close
+BILLY: Can we talk later? You're supposed to help Mom clean off the table...   # close
 -> STATEMACHINE
 
 === PHASE2 ===
