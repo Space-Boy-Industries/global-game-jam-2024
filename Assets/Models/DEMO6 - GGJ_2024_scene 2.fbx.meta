@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 08fe702ebe680d445b0978540f4bcc82
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dale Color
+    second: {fileID: 2100000, guid: a6adf0e884bd1864a9da97713659b943, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Metal
+    second: {fileID: 2100000, guid: b35628bb73615924b808848121bb6716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Wood
+    second: {fileID: 2100000, guid: 5a89838b34d39594a8a924a2c7dc19a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Grass
+    second: {fileID: 2100000, guid: 2d00bceded2b01f40948f8952a22bedb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Roof Bottom
+    second: {fileID: 2100000, guid: 2e29d38318f0bb344bf899a926e16629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Roof Top
+    second: {fileID: 2100000, guid: 790d9133a34dad046a1364e102141f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Sidewalk
+    second: {fileID: 2100000, guid: a3c58d0358b34414184558f96ab7d506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Wall
+    second: {fileID: 2100000, guid: 0366eb11c0312074faf08a0d36f61d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Wall Bricks
+    second: {fileID: 2100000, guid: c69051a52b5702940b94fab896f3ba86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Bed Blanket
+    second: {fileID: 2100000, guid: 53c2d5c506e1e2a4fba1dc12488718a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Fridge
+    second: {fileID: 2100000, guid: 922a25c2247b20a46b9ad78dbbba9dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Kitchen Counter
+    second: {fileID: 2100000, guid: 92d7f9f8ac2ed974990e0ee22b000564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Kitchen Counter Drawers
+    second: {fileID: 2100000, guid: 81d5f79f733579042811d03fa6e1359b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Kitchen Countertop
+    second: {fileID: 2100000, guid: 9964b58ed2cfc8a4a83a4d96aa59d240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Kitchen Handle
+    second: {fileID: 2100000, guid: 627c2f7ced1a1994e84a3562d84f0747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Microwave
+    second: {fileID: 2100000, guid: 218257232fec8c14781654cc854443a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Microwave Inside
+    second: {fileID: 2100000, guid: 201925ef1bc21c44b91be6e6b66d20a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Microwave White
+    second: {fileID: 2100000, guid: e751b08b4212a06408c6fb46241c38a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Sink
+    second: {fileID: 2100000, guid: 5296f2ef720b21748af8f557529ff40c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Sink Knobs
+    second: {fileID: 2100000, guid: f7947c40823d73a44945e9f160b87754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Stove Metal
+    second: {fileID: 2100000, guid: 6b48a82d73f86a34bafe94a3f017c992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnature Table Legs
+    second: {fileID: 2100000, guid: 6e7cd6a474fb94f40b947a9abc669762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Carpet
+    second: {fileID: 2100000, guid: 7121b6b4326c82448968adf8b81014dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Leather
+    second: {fileID: 2100000, guid: 75f257d9b5d3e72478765c7e0d0a44a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Roof
+    second: {fileID: 2100000, guid: 02716263f970c264bb568026f51822eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Seam
+    second: {fileID: 2100000, guid: a78072dd6d3d9f341ba36d72a6a7d1ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Tiles
+    second: {fileID: 2100000, guid: c60fbbfa157209e4a84d71ecf5294605, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Wall
+    second: {fileID: 2100000, guid: 8d2ba8c2dfb7fc44da8bafbedd782f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior Wooden Floor
+    second: {fileID: 2100000, guid: 666a27d36cbd8b846a345c68fdbb8619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Bed Frame
+    second: {fileID: 2100000, guid: f323275677c49fe4693dd63ccbc4a195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Bed Lower Mattress
+    second: {fileID: 2100000, guid: 103d6c1c722274547b437c0ee64f8a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Bed Pillow
+    second: {fileID: 2100000, guid: 3a312aba71b97d74bb08456cf99446af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Bed Upper Mattress
+    second: {fileID: 2100000, guid: d042d9c23241e0045871f519c8ed14ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Cable
+    second: {fileID: 2100000, guid: 96c9da2a284eccd4ea0b2fc776e962fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Coffee Maker Black
+    second: {fileID: 2100000, guid: 27d9a0fe42f94d64682f7375328bcdf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Master Bed Blanket
+    second: {fileID: 2100000, guid: f7b5231132bb68c42b59b01536e99cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Milk Carton
+    second: {fileID: 2100000, guid: 3eafb47a23a325c4c9fd6114089cbdb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Small House
+    second: {fileID: 2100000, guid: 22a811f5d8b14a74aa8a0ed3e5baa4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Small House Roof
+    second: {fileID: 2100000, guid: c7a66d74bce9d4b4eb8bdbfc0e365bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Subwoofer
+    second: {fileID: 2100000, guid: bd5777fff97bed24cb918402771fe8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Sugar Jar
+    second: {fileID: 2100000, guid: 0bc6f37c6e885f840bfa984863f510c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Sugar Text
+    second: {fileID: 2100000, guid: ebab291e3fce99e4e8260cb73f82c976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items TV frame
+    second: {fileID: 2100000, guid: 547de4a16302fd24a82afd99f66a030c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items TV screen
+    second: {fileID: 2100000, guid: 800948db709bf5c4aaa9f132aa6c4fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items TV speaker
+    second: {fileID: 2100000, guid: b002b72a516a06b4f8a8c26cca6d06a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items TV speaker speaker part
+    second: {fileID: 2100000, guid: 5b286ce335a149f43a098ac6861e6df1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train
+    second: {fileID: 2100000, guid: 77cd00fac81d2dd488228b7596c5f892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Bed
+    second: {fileID: 2100000, guid: c83834c45473069479d8c8dca8b1011b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Black
+    second: {fileID: 2100000, guid: a8375e98f2298054788d27c1107ccfbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Line
+    second: {fileID: 2100000, guid: 7fdb791402cd1464da8bcbc50e42dc41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Metal
+    second: {fileID: 2100000, guid: 5edccf6cb9bd881478f4e92232ec78a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Surface
+    second: {fileID: 2100000, guid: 31267d8055418c84dbf3c4941b52fcb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Tunnel
+    second: {fileID: 2100000, guid: 9f4b534c3d5b4b94fb154b353a3b8dbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Items Train Wood
+    second: {fileID: 2100000, guid: 7aa2347a73d3f6344822055344354801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kurt
+    second: {fileID: 2100000, guid: d3672eeae119553469f8308cb2117f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 566f5438c9fb6ff4398f0faebd74fc34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 7f43f8eac02324e41a91cdfe96c3f668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Train Grass
+    second: {fileID: 2100000, guid: 255f4d0588c0be44eb70fe729da8203a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: items Coffee Maker White
+    second: {fileID: 2100000, guid: ba40d3552d9e79b48ba8ce38bf3ca9bf, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
