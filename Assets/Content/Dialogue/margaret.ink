@@ -118,10 +118,8 @@ MARGARET: I think Billy needed help with his homework. Can you go help him? #clo
 === GIVECOFFEE ===
 ~ setFlag("has_coffee", false)
 {coffee_correct:
-    ~ playSound("LaughSympathetic")
-    ~ playSound("PlayMargaretStinger")
-    MARGARET: Just how I like it. Thank you dear. # close
     ~ setFlag("coffee_done", true)
+    MARGARET: Just how I like it. Thank you dear. # close
     -> STATEMACHINE
 - else:
     MARGARET: Come on Dale, we've been married for 12 years and you still don't know how I like my coffee?

@@ -10,17 +10,17 @@ public class CoffeeGameController : MonoBehaviour
     public GameObject CoffeeDispenseObject;
     public CoffeeGameObject[] CoffeeGameObjects;
 
-    public bool IsMinigameActive { get; private set; }
+    public static bool IsMinigameActive { get; private set; }
 
     private Collider collider;
     private CinemachineVirtualCamera virtualCamera;
 
     // Minigame state vars
+    private bool canMakeCoffee;
     private bool coffeeDispensing;
     private bool coffeeDispensed;
     private bool milkAdded;
     private int sugarAdded;
-
 
     //Minigame Wwise Event Triggers
     public AK.Wwise.Event PourCoffeeSound;
@@ -39,6 +39,12 @@ public class CoffeeGameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        canMakeCoffee = (bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("asked_for_coffee", false)
+            && !((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("has_coffee", false))
+            && !((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("coffee_done", false));
+
+        Interactable.SetActive(canMakeCoffee);
+
         if (IsMinigameActive) {
 
             if (Input.GetButtonDown("Cancel")) {
@@ -49,10 +55,7 @@ public class CoffeeGameController : MonoBehaviour
 
     public void StartMinigame()
     {
-        if ((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("has_coffee", false)
-         || (bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("coffee_done", false)
-         || !((bool) GlobalStateSystem.Instance.GlobalState.GetValueOrDefault("asked_for_coffee", false))
-        )
+        if (!canMakeCoffee)
         {
             return;
         }
@@ -125,7 +128,7 @@ public class CoffeeGameController : MonoBehaviour
 
     public void AddMilk()
     {
-        if (coffeeDispensed) {
+        if (coffeeDispensed && !milkAdded) {
             milkAdded = true;
             //Wwise Event Trigger: CoffeeMilk
             AddMilkSound.Post(gameObject);
@@ -138,7 +141,7 @@ public class CoffeeGameController : MonoBehaviour
 
     public void AddSugar()
     {
-        if (coffeeDispensed) {
+        if (coffeeDispensed && sugarAdded <= 10) {
             sugarAdded++;
             //Wwise Event Trigger Add Sugar
             AddSugarSound.Post(gameObject);
@@ -154,7 +157,8 @@ public class CoffeeGameController : MonoBehaviour
         Debug.Log("Coffee dispensed: " + coffeeDispensed + ", milk added: " + milkAdded + ", sugar added: " + sugarAdded);
         if (coffeeDispensed) {
             GlobalStateSystem.Instance.SetFlag("has_coffee", true);
-            GlobalStateSystem.Instance.SetFlag("coffee_correct", coffeeDispensed && milkAdded && sugarAdded == 2);
+            var coffeeCorrect = coffeeDispensed && milkAdded && sugarAdded == 2;
+            GlobalStateSystem.Instance.SetFlag("coffee_correct", coffeeCorrect);
             //Wwise Event Trigger Serve Coffee
             ServeCoffeeSound.Post(gameObject);
             QuitMinigame();

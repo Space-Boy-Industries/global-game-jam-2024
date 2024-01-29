@@ -154,21 +154,7 @@ DALE: What?
 AL: They say, 'Hi! I'm from Kansas!'
 ~ playAnimation("DALE","No")
 DALE: ...
-DALE: I just don't know what to do. Everyone is acting so weird.
-~ playAnimation("DALE","Pondering")
-~ playAnimation("Al","Pondering")
-AL: Have you ever thought you're just projecting your own delusions?
-~ playAnimation("Al","Pondering")
-~ playAnimation("DALE","Crossing Arms")
-DALE: What do you mean?
-~ playAnimation("Al","Converse 1")
-AL: Maybe you've been so stressed with work that you can no longer percieve the dimension of your own family.
-~ playAnimation("DALE","Pondering")
-DALE: Huh...
-+ [I think you're right.]
-    -> GREAT2
-+ [Nah, that's horse raddish!]
-    -> EVIL2
+-> PHASE2REPEAT
 
 === GREAT2 ===
 ~ playSound("LaughTrack")
@@ -178,7 +164,7 @@ AL: I know I'm right, bucko! You really haven't been yourself today.
 DALE: Thanks, Al.
 + [I should be more considerate of my family.]
     -> GREAT3
-+ [Let's go get drunk at the Casino!]
++ [Let's go get drunk at the casino!]
     -> EVIL2
 
 == GREAT3 ==
@@ -197,5 +183,18 @@ DALE: Whatever, Al. # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===
-AL: Not Implemented # close
--> STATEMACHINE
+DALE: I just don't know what to do. Everyone is acting so weird.
+~ playAnimation("DALE","Pondering")
+~ playAnimation("Al","Pondering")
+AL: Have you ever thought you're just projecting your own delusions?
+~ playAnimation("Al","Pondering")
+~ playAnimation("DALE","Crossing Arms")
+DALE: What do you mean?
+~ playAnimation("Al","Converse 1")
+AL: Maybe you've been so stressed with work that you can no longer percieve the dimension of your own family.
+~ playAnimation("DALE","Pondering")
+DALE: Huh...
++ [I think you're right.]
+    -> GREAT2
++ [Nah, that's horseradish!]
+    -> EVIL2

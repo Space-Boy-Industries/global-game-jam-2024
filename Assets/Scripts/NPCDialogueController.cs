@@ -22,7 +22,7 @@ public class NPCDialogueController : MonoBehaviour
         
         story.BindExternalFunction("loadScene", (string sceneName) =>
         {
-            if (DialogueSystem.Instance.isOpen)
+            if (DialogueSystem.Instance.IsOpen)
             {
                 DialogueSystem.Instance.CloseDialogue();
             }
@@ -48,7 +48,10 @@ public class NPCDialogueController : MonoBehaviour
     [ContextMenu("Start Dialogue")]
     public void StartDialogue()
     {
-        DialogueSystem.Instance.SetStory(story);
-        DialogueSystem.Instance.OpenDialogue(true);
+        if (!DialogueSystem.Instance.IsOpen)
+        {
+            DialogueSystem.Instance.SetStory(story);
+            DialogueSystem.Instance.OpenDialogue(true);
+        }
     }
 }

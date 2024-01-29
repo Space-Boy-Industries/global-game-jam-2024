@@ -132,9 +132,9 @@ BILLY:  Last one! This one is just extra credit. What are the roots of the quadr
     -> HOMEWORKDONE
 
 === HOMEWORKDONE ===
-~ setFlag("did_homework", true)
 ~ playSound("LaughTrack")
 BILLY: Thanks Dad!! I just really don't understand all these numbers. I'm so silly.
+~ setFlag("did_homework", true)
 DALE: No problem, son. We can play with toys soon. #close
 -> STATEMACHINE
 
@@ -157,7 +157,8 @@ DALE: Okay Billy! Are you ready to play? I got you something the other day. It's
 BILLY: A Gundam?  No way! Let's build it together!
 DALE: Okay Billy!
 ~ setFlag("built_gundam", true)
-(Gundam building cutscene happen) # close
+(Gundam building cutscene happens)
+(Just pretend) # close
 -> STATEMACHINE
 
 === PHASE2REPEAT ===

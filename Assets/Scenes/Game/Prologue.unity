@@ -191,6 +191,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5241d983bb10a03a478eb65dd7471e, type: 3}
+--- !u!1 &547508557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6085513827741597036, guid: 8c5241d983bb10a03a478eb65dd7471e,
+    type: 3}
+  m_PrefabInstance: {fileID: 547508556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &713052250
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,6 +410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4832505798207493163, guid: 2beaef03d1478dca2a2b75be7faad942,
         type: 3}
+      propertyPath: m_VoxelSize
+      value: 0.06666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832505798207493163, guid: 2beaef03d1478dca2a2b75be7faad942,
+        type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: 06f9c65802b6117429250bca989ef193,
@@ -577,6 +588,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 587228876405602748, guid: 315ffdd0d695147d38cc1118eb7331cd,
+        type: 3}
+      propertyPath: PlayerModel
+      value: 
+      objectReference: {fileID: 547508557}
     - target: {fileID: 1212496634564618586, guid: 315ffdd0d695147d38cc1118eb7331cd,
         type: 3}
       propertyPath: m_LocalPosition.x

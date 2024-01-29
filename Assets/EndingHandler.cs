@@ -26,7 +26,7 @@ public class EndingHandler : MonoBehaviour
         yield return new WaitForSeconds(6.0f);
         endingTheme.Post(gameObject);
         yield return new WaitForSeconds(1.0f);
-        if (DialogueSystem.Instance.isOpen)
+        if (DialogueSystem.Instance.IsOpen)
         {
             DialogueSystem.Instance.CloseDialogue();
         }

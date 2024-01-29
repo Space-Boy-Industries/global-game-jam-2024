@@ -46,7 +46,7 @@ public class DialogueSystem : MonoBehaviour
     
     private Story story;
     private bool _isOpen;
-    public bool isOpen => _isOpen;
+    public bool IsOpen => _isOpen;
 
     private void Start()
     {

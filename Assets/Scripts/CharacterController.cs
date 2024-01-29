@@ -28,7 +28,7 @@ public class CharacterController : MonoBehaviour
         if (agent.pathStatus == NavMeshPathStatus.PathComplete
             && agent.remainingDistance <= agent.stoppingDistance
             && targetInteractable != null
-            && Vector3.Distance(targetInteractable.transform.position, transform.position) <= 3f
+            && Vector3.Distance(targetInteractable.transform.position, transform.position) <= 2.5f
         )
         {
             StartCoroutine(InteractWithTarget());
@@ -49,14 +49,12 @@ public class CharacterController : MonoBehaviour
 
         var blockedByIntro = GlobalStateSystem.Instance.GlobalState.ContainsKey("in_intro") 
                       && GlobalStateSystem.Instance.GlobalState["in_intro"].ToString().ToLower() == "true";
-        if (Input.GetButtonDown("Fire1") && DialogueSystem.Instance.isOpen == false && !blockedByIntro)
+        if (Input.GetButtonDown("Fire1") && DialogueSystem.Instance.IsOpen == false && !blockedByIntro)
         {
             // Get mouse position in world space
             var ray = camera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, 1000, ClickNavTargets))
             {
-                // Move to mouse position
-                StartCoroutine(SetNavTarget(hit.point));
 
                 if (hit.collider.gameObject.tag == "Interactable")
                 {
@@ -64,10 +62,22 @@ public class CharacterController : MonoBehaviour
                     // Set target interactable
                     var interactable = hit.collider.gameObject.GetComponentInChildren<Interactable>();
                     targetInteractable = interactable;
+                    // check if target interactable is within range
+                    if (Vector3.Distance(targetInteractable.transform.position, transform.position) <= 2.5f)
+                    {
+                        StartCoroutine(InteractWithTarget());
+                    }
+                    else
+                    {
+                        // Move to interactable
+                        StartCoroutine(SetNavTarget(targetInteractable.transform.position));
+                    }
                 }
                 else {
                     // Something else clicked on
                     targetInteractable = null;
+                    // Move to mouse position
+                    StartCoroutine(SetNavTarget(hit.point));
                 }
             }
         }

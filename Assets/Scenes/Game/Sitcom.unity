@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.1341472, b: 0.121078566, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -438}
+  m_AnchoredPosition: {x: 0, y: -173}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175429
@@ -207,8 +207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -666,9 +666,8 @@ MonoBehaviour:
   endingTheme:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 23a6bb95b738446b8a23d6c7d55ef7ea,
-      type: 2}
-  endingText: {fileID: 4900000, guid: c84c64492ea4447f2815d93b1830fb07, type: 3}
+    WwiseObjectReference: {fileID: 0}
+  endingText: {fileID: 0}
 --- !u!4 &660094924
 Transform:
   m_ObjectHideFlags: 0
@@ -813,7 +812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 302}
+  m_AnchoredPosition: {x: 0, y: 152}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985006535
@@ -863,8 +862,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96
-  m_fontSizeBase: 96
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -913,6 +912,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985006533}
   m_CullTransparentMesh: 1
+--- !u!1 &1196532622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6085513827741597036, guid: 8c5241d983bb10a03a478eb65dd7471e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1892115115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1197554386
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,7 +986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1236,6 +1241,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4461162263817892049, guid: bb3e1b40116afa045943d93acca6fc52, type: 3}
+--- !u!1 &1387230522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4974704036171032728, guid: 2beaef03d1478dca2a2b75be7faad942,
+    type: 3}
+  m_PrefabInstance: {fileID: 1387230519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1458873437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1369,6 +1380,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e414630e04835494eb2b6abc14e8631e, type: 3}
+--- !u!1 &1517071723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517071725}
+  - component: {fileID: 1517071724}
+  m_Layer: 0
+  m_Name: MakeGundam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1517071724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517071723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbdf39cbd670874892d69c15380a243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GundamModel: {fileID: 1387230522}
+--- !u!4 &1517071725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517071723}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.9557288, y: 1.9508995, z: 9.546005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1618458495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -362}
+  m_AnchoredPosition: {x: 0, y: -115}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618458497
@@ -1426,7 +1482,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Written by the Boys
+  m_text: 'Written by Dale Davidson
+
+    Starring Dale Davidson'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1453,8 +1511,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1869,6 +1927,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 587228876405602748, guid: 315ffdd0d695147d38cc1118eb7331cd,
+        type: 3}
+      propertyPath: PlayerModel
+      value: 
+      objectReference: {fileID: 1196532622}
     - target: {fileID: 1212496634564618586, guid: 315ffdd0d695147d38cc1118eb7331cd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2123,7 +2186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 169}
+  m_AnchoredPosition: {x: 0, y: 77}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102571917
@@ -2173,8 +2236,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2397,3 +2460,4 @@ SceneRoots:
   - {fileID: 2110119764}
   - {fileID: 1878991469}
   - {fileID: 660094924}
+  - {fileID: 1517071725}

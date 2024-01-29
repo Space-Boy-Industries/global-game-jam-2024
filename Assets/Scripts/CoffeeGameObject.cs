@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class CoffeeGameObject : MonoBehaviour
 {
-    public CoffeeGameController GameController;
     public UnityEvent OnClickEvent;
 
     public Collider Collider { get; private set; }
@@ -22,7 +21,7 @@ public class CoffeeGameObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameController.IsMinigameActive)
+        if (CoffeeGameController.IsMinigameActive)
         {
             if (Input.GetButtonDown("Fire1"))
             {
