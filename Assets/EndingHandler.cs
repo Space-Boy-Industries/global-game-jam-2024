@@ -11,14 +11,17 @@ public class EndingHandler : MonoBehaviour
     
     private void Start()
     {
-        endingStory = new Story(endingText.text);
-        GlobalStateSystem.Instance.OnGlobalStateUpdate.AddListener((context) =>
+        if (endingText != null)
         {
-            if (context.VariableName == "talked_about_life" && context.Value.ToString().ToLower() == "true")
+            endingStory = new Story(endingText.text);
+            GlobalStateSystem.Instance.OnGlobalStateUpdate.AddListener((context) =>
             {
-                StartCoroutine(EndingCoroutine());
-            }
-        });
+                if (context.VariableName == "talked_about_life" && context.Value.ToString().ToLower() == "true")
+                {
+                    StartCoroutine(EndingCoroutine());
+                }
+            });
+        }
     }
     
     private IEnumerator EndingCoroutine()

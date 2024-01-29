@@ -177,7 +177,7 @@ public class DialogueSystem : MonoBehaviour
         // wait 1 frame so that no input is accidentally registered
         yield return null;
         
-        while (story.canContinue || story.currentChoices.Count > 0)
+        while (_isOpen && story.canContinue || story.currentChoices.Count > 0)
         {
             if (story.canContinue)
             {
@@ -202,7 +202,7 @@ public class DialogueSystem : MonoBehaviour
                 yield return null;
                 ForceLayoutGroupUpdate();
 
-                yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to continue
+                yield return new WaitUntil(() => Input.GetMouseButtonDown(0) || !_isOpen); // wait for input to continue
                 
                 CharacterAnimationSystem.Instance.ResetAnimations();
 
@@ -237,7 +237,10 @@ public class DialogueSystem : MonoBehaviour
             yield return null;
         }
         
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to close
-        CloseDialogue(true);
+        if (_isOpen)
+        {
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // wait for input to close
+            CloseDialogue(true);
+        }
     }
 }

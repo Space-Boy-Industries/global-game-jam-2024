@@ -45,6 +45,11 @@ public class SceneTransitionSystem : MonoBehaviour
         
         Debug.Log("AFTER LOAD SCENE");
         GlobalStateSystem.Instance.DebugPrintState();
+
+        if (DialogueSystem.Instance.IsOpen)
+        {
+            DialogueSystem.Instance.CloseDialogue();
+        }
         
         yield return new WaitForSeconds(fader.fadeTime);
 
