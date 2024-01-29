@@ -15,7 +15,7 @@ public class MakeGundam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GundamModel.activeSelf && GlobalStateSystem.Instance.GlobalState.ContainsKey("has_gundam") && (bool) GlobalStateSystem.Instance.GlobalState["has_gundam"])
+        if (!GundamModel.activeSelf && GlobalStateSystem.Instance.GlobalState.ContainsKey("built_gundam") && (bool) GlobalStateSystem.Instance.GlobalState["built_gundam"])
         {
             GundamModel.SetActive(true);
         }

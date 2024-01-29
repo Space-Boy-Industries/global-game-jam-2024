@@ -49,14 +49,14 @@ public class CharacterController : MonoBehaviour
 
         var blockedByIntro = GlobalStateSystem.Instance.GlobalState.ContainsKey("in_intro") 
                       && GlobalStateSystem.Instance.GlobalState["in_intro"].ToString().ToLower() == "true";
-        if (Input.GetButtonDown("Fire1") && DialogueSystem.Instance.IsOpen == false && !blockedByIntro)
+        if (Input.GetButtonDown("Fire1") && DialogueSystem.Instance.IsOpen == false && !blockedByIntro && !EndingHandler.IsEnd)
         {
             // Get mouse position in world space
             var ray = camera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, 1000, ClickNavTargets))
             {
 
-                if (hit.collider.gameObject.tag == "Interactable")
+                if (hit.collider.gameObject.tag == "Interactable" && hit.collider.gameObject.GetComponentInChildren<Interactable>() != null)
                 {
                     Debug.Log("Interactable clicked on");
                     // Set target interactable

@@ -8,6 +8,8 @@ public class EndingHandler : MonoBehaviour
     public AK.Wwise.Event endingTheme;
     public TextAsset endingText;
     private Story endingStory;
+
+    public static bool IsEnd;
     
     private void Start()
     {
@@ -18,6 +20,7 @@ public class EndingHandler : MonoBehaviour
             {
                 if (context.VariableName == "talked_about_life" && context.Value.ToString().ToLower() == "true")
                 {
+                    IsEnd = true;
                     StartCoroutine(EndingCoroutine());
                 }
             });
@@ -35,5 +38,10 @@ public class EndingHandler : MonoBehaviour
         }
         DialogueSystem.Instance.SetStory(endingStory);
         DialogueSystem.Instance.OpenDialogue();
+
+        yield return new WaitUntil(() => !DialogueSystem.Instance.IsOpen);
+        yield return new WaitForSeconds(3f);
+        Debug.Log("Exiting");
+        Application.Quit();
     }
 }

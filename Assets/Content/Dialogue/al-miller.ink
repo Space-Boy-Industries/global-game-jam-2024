@@ -76,9 +76,11 @@ DALE: Al...
 + [You need to stop drinking.]
     -> GOOD2
 + [I think you need another beer.]
+    DALE: I think you need another beer.
     -> BAD2
 
 === GOOD2 ===
+DALE: You need to stop drinking, Al.
 ~ playAnimation("Al","Why")
 AL: Huh? STOP drinking?!
 ~ playAnimation("Al","No")
@@ -91,6 +93,7 @@ DALE: Al...
 + [Lose the booze, man. You know you should.]
     -> GOOD3
 + [You're right. Get anotha' one!]
+    DALE: You're right. Get anotha' one!
     -> BAD2
 
 === BAD2 ===
@@ -103,6 +106,7 @@ DALE: Heck yeah! # close
 -> STATEMACHINE
 
 === GOOD3 ===
+DALE: Lose the booze, man. You know you should.
 ~ playAnimation("AL","Crossing Arms")
 AL: Man, you're such a party pooper, dawg!
 ~ playAnimation("AL","Yes")
@@ -157,6 +161,7 @@ DALE: ...
 -> PHASE2REPEAT
 
 === GREAT2 ===
+DALE: I think you're right, Al.
 ~ playSound("LaughTrack")
 ~ playAnimation("Al","Converse")
 AL: I know I'm right, bucko! You really haven't been yourself today.
@@ -165,9 +170,11 @@ DALE: Thanks, Al.
 + [I should be more considerate of my family.]
     -> GREAT3
 + [Let's go get drunk at the casino!]
+    DALE: Let's go get drunk at the casino!
     -> EVIL2
 
 == GREAT3 ==
+DALE: Yeah, I guess I should be more considerate of my family.
 ~ setFlag("talked_about_life", true)
 ~ playAnimation("Al","Yes")
 AL: That you should, buddy... That you should. # close
@@ -197,4 +204,5 @@ DALE: Huh...
 + [I think you're right.]
     -> GREAT2
 + [Nah, that's horseradish!]
+    DALE: Nah, that's horseradish!
     -> EVIL2
