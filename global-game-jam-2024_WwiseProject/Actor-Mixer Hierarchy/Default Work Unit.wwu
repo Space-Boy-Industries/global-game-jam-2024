@@ -2114,7 +2114,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>10</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2297,13 +2297,6 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<RandomSequenceContainer Name="LaughSympathetic" ID="{FB7E03D7-BCD4-4BEB-852C-64D4D434B308}" ShortID="58986780">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{200C11A7-BF37-4BD8-91CE-A2CD75E74AF8}"/>

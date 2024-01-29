@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa01dbe1c055043fca9de9f3f72ec493, type: 3}
+  m_Name: 00633A29-7201-4D85-A8C8-60B6BAED2A34
+  m_EditorClassIdentifier: 
+  objectName: Exterior
+  id: 2213992659
+  guid: 00633A29-7201-4D85-A8C8-60B6BAED2A34
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: ccfc322373fcf43569911fee1269ed00,
+    type: 2}

@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="Theme" ID="{9EABBD9C-C6ED-4D63-85C6-D7467CA5EF6C}" ShortID="813442226">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -480,6 +485,11 @@
 						<MusicSegment Name="ui_mx_almiller" ID="{53537E34-C95C-408C-BC22-74C1C49DEFD7}" ShortID="1055173868">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="7346.39455782313"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -566,6 +576,11 @@
 						<MusicSegment Name="ui_mx_billy" ID="{7EFE497E-3B64-4C7F-9890-6A58AF1E1B1C}" ShortID="617185564">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="5860.31746031746"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -654,7 +669,7 @@
 								<Property Name="EndPosition" Type="Real64" Value="17857.052154195"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -743,6 +758,11 @@
 						<MusicSegment Name="ui_mx_margaret" ID="{7157D7D1-82BC-4736-9C24-9CFFCE30E4A2}" ShortID="137712735">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="5860.31746031746"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -831,6 +851,11 @@
 				<MusicSegment Name="ui_mx_theme" ID="{D5C61D33-9DF1-4222-AFB2-7F03F806069C}" ShortID="505889175">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="24893.2426303855"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
